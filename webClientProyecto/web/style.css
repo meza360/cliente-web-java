@@ -1,0 +1,198 @@
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	width: 100%;
+	backdrop-filter: blur(15px);
+}
+
+h1 {
+	background-blend-mode: darken;
+	color: black;
+	padding: 5%;
+}
+
+label {
+	font-size: medium;
+	font-weight: bold;
+}
+
+.busqueda {
+	border-radius: 50%;
+	align-items: center;
+	text-align: center;
+	backdrop-filter: blur(10px);
+	padding: 5%;
+}
+
+form {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: white;
+}
+
+section {
+	padding-top: 2%;
+	background-image: url("images/farmacia.jpg");
+	background-attachment: fixed;
+}
+
+.nav {
+	padding: 1%;
+	background-color: lightblue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+li {
+	padding: 2%;
+}
+
+li:hover {
+	border-style: solid 2px;
+	border-radius: 50%;
+	background-color: cornsilk;
+}
+
+.normal-slider .slick-prev,
+.normal-slider .slick-next {
+	width: 40px;
+	height: 40px;
+	z-index: 1;
+	opacity: 0;
+	transition: .5s;
+	background: rgba(255, 111, 97, .7);
+	border-radius: 4px;
+}
+
+.normal-slider .slick-prev {
+	left: 55px;
+}
+
+.normal-slider .slick-next {
+	right: 55px;
+}
+
+.normal-slider.slick-slider:hover .slick-prev {
+	left: 15px;
+	opacity: 1;
+}
+
+.normal-slider.slick-slider:hover .slick-next {
+	right: 15px;
+	opacity: 1;
+}
+
+.normal-slider .slick-prev:hover,
+.normal-slider .slick-prev:focus,
+.normal-slider .slick-next:hover,
+.normal-slider .slick-next:focus {
+	background: rgba(0, 0, 0, .7);
+}
+
+.normal-slider .slick-prev:hover::before,
+.normal-slider .slick-prev:focus::before,
+.normal-slider .slick-next:hover::before,
+.normal-slider .slick-next:focus::before {
+	color: #ff6f61;
+}
+
+.normal-slider .slick-prev::before,
+.normal-slider .slick-next::before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+.normal-slider .slick-prev::before {
+	content: "\f104";
+}
+
+.normal-slider .slick-next::before {
+	content: "\f105";
+}
+
+.normal-slider .slick-dots {
+	bottom: 15px;
+}
+
+.normal-slider .slick-dots li button:before {
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.normal-slider .slick-dots li.slick-active button:before {
+	color: #ff6f61;
+}
+
+.slick-dotted.slick-slider {
+	margin-bottom: 0;
+}
+
+.contact {
+	position: relative;
+	padding-top: 30px;
+}
+
+.contact .contact-info,
+.contact .contact-form,
+.contact .contact-map {
+	height: 100%;
+	padding: 30px;
+	background: #ffffff;
+	border-bottom: 30px solid #f3f6ff;
+}
+
+.contact .contact-info h2 {
+	margin-bottom: 15px;
+}
+
+.contact .contact-info h3 {
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.contact .contact-info h3 i {
+	width: 20px;
+	color: #ff6f61;
+	margin-right: 5px;
+}
+
+.contact .social {
+	position: relative;
+	width: 100%;
+}
+
+.contact .social a {
+	display: inline-block;
+	margin: 10px 10px 0 0;
+	width: 40px;
+	height: 40px;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 18px;
+	border: 1px solid #ff6f61;
+	border-radius: 4px;
+}
+
+.contact .social a i {
+	color: #ff6f61;
+}
+
+.contact .social a:hover {
+	background: #ff6f61;
+}
+
+.contact .social a:hover i {
+	color: #ffffff;
+}
+
+.contact .contact-map iframe {
+	width: 100%;
+	height: 450px;
+}

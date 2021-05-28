@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/D:/Users/giova/Documents/NetBeansProjects/cliente-web-java/webClientProyecto/src/java/WSDLFiles/webServiceProyecto.wsdl" uri="wsdl/webServiceProyecto.wsdl"/>
+    <system systemId="http://localhost:8080/web-app-java/Servicios?xsd=1" uri="wsdl/localhost_8080/web-app-java/Servicios.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/web-app-java/Servicios?wsdl" uri="wsdl/localhost_8080/web-app-java/Servicios.wsdl"/>
+    <system systemId="http://localhost:8080/web-app-java/Servicios?WSDL" uri="wsdl/localhost_8080/web-app-java/Servicios.wsdl"/>
+</catalog>

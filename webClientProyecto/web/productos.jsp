@@ -1,3 +1,13 @@
+<%-- 
+    Document   : productos
+    Created on : May 27, 2021, 11:48:20 PM
+    Author     : giova
+--%>
+
+<%@page import="java.util.List" %>
+<%@page import="ModeloCliente.MedicamentoCliente" %>
+<%@page import="modeloservicio.Medicamento"%>
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,14 +47,13 @@
 
 
 
-
     <nav class=" container nav">
         <ul class="nav list-inline">
             <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
             <li class="list-inline-item nav-item"> <a href="" class="nav-link">Quienes Somos</a> </li>
-            <li class="list-inline-item nav-item"> <a href="productos.html" class="nav-link">Productos</a></li>
+            <li class="list-inline-item nav-item"> <a href="productos.jsp" class="nav-link">Productos</a></li>
             <li class="list-inline-item nav-item"> <a href="contacto.html" class="nav-link">Contacto</a> </li>
-            <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
+            <li class="list-inline-item nav-item"> <a href="" class="nav-link">Carrito de compras</a> </li>
         </ul>
     </nav>
 
@@ -52,6 +61,7 @@
 <section class="">
 
     <table class="table table-striped table-light container">
+        <tr>
         <th>Codigo</th>
         <th>Medicamento</th>
         <th>Dosis</th>
@@ -61,84 +71,27 @@
         <th>Vencimiento</th>
         <th>Presentacion</th>
         <th>Imagen</th>
+        </tr>
+        
+        <%
+            MedicamentoCliente medicamento_i = new MedicamentoCliente();
+            List<Medicamento> medicamentos = new ModeloCliente.MedicamentoCliente().listarMedicamentos();
+            for(Medicamento a:medicamentos) {
+            
+        %>
 
         <tr>
-            <td>100</td>
-            <td>Acetaminofen</td>
-            <td>200mg</td>
-            <td>56.14</td>
-            <td>200</td>
-            <td>Lancasco</td>
-            <td>01/03/2020</td>
-            <td>Tabletas</td>
+            <td><%= a.getCodigo() %> </td>
+            <td><%= a.getMedicamento() %></td>
+            <td><%= a.getDosis() %></td>
+            <td><%= a.getPrecioUnitario() %></td>
+            <td><%= a.getCantidadExistencia() %></td>
+            <td><%= a.getLaboratorioFarmaceutico() %></td>
+            <td><%= a.getVencimiento() %></td>
+            <td><%= a.getPresentacion() %></td>
             <td> <img src="images/med.png" alt="fotografia_medicamento" width="50" height="50"> </td>
         </tr>
-
-        <tr>
-            <td>100</td>
-            <td>Acetaminofen</td>
-            <td>200mg</td>
-            <td>56.14</td>
-            <td>200</td>
-            <td>Lancasco</td>
-            <td>01/03/2020</td>
-            <td>Tabletas</td>
-            <td> <img src="images/med.png" alt="fotografia_medicamento" width="50" height="50"> </td>
-        </tr>
-
-
-        <tr>
-            <td>100</td>
-            <td>Acetaminofen</td>
-            <td>200mg</td>
-            <td>56.14</td>
-            <td>200</td>
-            <td>Lancasco</td>
-            <td>01/03/2020</td>
-            <td>Tabletas</td>
-            <td> <img src="images/med.png" alt="fotografia_medicamento" width="50" height="50"> </td>
-        </tr>
-
-
-        <tr>
-            <td>100</td>
-            <td>Acetaminofen</td>
-            <td>200mg</td>
-            <td>56.14</td>
-            <td>200</td>
-            <td>Lancasco</td>
-            <td>01/03/2020</td>
-            <td>Tabletas</td>
-            <td> <img src="images/med.png" alt="fotografia_medicamento" width="50" height="50"> </td>
-        </tr>
-
-        <tr>
-            <td>100</td>
-            <td>Acetaminofen</td>
-            <td>200mg</td>
-            <td>56.14</td>
-            <td>200</td>
-            <td>Lancasco</td>
-            <td>01/03/2020</td>
-            <td>Tabletas</td>
-            <td> <img src="images/med.png" alt="fotografia_medicamento" width="50" height="50"> </td>
-        </tr>
-
-        <tr>
-            <td>100</td>
-            <td>Acetaminofen</td>
-            <td>200mg</td>
-            <td>56.14</td>
-            <td>200</td>
-            <td>Lancasco</td>
-            <td>01/03/2020</td>
-            <td>Tabletas</td>
-            <td> <img src="images/med.png" alt="fotografia_medicamento" width="50" height="50"> </td>
-        </tr>
-
-
-
-
+        <% } %>
     </table>
 
 </section>

@@ -178,6 +178,7 @@ main {
 }
 
 .contact-section {
+	background-image: url("./images/farm2.jpeg");
 	margin: 2%;
 	padding: 2%;
 	display: flex;

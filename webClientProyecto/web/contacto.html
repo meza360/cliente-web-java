@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>Nuestras ubicaciones</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contactanos</title>
 </head>
 
 <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -18,6 +15,8 @@
 <link rel="stylesheet" href="css/bootstrap.css.map">
 <link rel="stylesheet" href="css/bootstrap-utilities.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="lib/slick.css">
+
 
 
 <script src="js/bootstrap.js"></script>
@@ -46,9 +45,8 @@
     <nav class=" container nav">
         <ul class="nav list-inline">
             <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
-            <li class="list-inline-item nav-item"> <a href="" class="nav-link">Quienes Somos</a> </li>
-            <li class="list-inline-item nav-item"> <a href="productos.jsp" class="nav-link">Productos</a></li>
-            <li class="list-inline-item nav-item"> <a href="contacto.html" class="nav-link">Contacto</a> </li>
+            <li class="list-inline-item nav-item"> <a href="sesiones.html" class="nav-link">Administracion</a> </li>
+            <li class="list-inline-item nav-item"> <a href="productos.html" class="nav-link">Productos</a></li>
             <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
         </ul>
     </nav>
@@ -83,24 +81,63 @@
     <div class="contact-div-2">
     <div class="contact-form"> 
         <h2>Envianos tus consultas</h2>
-        <form action="">
+        <form action="/index.html">
             
             <label for="txtNombre">Nombre completo</label>
-            <input type="text" class="" id="txtNombre"> <br>
+            <input type="text" class="txtAreas" id="txtNombre" required> <br>
             <label for="txtEmail">Correo electronico</label>
-            <input type="email" class="" id="txtEmail"> <br>
+            <input type="email" class="txtAreas" id="txtEmail" required> <br>
             <label for="txtTel">Telefono</label>
-            <input type="tel" class="" id="txtTel"> <br>
+            <input type="tel" class="txtAreas" id="txtTel" required> <br>
+            <label for="tstEmpresa">Empresa</label>
+            <input type="text" class="txtAreas" name="" id="txtEmpresa">
+            <label for="txtCargo">Cargo</label>
+            <input type="text" class="txtAreas" name="" id="txtCargo">
             <label for="txtMensaje">Mensaje</label>
-            <textarea  name="" class="" id="txtMensaje" placeholder="Escribe tu mensaje" cols="50" rows="8"></textarea> <br> 
-           
-            <input type="button" class="btn btn-light btn-outline-dark" value="Enviar">
+            <textarea  name="" class="txtAreas" id="txtMensaje" placeholder="Escribe tu mensaje" cols="50" rows="8" required wrap="hard" form="contact-form"></textarea> <br> 
+        
+            <button class="btn btn-light btn-outline-dark">Enviar</button>
         </form>
 
     </div>
 </div>
 </section>
 </main>
+<footer class="footer-1">
+    <!-- Brand Start -->
+ <div class="brand">
 
+    <div class="container-fluid">
+        <div class="brand-slider">
+            <div class="brand-item"><img src="images/bayer.png" alt=""></div>
+            <div class="brand-item"><img src="images/bonin.png" alt=""></div>
+            <div class="brand-item"><img src="images/eurofarma.png" alt=""></div>
+            <div class="brand-item"><img src="images/lamfer.png" alt=""></div>
+            <div class="brand-item"><img src="images/lancasco.jpg" alt=""></div>
+            <div class="brand-item"><img src="images/medpharma.png" alt=""></div>
+            <div class="brand-item"><img src="images/pfizer.png" alt=""></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Brand End --> 
+</footer>
+
+
+<div class=" footer text-center">
+    <div class="row footer-sintetico">
+        <div class="col-lg-4 mb-5 mb-lg-0"><h2>Ubicanos</h2><p>Zona Portales<br>Zona 17<br>Guatemala</p></div>
+        <div class="col-lg-4 mb-5 mb-lg-0"><h2>Nosotros en internet</h2><img src="images/face.png" alt="" class="social"><img src="images/insta.png" alt="" class="social"><img src="images/tw.png" alt="" class="social"><img src="images/whats.png" alt="" class="social"></div>
+        <div class="col-lg-4 mb-5 mb-lg-0"><h2>Empresa</h2><p><a href="contacto.html" class="nav-link">Contacto</a> <br><a href="nosotros.html" class="nav-link">Quienes Somos</a></p></div>
+    </div>
+</div>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script src="lib/slick.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
 </body>
 </html>

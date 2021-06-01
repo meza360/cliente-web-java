@@ -8,6 +8,7 @@
 <%@page import="ModeloCliente.MedicamentoCliente" %>
 <%@page import="modeloservicio.Medicamento"%>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,6 +26,7 @@
     <link rel="stylesheet" href="css/bootstrap-utilities.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="lib/slick.css">
+
 
    <script src="js/bootstrap.js"></script>
    <script src="js/bootstrap.bundle.js"></script>
@@ -48,13 +50,13 @@
 
 
 
+
     <nav class=" container nav">
         <ul class="nav list-inline">
             <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
-            <li class="list-inline-item nav-item"> <a href="" class="nav-link">Quienes Somos</a> </li>
-            <li class="list-inline-item nav-item"> <a href="productos.jsp" class="nav-link">Productos</a></li>
-            <li class="list-inline-item nav-item"> <a href="contacto.html" class="nav-link">Contacto</a> </li>
-            <li class="list-inline-item nav-item"> <a href="" class="nav-link">Carrito de compras</a> </li>
+            <li class="list-inline-item nav-item"> <a href="sesiones.html" class="nav-link">Administracion</a> </li>
+            <li class="list-inline-item nav-item"> <a href="productos.html" class="nav-link">Productos</a></li>
+            <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
         </ul>
     </nav>
 
@@ -62,7 +64,6 @@
 <section class="">
 
     <table class="table table-striped table-light container">
-        <tr>
         <th>Codigo</th>
         <th>Medicamento</th>
         <th>Dosis</th>
@@ -72,8 +73,7 @@
         <th>Vencimiento</th>
         <th>Presentacion</th>
         <th>Imagen</th>
-        </tr>
-        
+
         <%
             MedicamentoCliente medicamento_i = new MedicamentoCliente();
             List<Medicamento> medicamentos = new ModeloCliente.MedicamentoCliente().listarMedicamentos();
@@ -96,5 +96,42 @@
     </table>
 
 </section>
+
+<footer class="footer-1">
+    <!-- Brand Start -->
+ <div class="brand">
+
+    <div class="container-fluid">
+        <div class="brand-slider">
+            <div class="brand-item"><img src="images/bayer.png" alt=""></div>
+            <div class="brand-item"><img src="images/bonin.png" alt=""></div>
+            <div class="brand-item"><img src="images/eurofarma.png" alt=""></div>
+            <div class="brand-item"><img src="images/lamfer.png" alt=""></div>
+            <div class="brand-item"><img src="images/lancasco.jpg" alt=""></div>
+            <div class="brand-item"><img src="images/medpharma.png" alt=""></div>
+            <div class="brand-item"><img src="images/pfizer.png" alt=""></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Brand End --> 
+</footer>
+
+
+<div class=" footer text-center">
+    <div class="row footer-sintetico">
+        <div class="col-lg-4 mb-5 mb-lg-0"><h2>Ubicanos</h2><p>Zona Portales<br>Zona 17<br>Guatemala</p></div>
+        <div class="col-lg-4 mb-5 mb-lg-0"><h2>Nosotros en internet</h2><img src="images/face.png" alt="" class="social"><img src="images/insta.png" alt="" class="social"><img src="images/tw.png" alt="" class="social"><img src="images/whats.png" alt="" class="social"></div>
+        <div class="col-lg-4 mb-5 mb-lg-0"><h2>Empresa</h2><p><a href="contacto.html" class="nav-link">Contacto</a> <br><a href="nosotros.html" class="nav-link">Quienes Somos</a></p></div>
+    </div>
+</div>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script src="lib/slick.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
 </body>
 </html>

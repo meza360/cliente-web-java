@@ -6,11 +6,23 @@
 <xsd:import namespace="http://ModeloServicio/" schemaLocation="http://localhost:8080/web-app-java/Servicios?xsd=1"/>
 </xsd:schema>
 </types>
-<message name="listarMedicamentos">
-<part name="parameters" element="tns:listarMedicamentos"/>
+<message name="Actualizar">
+<part name="parameters" element="tns:Actualizar"/>
 </message>
-<message name="listarMedicamentosResponse">
-<part name="parameters" element="tns:listarMedicamentosResponse"/>
+<message name="ActualizarResponse">
+<part name="parameters" element="tns:ActualizarResponse"/>
+</message>
+<message name="Eliminar">
+<part name="parameters" element="tns:Eliminar"/>
+</message>
+<message name="EliminarResponse">
+<part name="parameters" element="tns:EliminarResponse"/>
+</message>
+<message name="listarcodigo">
+<part name="parameters" element="tns:listarcodigo"/>
+</message>
+<message name="listarcodigoResponse">
+<part name="parameters" element="tns:listarcodigoResponse"/>
 </message>
 <message name="agregar">
 <part name="parameters" element="tns:agregar"/>
@@ -18,19 +30,75 @@
 <message name="agregarResponse">
 <part name="parameters" element="tns:agregarResponse"/>
 </message>
+<message name="listarNombre">
+<part name="parameters" element="tns:listarNombre"/>
+</message>
+<message name="listarNombreResponse">
+<part name="parameters" element="tns:listarNombreResponse"/>
+</message>
+<message name="listarMedicamentos">
+<part name="parameters" element="tns:listarMedicamentos"/>
+</message>
+<message name="listarMedicamentosResponse">
+<part name="parameters" element="tns:listarMedicamentosResponse"/>
+</message>
+<message name="listarLaboratorio">
+<part name="parameters" element="tns:listarLaboratorio"/>
+</message>
+<message name="listarLaboratorioResponse">
+<part name="parameters" element="tns:listarLaboratorioResponse"/>
+</message>
 <portType name="Servicios">
-<operation name="listarMedicamentos">
-<input wsam:Action="http://ModeloServicio/Servicios/listarMedicamentosRequest" message="tns:listarMedicamentos"/>
-<output wsam:Action="http://ModeloServicio/Servicios/listarMedicamentosResponse" message="tns:listarMedicamentosResponse"/>
+<operation name="Actualizar">
+<input wsam:Action="http://ModeloServicio/Servicios/ActualizarRequest" message="tns:Actualizar"/>
+<output wsam:Action="http://ModeloServicio/Servicios/ActualizarResponse" message="tns:ActualizarResponse"/>
+</operation>
+<operation name="Eliminar">
+<input wsam:Action="http://ModeloServicio/Servicios/EliminarRequest" message="tns:Eliminar"/>
+<output wsam:Action="http://ModeloServicio/Servicios/EliminarResponse" message="tns:EliminarResponse"/>
+</operation>
+<operation name="listarcodigo">
+<input wsam:Action="http://ModeloServicio/Servicios/listarcodigoRequest" message="tns:listarcodigo"/>
+<output wsam:Action="http://ModeloServicio/Servicios/listarcodigoResponse" message="tns:listarcodigoResponse"/>
 </operation>
 <operation name="agregar">
 <input wsam:Action="http://ModeloServicio/Servicios/agregarRequest" message="tns:agregar"/>
 <output wsam:Action="http://ModeloServicio/Servicios/agregarResponse" message="tns:agregarResponse"/>
 </operation>
+<operation name="listarNombre">
+<input wsam:Action="http://ModeloServicio/Servicios/listarNombreRequest" message="tns:listarNombre"/>
+<output wsam:Action="http://ModeloServicio/Servicios/listarNombreResponse" message="tns:listarNombreResponse"/>
+</operation>
+<operation name="listarMedicamentos">
+<input wsam:Action="http://ModeloServicio/Servicios/listarMedicamentosRequest" message="tns:listarMedicamentos"/>
+<output wsam:Action="http://ModeloServicio/Servicios/listarMedicamentosResponse" message="tns:listarMedicamentosResponse"/>
+</operation>
+<operation name="listarLaboratorio">
+<input wsam:Action="http://ModeloServicio/Servicios/listarLaboratorioRequest" message="tns:listarLaboratorio"/>
+<output wsam:Action="http://ModeloServicio/Servicios/listarLaboratorioResponse" message="tns:listarLaboratorioResponse"/>
+</operation>
 </portType>
 <binding name="ServiciosPortBinding" type="tns:Servicios">
 <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
-<operation name="listarMedicamentos">
+<operation name="Actualizar">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="Eliminar">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="listarcodigo">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>
@@ -40,6 +108,33 @@
 </output>
 </operation>
 <operation name="agregar">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="listarNombre">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="listarMedicamentos">
+<soap:operation soapAction=""/>
+<input>
+<soap:body use="literal"/>
+</input>
+<output>
+<soap:body use="literal"/>
+</output>
+</operation>
+<operation name="listarLaboratorio">
 <soap:operation soapAction=""/>
 <input>
 <soap:body use="literal"/>

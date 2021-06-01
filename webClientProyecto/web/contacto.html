@@ -4,16 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <title>Nuestras ubicaciones</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Contactanos</title>
 </head>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-grid.css.map">
+<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="css/bootstrap-grid.min.css.map">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap.css.map">
+<link rel="stylesheet" href="css/bootstrap-utilities.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="lib/slick.css">
+
+
+
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.esm.js"></script>
+<script src="js/main.js"></script>
+
 <body>
 
-    <div class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.733248043701!2d-118.24532098539802!3d34.05071312525937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c648fa1d4803%3A0xdec27bf11f9fd336!2s123%20S%20Los%20Angeles%20St%2C%20Los%20Angeles%2C%20CA%2090012%2C%20USA!5e0!3m2!1sen!2sbd!4v1585634930544!5m2!1sen!2sbd" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+ <main>
+    <header class="container header">
+        <div class="container text-center" >
+            <h1 class="h1 text-center">Farmacia Universidad Mariano Galvez de Guatemala</h1>
+        </div>
+       
+        <div class="container">
+            <img src="images/umg.png" alt="logo_umg" width="300" height="300" class="float-start">
+            
+            <img src="images/umg3.jpg" alt="farmacia" width="300" height="300" class="float-end">
+        </div>
+    </header>
+
+
+
+    <nav class=" container nav">
+        <ul class="nav list-inline">
+            <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
+            <li class="list-inline-item nav-item"> <a href="sesiones.html" class="nav-link">Administracion</a> </li>
+            <li class="list-inline-item nav-item"> <a href="productos.html" class="nav-link">Productos</a></li>
+            <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
+        </ul>
+    </nav>
+
+<section class="contact-section">
+   
+    <div class="contact-div">
+        <address class="contact-address">
+            <h2>Nuestros medios</h2>
+            <ul>
+                <li class="bullet">
+                    <img src="images/whats.png" alt="whatsapp" id="whats-image">
+                    <label for="whats-image">+502 5658-5858</label>
+                </li>
+                <li class="bullet">
+                    <img src="images/email.png" alt="email" id="email-image">
+                    <label for="email-image">farmacia@umg.edu.gt</label>
+                </li>
+                <li class="bullet">
+                    <img src="images/pbx.png" alt="pbx" id="pbx-image">
+                    <label for="pbx-image">PBX: +502 2206-2019</label>
+                </li> 
+            </ul>
+        </address> 
+
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d584.9741784077049!2d-90.48167974850188!3d14.645923992834547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a28f5d610fc9%3A0x6d4a6f2eb6580ba4!2sUniversidad%20Mariano%20G%C3%A1lvez%20-%20Sede%20Portales!5e0!3m2!1ses-419!2sgt!4v1622146158165!5m2!1ses-419!2sgt" allowfullscreen="false" loading="lazy"></iframe>
+        </div>
     </div>
-    
+
+
+    <div class="contact-div-2">
+    <div class="contact-form"> 
+        <h2>Envianos tus consultas</h2>
+        <form action="/index.html">
+            
+            <label for="txtNombre">Nombre completo</label>
+            <input type="text" class="txtAreas" id="txtNombre" required> <br>
+            <label for="txtEmail">Correo electronico</label>
+            <input type="email" class="txtAreas" id="txtEmail" required> <br>
+            <label for="txtTel">Telefono</label>
+            <input type="tel" class="txtAreas" id="txtTel" required> <br>
+            <label for="tstEmpresa">Empresa</label>
+            <input type="text" class="txtAreas" name="" id="txtEmpresa">
+            <label for="txtCargo">Cargo</label>
+            <input type="text" class="txtAreas" name="" id="txtCargo">
+            <label for="txtMensaje">Mensaje</label>
+            <textarea  name="" class="txtAreas" id="txtMensaje" placeholder="Escribe tu mensaje" cols="50" rows="8" required wrap="hard" form="contact-form"></textarea> <br> 
+        
+            <button class="btn btn-light btn-outline-dark">Enviar</button>
+        </form>
+
+    </div>
+</div>
+</section>
+</main>
+<footer class="footer-1">
+    <!-- Brand Start -->
+ <div class="brand">
+
+    <div class="container-fluid">
+        <div class="brand-slider">
+            <div class="brand-item"><img src="images/bayer.png" alt=""></div>
+            <div class="brand-item"><img src="images/bonin.png" alt=""></div>
+            <div class="brand-item"><img src="images/eurofarma.png" alt=""></div>
+            <div class="brand-item"><img src="images/lamfer.png" alt=""></div>
+            <div class="brand-item"><img src="images/lancasco.jpg" alt=""></div>
+            <div class="brand-item"><img src="images/medpharma.png" alt=""></div>
+            <div class="brand-item"><img src="images/pfizer.png" alt=""></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Brand End --> 
+</footer>
+
+
+<div class=" footer text-center">
+    <div class="row footer-sintetico">
+        <div class="col-lg-4 mb-5 mb-lg-0"><h2>Ubicanos</h2><p>Zona Portales<br>Zona 17<br>Guatemala</p></div>
+        <div class="col-lg-4 mb-5 mb-lg-0"><h2>Nosotros en internet</h2><img src="images/face.png" alt="" class="social"><img src="images/insta.png" alt="" class="social"><img src="images/tw.png" alt="" class="social"><img src="images/whats.png" alt="" class="social"></div>
+        <div class="col-lg-4 mb-5 mb-lg-0"><h2>Empresa</h2><p><a href="contacto.html" class="nav-link">Contacto</a> <br><a href="nosotros.html" class="nav-link">Quienes Somos</a></p></div>
+    </div>
+</div>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script src="lib/slick.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
 </body>
 </html>

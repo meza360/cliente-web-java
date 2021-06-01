@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3 (RELEASE-2.4.3-ad3323c; 2019-01-21T17:46:06+0000) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://ModeloServicio/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ModeloServicio/">
+
+<xs:element name="agregar" type="tns:agregar"/>
+
+<xs:element name="agregarResponse" type="tns:agregarResponse"/>
+
+<xs:element name="listarMedicamentos" type="tns:listarMedicamentos"/>
+
+<xs:element name="listarMedicamentosResponse" type="tns:listarMedicamentosResponse"/>
+
+<xs:complexType name="listarMedicamentos">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="listarMedicamentosResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:medicamento" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="medicamento">
+<xs:sequence>
+<xs:element name="cantidad_existencia" type="xs:int"/>
+<xs:element name="codigo" type="xs:int"/>
+<xs:element name="dosis" type="xs:string" minOccurs="0"/>
+<xs:element name="laboratorio_farmaceutico" type="xs:string" minOccurs="0"/>
+<xs:element name="medicamento" type="xs:string" minOccurs="0"/>
+<xs:element name="precio_unitario" type="xs:double"/>
+<xs:element name="presentacion" type="xs:string" minOccurs="0"/>
+<xs:element name="vencimiento" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="agregar">
+<xs:sequence>
+<xs:element name="Medic" type="xs:string" minOccurs="0"/>
+<xs:element name="Dos" type="xs:string" minOccurs="0"/>
+<xs:element name="Precio" type="xs:double"/>
+<xs:element name="Cantidad" type="xs:int"/>
+<xs:element name="Lab" type="xs:string" minOccurs="0"/>
+<xs:element name="Ven" type="xs:string" minOccurs="0"/>
+<xs:element name="Pres" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="agregarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

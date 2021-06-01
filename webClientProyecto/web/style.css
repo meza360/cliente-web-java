@@ -14,6 +14,9 @@ h1 {
 	color: black;
 	padding: 5%;
 }
+h2 {
+	text-align: center;
+}
 
 label {
 	font-size: medium;
@@ -24,7 +27,7 @@ label {
 	border-radius: 50%;
 	align-items: center;
 	text-align: center;
-	backdrop-filter: blur(10px);
+	backdrop-filter: opacity(10px);
 	padding: 5%;
 }
 
@@ -37,6 +40,8 @@ form {
 section {
 	padding-top: 2%;
 	background-image: url("images/farmacia.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
@@ -134,65 +139,323 @@ li:hover {
 	margin-bottom: 0;
 }
 
-.contact {
-	position: relative;
-	padding-top: 30px;
+/* 
+seccion estilo del mapa
+*/
+
+.contact-map {
+	width: 90%;
+	height: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.contact .contact-info,
-.contact .contact-form,
-.contact .contact-map {
-	height: 100%;
-	padding: 30px;
-	background: #ffffff;
-	border-bottom: 30px solid #f3f6ff;
+iframe {
+	border: 3px solid black;
+	width: 90%;
+	height: 600px;
+	margin: 2%;
 }
 
-.contact .contact-info h2 {
-	margin-bottom: 15px;
+/*
+seccion de la pagina de contacto
+*/
+
+main {
+	backdrop-filter: blur(50px);
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
-.contact .contact-info h3 {
-	margin-bottom: 15px;
-	font-size: 18px;
+.contact-div {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: space-between;
 }
 
-.contact .contact-info h3 i {
-	width: 20px;
-	color: #ff6f61;
-	margin-right: 5px;
+.contact-section {
+	background-image: url("images/farm2.jpeg");
+	margin: 2%;
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 5px 2px;
 }
 
-.contact .social {
-	position: relative;
+.contact-address ul li {
+	margin-top: 5%;
+	margin-block: 10%;
+}
+
+.contact-address {
+	border: 1px solid black;
+	border-radius: 20px;
+	align-items: center;
+	background-color: white;
+	width: 80%;
+	height: 50%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.contact-div-2 {
+	padding: 5%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 5px 5px;
+}
+
+.contact-form {
+	border: 2px solid black;
+	border-radius: 20px;
+	align-items: center;
+	background-color: white;
 	width: 100%;
+	height: fit-content;
+	padding: 20px;
 }
 
-.contact .social a {
+.contact-form:hover {
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	transition-timing-function: ease-in-out;
+	border-radius: 20px;
+	transform: translate3d(20px, -20px, -20px);
+}
+
+.contact-form label {
+	margin: 5% 2%;
+	width: 30%;
 	display: inline-block;
-	margin: 10px 10px 0 0;
-	width: 40px;
-	height: 40px;
-	padding: 5px 0;
+	text-align: left;
+}
+
+.contact-form .txtAreas {
+	border: 1px solid;
+	width: 60%;
+}
+
+.contact-form .txtAreas:hover {
+	box-shadow: 2px 2px 5px rgb(41, 114, 182);
+	color: rgb(41, 114, 182);
+}
+
+.contact-form .btn {
+	width: 90%;
 	text-align: center;
+	align-items: center;
+	display: flexbox;
+	flex-direction: column;
+	margin-top: 2%;
+}
+
+.contact-form textarea {
+	resize: none;
+}
+
+.bullet label {
+	text-align: left;
+}
+.bullet img {
+	filter: grayscale(100%);
+	background-color: white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.bullet:hover {
+	background-color: transparent;
+}
+
+.carrito {
+	padding: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.botones {
+	align-items: center;
+}
+
+.boton {
+	border-color: black;
+	padding: 2%;
+	margin: 10%;
+	display: block;
+	color: black;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.boton:hover {
+	border-color: black;
+	color: black;
+	background-color: white;
+	-webkit-transition: 0.2s;
+	-webkit-transform: translatex(10px);
+}
+
+.carta {
+	background-color: white;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 18px;
-	border: 1px solid #ff6f61;
-	border-radius: 4px;
-}
-
-.contact .social a i {
-	color: #ff6f61;
-}
-
-.contact .social a:hover {
-	background: #ff6f61;
-}
-
-.contact .social a:hover i {
-	color: #ffffff;
-}
-
-.contact .contact-map iframe {
-	width: 100%;
+	font-weight: bold;
+	border-radius: 20%;
+	width: 30%;
 	height: 450px;
+	border: 5px solid;
+}
+
+.med {
+	background-color: whitesmoke;
+	align-items: center;
+	width: fit-content;
+}
+.informacion {
+	background-color: whitesmoke;
+	align-items: center;
+}
+.checkout {
+	padding: 1%;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*
+elementos especificos de nosotros.html
+*/
+.nosotros-div1 {
+	margin: 45px;
+	padding: 2px;
+	background-image: none;
+}
+
+.nosotros1 {
+	background-image: url("images/nosotros1.png");
+	backdrop-filter: blur(10px);
+	background-size: cover;
+	min-height: 500px;
+}
+
+.nosotros1 p {
+	min-height: 50%;
+	text-align: justify;
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nosotros1 h2 {
+	min-height: 50%;
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nosotros2 {
+	background-image: url("images/umg.png");
+	background-color: rgb(41, 114, 182);
+	background-size: 30%;
+	background-position-x: left;
+	background-position-y: center;
+	min-height: 600px;
+}
+.nosotros-articulo {
+	width: 50%;
+	margin-left: 50%;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-items: right;
+}
+
+.nosotros2 p {
+	min-height: 50%;
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: justify;
+}
+
+.nosotros2 h2 {
+	min-height: 50%;
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+.nosotros3 {
+	background-image: url("images/nosotros1.png");
+	background-size: cover;
+	min-height: 600px;
+}
+
+.nosotros3-articulo1 {
+	background-color: rgb(41, 114, 182);
+	background-size: 30%;
+	background-position-x: left;
+	background-position-y: center;
+	min-height: 600px;
+}
+
+.nosotros3-equipo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.nosotros3-equipo div {
+	width: 20%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.nosotros3-equipo img {
+	width: 80%;
+	height: 75%;
+}
+
+.footer-1 {
+	margin-top: 3%;
+}
+.footer-sintetico {
+	margin-top: 2%;
+	padding: 2%;
+	background-color: rgb(41, 114, 182);
+	min-height: 50px;
+}
+
+.footer-sintetico p {
+	font-weight: bold;
+}
+.footer-sintetico .nav-link {
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+
+	color: black;
+}
+.footer-sintetico .nav-link:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.social {
+	margin: 2%;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
 }

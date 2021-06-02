@@ -39,32 +39,33 @@ import GeneradorFactura.GeneradorPDF;
 import ModeloCliente.OMedicamento;
 import java.util.ArrayList;
 import java.util.List;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.annotation.WebServlet;
+
 
 public class ManejoPeticiones extends HttpServlet {
 
-    /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
-     * methods.
-     *
-     * @param request servlet request
-     * @param response servlet response
-     * @throws ServletException if a servlet-specific error occurs
-     * @throws IOException if an I/O error occurs
-     */
+   String listarCodigo1 = "DetalleMedicamentos.jsp";
+   
+    
+    
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet ManejoPeticiones</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet ManejoPeticiones at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
+            String accion = " ";String acceso = "";
+            
+            if (accion.equals("listarCodigo")) {
+                acceso = listarCodigo1;
+                request.setAttribute("Codigo", request.getParameter("Codigo"));
+            }
+        
+            
+            RequestDispatcher dispatcher =  request.getRequestDispatcher(acceso);
+            dispatcher.forward(request, response);
+        }catch(Exception error){
+            
         }
     }
 

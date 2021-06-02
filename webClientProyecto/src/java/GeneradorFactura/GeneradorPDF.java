@@ -67,20 +67,17 @@ public class GeneradorPDF {
             datosCliente.setFont(FontFactory.getFont("Times New Roman", 12, Font.NORMAL,BaseColor.BLACK));
 
             //creacion de la tabla
-            PdfPTable tabla = new PdfPTable(4);
+            PdfPTable tabla = new PdfPTable(3);
             
             //tabla.setPaddingTop(20);
             tabla.setSpacingBefore(20);
             tabla.setSpacingAfter(20);
             tabla.addCell("Codigo");
             tabla.addCell("Producto");
-            tabla.addCell("Cantidad");
             tabla.addCell("Precio");
             tabla.setKeepTogether(false);
-            
-            //creacion de las filas de la tabla
             for (int i = 0; i < medicina.size(); i++) {
-                 tabla.addCell("Codigo");tabla.addCell("Acetaminofen");tabla.addCell("5");tabla.addCell("54.24");
+                 tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
             }
            
           

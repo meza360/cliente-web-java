@@ -36,15 +36,18 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 
+
 /**
  *
  * @author giova
  */
 public class GeneradorPDF {
     
+    private double total;
+    
     public GeneradorPDF(){}
     
-        public static void generatePdf() throws IOException, PdfException{
+        public void generatePdf(Cliente cliente,List medicina) throws IOException, PdfException{
     
         try {
             // metodos de escritura del documento
@@ -57,30 +60,30 @@ public class GeneradorPDF {
             
             //datos del cliente
             Paragraph datosCliente = new Paragraph();
-            datosCliente.add("\nDatos del cliente: ");
-            datosCliente.add("\nNombre: ");
-            datosCliente.add("\nNIT: ");
+            datosCliente.add("\nDatos del cliente");
+            datosCliente.add("\nNombre: " + cliente.getNombre());
+            datosCliente.add("\nNIT: " + cliente.getNit());
             datosCliente.setAlignment(Paragraph.ALIGN_LEFT);
             datosCliente.setFont(FontFactory.getFont("Times New Roman", 12, Font.NORMAL,BaseColor.BLACK));
 
             //creacion de la tabla
-            PdfPTable tabla = new PdfPTable(3);
+            PdfPTable tabla = new PdfPTable(4);
             
             //tabla.setPaddingTop(20);
             tabla.setSpacingBefore(20);
             tabla.setSpacingAfter(20);
             tabla.addCell("Codigo");
             tabla.addCell("Producto");
+            tabla.addCell("Cantidad");
             tabla.addCell("Precio");
             tabla.setKeepTogether(false);
-            tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
-            tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
-            tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
-            tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
-            tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
-            tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
-            tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
-            tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
+            
+            //creacion de las filas de la tabla
+            for (int i = 0; i < medicina.size(); i++) {
+                 tabla.addCell("Codigo");tabla.addCell("Acetaminofen");tabla.addCell("5");tabla.addCell("54.24");
+            }
+           
+          
             
             //se crea el pie
             Image pie = Image.getInstance(".\\src\\pdftest\\pie.png");

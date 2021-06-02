@@ -1,14 +1,3 @@
-<%-- 
-    Document   : productos
-    Created on : May 27, 2021, 11:48:20 PM
-    Author     : giova
---%>
-
-<%@page import="java.util.List"%>
-<%@page import="ModeloCliente.MedicamentoCliente" %>
-<%@page import="modeloservicio.ListarMedicamentos" %>
-<%@page import="modeloservicio.Medicamento" %>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,12 +15,13 @@
     <link rel="stylesheet" href="css/bootstrap-utilities.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="lib/slick.css">
-
+    
 
    <script src="js/bootstrap.js"></script>
    <script src="js/bootstrap.bundle.js"></script>
-   <script src="js/bootstrap.bundle.min.js.map"></script>
    <script src="js/bootstrap.min.js"></script>
+   <script src="js/bootstrap.esm.js"></script>
+   
 </head>
 
 <body background="" class="">
@@ -50,57 +40,29 @@
 
 
 
-
     <nav class=" container nav">
         <ul class="nav list-inline">
             <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
             <li class="list-inline-item nav-item"> <a href="sesiones.html" class="nav-link">Administracion</a> </li>
-            <li class="list-inline-item nav-item"> <a href="productos.jsp" class="nav-link">Productos</a></li>
+            <li class="list-inline-item nav-item"> <a href="productos.html" class="nav-link">Productos</a></li>
             <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
         </ul>
     </nav>
 
 
-<section class="">
 
-    <table class="table table-striped table-light container">
-        <th>Codigo</th>
-        <th>Medicamento</th>
-        <th>Dosis</th>
-        <th>Precio unitario</th>
-        <th>Cantidad Existencia</th>
-        <th>Laboratorio farmaceutico</th>
-        <th>Vencimiento</th>
-        <th>Presentacion</th>
-        <th>Imagen</th>
-        <th>Acciones</th>
+<section class="facturacion">
 
-        
-        <%
-            MedicamentoCliente medicamento = new MedicamentoCliente();
-            List<Medicamento> lista = medicamento.listarMedicamentos();
-            for (Medicamento a:lista) {
-                    
-        %>
-        <tr>
-            <td><%= a.getCodigo()%></td>
-            <td><%= a.getMedicamento()%></td>
-            <td><%= a.getDosis()%></td>
-            <td><%= a.getPrecioUnitario()%></td>
-            <td><%= a.getCantidadExistencia()%></td>
-            <td><%= a.getLaboratorioFarmaceutico()%></td>
-            <td><%= a.getVencimiento()%></td>
-            <td><%= a.getPresentacion()%></td>
-            <td> <img src="images/med.png" alt="fotografia_medicamento" width="50" height="50"> </td>
-            <td>
-                <a class="btn btn-light btn-outline-dark" href="DetalleMedicamentos.html">Detalles</a>
-            </td>
-        </tr>
-        <%
-            }
-        %>
-
-    </table>
+<form action="ManejoPeticiones.html" method="POST">
+    <label for="buscador">Buscar medicamento</label>
+    <select name="selMed" id="selMed">
+        <option value="1">Codigo</option>
+        <option value="2">Medicamento</option>
+        <option value="3">Laboratorio</option>
+    </select>
+    <input type="text" name="buscador" placeholder="Criterios de busqueda" class="">
+    <button class="btn btn-light btn-outline-dark">Buscar</button>
+</form>
 
 </section>
 

@@ -78,7 +78,7 @@
         
         <%
             MedicamentoCliente medicamento = new MedicamentoCliente();
-            List<Medicamento> lista = medicamento.listarMedicamentos();
+            List<Medicamento> lista = new MedicamentoCliente().listarMedicamentos();
             for (Medicamento a:lista) {
                     
         %>
@@ -93,7 +93,7 @@
             <td><%= a.getPresentacion()%></td>
             <td> <img src="images/med.png" alt="fotografia_medicamento" width="50" height="50"> </td>
             <td>
-                <a class="btn btn-light btn-outline-dark" href="DetalleMedicamentos.html">Detalles</a>
+                <a class="btn btn-light btn-outline-dark" href="detalleMedicamentos.html">Detalles</a>
             </td>
         </tr>
         <%

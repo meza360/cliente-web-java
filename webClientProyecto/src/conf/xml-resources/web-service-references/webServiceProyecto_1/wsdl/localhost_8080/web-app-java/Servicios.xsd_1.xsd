@@ -12,6 +12,10 @@
 
 <xs:element name="agregarResponse" type="tns:agregarResponse"/>
 
+<xs:element name="insertarArchivo" type="tns:insertarArchivo"/>
+
+<xs:element name="insertarArchivoResponse" type="tns:insertarArchivoResponse"/>
+
 <xs:element name="listarLaboratorio" type="tns:listarLaboratorio"/>
 
 <xs:element name="listarLaboratorioResponse" type="tns:listarLaboratorioResponse"/>
@@ -27,6 +31,18 @@
 <xs:element name="listarcodigo" type="tns:listarcodigo"/>
 
 <xs:element name="listarcodigoResponse" type="tns:listarcodigoResponse"/>
+
+<xs:complexType name="insertarArchivo">
+<xs:sequence>
+<xs:element name="rutaArchivo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="insertarArchivoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
 
 <xs:complexType name="Eliminar">
 <xs:sequence>
@@ -53,6 +69,16 @@
 </xs:sequence>
 </xs:complexType>
 
+<xs:complexType name="listarMedicamentos">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="listarMedicamentosResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:medicamento" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
 <xs:complexType name="Actualizar">
 <xs:sequence>
 <xs:element name="Codigo" type="xs:int"/>
@@ -72,28 +98,6 @@
 </xs:sequence>
 </xs:complexType>
 
-<xs:complexType name="listarMedicamentos">
-<xs:sequence/>
-</xs:complexType>
-
-<xs:complexType name="listarMedicamentosResponse">
-<xs:sequence>
-<xs:element name="return" type="tns:medicamento" minOccurs="0" maxOccurs="unbounded"/>
-</xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="listarcodigo">
-<xs:sequence>
-<xs:element name="Codigo" type="xs:int"/>
-</xs:sequence>
-</xs:complexType>
-
-<xs:complexType name="listarcodigoResponse">
-<xs:sequence>
-<xs:element name="return" type="tns:medicamento" minOccurs="0"/>
-</xs:sequence>
-</xs:complexType>
-
 <xs:complexType name="agregar">
 <xs:sequence>
 <xs:element name="Medicamento" type="xs:string" minOccurs="0"/>
@@ -109,6 +113,18 @@
 <xs:complexType name="agregarResponse">
 <xs:sequence>
 <xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="listarcodigo">
+<xs:sequence>
+<xs:element name="Codigo" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="listarcodigoResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:medicamento" minOccurs="0"/>
 </xs:sequence>
 </xs:complexType>
 

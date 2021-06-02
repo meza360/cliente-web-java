@@ -53,14 +53,10 @@
 
 <section class="busqueda">
 
-<form action="busqueda.html" method="POST">
-    <label for="buscador">Buscar medicamento</label>
-    <select name="selMed" id="selMed">
-        <option value="1">Codigo</option>
-        <option value="2">Medicamento</option>
-        <option value="3">Laboratorio</option>
-    </select>
-    <input type="text" name="buscador" placeholder="Criterios de busqueda" class="">
+<form action="insercion.html" method="GET">
+    <label for="file">Seleccione el archivo</label>
+    <input type="file" name="archivo" id="archivo">
+    <input type="text" name="ruta" placeholder="Ruta de archivo" class="">
     <button class="btn btn-light btn-outline-dark">Buscar</button>
 </form>
 

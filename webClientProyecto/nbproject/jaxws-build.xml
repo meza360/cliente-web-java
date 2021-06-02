@@ -42,5 +42,21 @@
         <delete dir="${build.generated.sources.dir}/jax-ws/modeloservicio"/>
         <delete dir="${build.generated.dir}/jax-wsCache/webServiceProyecto"/>
     </target>
-    <target name="wsimport-client-generate" depends="wsimport-client-webServiceProyecto"/>
+    <target name="wsimport-client-webServiceProyecto_1" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/webServiceProyecto_1"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/webServiceProyecto_1" destdir="${build.generated.dir}/jax-wsCache/webServiceProyecto_1" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/webServiceProyecto_1/wsdl/webServiceProyecto.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="file:/D:/Users/giova/Documents/NetBeansProjects/cliente-web-java/webClientProyecto/src/java/WSDLFiles/webServiceProyecto.wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/webServiceProyecto_1/wsdl/webServiceProyecto.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/webServiceProyecto_1"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/webServiceProyecto_1">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-webServiceProyecto_1" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/modeloservicio"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/webServiceProyecto_1"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-webServiceProyecto, wsimport-client-webServiceProyecto_1"/>
 </project>

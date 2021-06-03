@@ -1,3 +1,6 @@
+<%@page import="ModeloCliente.MedicamentoCliente" %>
+<%@page import="modeloservicio.InsertarArchivo" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,11 +56,16 @@
 
 <section class="busqueda">
 
-<form action="insercion.jsp" method="GET">
+    <%
+        InsertarArchivo rutapp = new InsertarArchivo(); 
+    %>
+    
+    <form action="ManejoPeticiones.do?" method="Post">
     <label for="file">Seleccione el archivo</label>
     <input type="file" name="archivo" id="archivo">
-    <input type="text" name="ruta" placeholder="Ruta de archivo" class="">
-    <button class="btn btn-light btn-outline-dark" >Insertar</button>
+    <input type="text" name="rutaArchivo" id="ruta" placeholder="Ruta de archivo" class="">
+    <button class="btn btn-light btn-outline-dark" href="ManejoPeticiones.do?accion=insertarArchivo&rutaArchivo=ruta">Insertar</button>
+    
 </form>
 
 </section>

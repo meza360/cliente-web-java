@@ -36,11 +36,9 @@ import modeloservicio.Servicios_Service;
 
 public class MedicamentoCliente {
 
-    @WebServiceRef(wsdlLocation = "WEB-INF/wsdl/webServiceProyecto.wsdl")
-    private Servicios_Service service;
+//    @WebServiceRef(wsdlLocation = "WEB-INF/wsdl/webServiceProyecto.wsdl")
+//    private Servicios_Service service;
 
-    //@WebServiceRef(wsdlLocation = "WEB-INF/wsdl/webServiceProyecto.wsdl")
-    //private Servicios_Service service;
 
     public MedicamentoCliente(){}
 
@@ -52,33 +50,41 @@ public class MedicamentoCliente {
         return port.listarMedicamentos();
     }
 
-    private java.util.List<modeloservicio.Medicamento> listarLaboratorio(java.lang.String laboratorioFarmaceutico) {
+    public java.util.List<modeloservicio.Medicamento> listarLaboratorio(java.lang.String laboratorioFarmaceutico) {
         // Note that the injected javax.xml.ws.Service reference as well as port objects are not thread safe.
         // If the calling of port operations may lead to race condition some synchronization is required.
+        System.out.println("El nombre del laboratorio a buscar es: " + laboratorioFarmaceutico);
+        modeloservicio.Servicios_Service service = new modeloservicio.Servicios_Service();
         modeloservicio.Servicios port = service.getServiciosPort();
         return port.listarLaboratorio(laboratorioFarmaceutico);
     }
 
-    private java.util.List<modeloservicio.Medicamento> listarNombre(java.lang.String nombreMedicamento) {
+    public java.util.List<modeloservicio.Medicamento> listarNombre(java.lang.String nombreMedicamento) {
         // Note that the injected javax.xml.ws.Service reference as well as port objects are not thread safe.
         // If the calling of port operations may lead to race condition some synchronization is required.
+        System.out.println("El nombre del medicamento a buscar es: " + nombreMedicamento);
+        modeloservicio.Servicios_Service service = new modeloservicio.Servicios_Service();
         modeloservicio.Servicios port = service.getServiciosPort();
         return port.listarNombre(nombreMedicamento);
     }
 
-    private Medicamento listarcodigo(int codigo) {
+    public modeloservicio.Medicamento listarcodigo(int codigo) {
         // Note that the injected javax.xml.ws.Service reference as well as port objects are not thread safe.
         // If the calling of port operations may lead to race condition some synchronization is required.
+        
+        System.out.println("El codigo recibido en la clase listarCodigo es: " + codigo);
+        modeloservicio.Servicios_Service service = new modeloservicio.Servicios_Service();
         modeloservicio.Servicios port = service.getServiciosPort();
         return port.listarcodigo(codigo);
     }
 
-
-
- 
-
-
-
+    public Integer insertarArchivo(java.lang.String rutaArchivo) {
+        System.out.println("La ruta indicada para el archivo es:" + rutaArchivo);
+        modeloservicio.Servicios_Service service = new modeloservicio.Servicios_Service();
+        modeloservicio.Servicios port = service.getServiciosPort();
+        return port.insertarArchivo(rutaArchivo);
+    }
     
     
+
 }

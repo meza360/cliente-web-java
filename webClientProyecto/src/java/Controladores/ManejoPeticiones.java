@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 giova
+ * Copyright (C) 2021 
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -41,11 +41,17 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.annotation.WebServlet;
+import modeloservicio.InsertarArchivo;
+import ModeloCliente.MedicamentoCliente;
 
 
+
+@WebServlet(name = "ManejoPeticiones", urlPatterns = {"/ManejoPeticiones.do"})
 public class ManejoPeticiones extends HttpServlet {
 
-   String listarCodigo1 = "DetalleMedicamentos.jsp";
+   String listarCodigo1 = "detalleMedicamentos.jsp";
+   String insertarArchivo = "insercion.html";
+   String venta = "facturacion.jsp";
    
     
     
@@ -54,18 +60,41 @@ public class ManejoPeticiones extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
-            String accion = " ";String acceso = "";
+            String accion = request.getParameter("accion");
+            String acceso = "";
             
-            if (accion.equals("listarCodigo")) {
+            if (accion.equals("listarcodigo")) {
                 acceso = listarCodigo1;
                 request.setAttribute("Codigo", request.getParameter("Codigo"));
+                System.out.println("El metodo de la accion es: " + accion);
+                System.out.println("Reenviando a la pagina: " + acceso);
             }
-        
+            else if(accion.equals("insertarArchivo"))
+            {
+                acceso = insertarArchivo;
+                String ruta = request.getParameter("ruta");
+                System.out.println("La ruta de el archivo en el web service:" + ruta);
+                InsertarArchivo enlaceInsertar = new InsertarArchivo();
+                enlaceInsertar.setRutaArchivo(ruta);
+                MedicamentoCliente cl = new MedicamentoCliente();
+                cl.insertarArchivo(enlaceInsertar.getRutaArchivo());
+            }
+            else if(accion.equals("venta")){
+            acceso = "";
+            }
+            else{
+            accion = "index.jsp";
+            }
+            
+            
             
             RequestDispatcher dispatcher =  request.getRequestDispatcher(acceso);
             dispatcher.forward(request, response);
         }catch(Exception error){
-            
+            System.out.println("Error en la peticion" + error);
+            error.printStackTrace();
+            RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
+            dispatcher.forward(request, response);
         }
     }
 
@@ -81,6 +110,7 @@ public class ManejoPeticiones extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
         processRequest(request, response);
     }
 
@@ -95,6 +125,25 @@ public class ManejoPeticiones extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        try {
+                //request.setAttribute("Codigo", request.getParameter("Codigo"));
+                String ruta = request.getParameter("rutaArchivo");
+                System.out.println("La ruta de el archivo en el web service:" + ruta);
+                InsertarArchivo enlaceInsertar = new InsertarArchivo();
+                enlaceInsertar.setRutaArchivo(ruta);
+                MedicamentoCliente cl = new MedicamentoCliente();
+                cl.insertarArchivo(enlaceInsertar.getRutaArchivo());
+                System.out.println("Se logro insertar el archivo .csv");
+                RequestDispatcher dispatcher = request.getRequestDispatcher(insertarArchivo);
+                dispatcher.forward(request, response);
+            
+        } catch (Exception error) {
+            System.out.println("Error en la ruta o archivo: " + error);
+            error.printStackTrace();
+            RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
+            dispatcher.forward(request, response);
+        }
+        RequestDispatcher dispatcher = request.getRequestDispatcher(insertarArchivo);
         processRequest(request, response);
     }
     

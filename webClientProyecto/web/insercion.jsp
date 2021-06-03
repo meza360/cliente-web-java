@@ -42,8 +42,8 @@
 
     <nav class=" container nav">
         <ul class="nav list-inline">
-            <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
-            <li class="list-inline-item nav-item"> <a href="sesiones.html" class="nav-link">Administracion</a> </li>
+            <li class="list-inline-item nav-item"> <a href="index.jsp" class="nav-link">Inicio</a> </li>
+            <li class="list-inline-item nav-item"> <a href="sesiones.jsp" class="nav-link">Administracion</a> </li>
             <li class="list-inline-item nav-item"> <a href="productos.jsp" class="nav-link">Productos</a></li>
             <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
         </ul>
@@ -53,12 +53,7 @@
 
 <section class="busqueda">
 
-<form action="insercion.jsp" method="GET">
-    <label for="file">Seleccione el archivo</label>
-    <input type="file" name="archivo" id="archivo">
-    <input type="text" name="ruta" placeholder="Ruta de archivo" class="">
-    <button class="btn btn-light btn-outline-dark" >Insertar</button>
-</form>
+<h2 class="h2 bg-light">Insercion de archivos correcta, revise la seccion de productos</h2>
 
 </section>
 

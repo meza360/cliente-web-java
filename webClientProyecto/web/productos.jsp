@@ -53,8 +53,8 @@
 
     <nav class=" container nav">
         <ul class="nav list-inline">
-            <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
-            <li class="list-inline-item nav-item"> <a href="sesiones.html" class="nav-link">Administracion</a> </li>
+            <li class="list-inline-item nav-item"> <a href="index.jsp" class="nav-link">Inicio</a> </li>
+            <li class="list-inline-item nav-item"> <a href="sesiones.jsp" class="nav-link">Administracion</a> </li>
             <li class="list-inline-item nav-item"> <a href="productos.jsp" class="nav-link">Productos</a></li>
             <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
         </ul>
@@ -93,7 +93,7 @@
             <td><%= a.getPresentacion()%></td>
             <td> <img src="images/med.png" alt="fotografia_medicamento" width="50" height="50"> </td>
             <td>
-                <a class="btn btn-light btn-outline-dark" href="detalleMedicamentos.html">Detalles</a>
+                <a class="btn btn-light btn-outline-dark" href="ManejoPeticiones.do?accion=listarcodigo&Codigo=<%= a.getCodigo()%>">Detalles</a>
             </td>
         </tr>
         <%

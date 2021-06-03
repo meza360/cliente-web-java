@@ -17,6 +17,8 @@
  */
 package ModeloCliente;
 
+import com.itextpdf.text.pdf.PdfPCell;
+
 /**
  *
  * @author giova
@@ -30,7 +32,19 @@ public class OMedicamento {
     private String Medicamento;
     private int Cantidad;
     private double Precio;
+    
+    public OMedicamento(int codigo, String Medicamento, int Cantidad, double Precio){
+            this.codigo = codigo;
+            this.Medicamento = Medicamento;
+            this.Cantidad = Cantidad;
+            this.Precio = Precio;
+    }
 
+    public OMedicamento(String dolor, int i, double d) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   
     public int getCodigo() {
         return codigo;
     }
@@ -62,7 +76,7 @@ public class OMedicamento {
     public void setPrecio(double Precio) {
         this.Precio = Precio;
     }
-    
-    
+
+ 
     
 }

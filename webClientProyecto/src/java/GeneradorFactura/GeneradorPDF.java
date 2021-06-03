@@ -30,10 +30,19 @@ package GeneradorFactura;
 
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfException;
+import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+import ModeloCliente.OMedicamento;
+
 
 
 
@@ -42,12 +51,41 @@ import java.io.IOException;
  * @author giova
  */
 public class GeneradorPDF {
+
+    
     
     private double total;
     
     public GeneradorPDF(){}
+        
+        public static void main(String[] args)  {
+            //datos pára prueba
+            List<OMedicamento> listaOMedicamento = new ArrayList<OMedicamento>();
+            
+            OMedicamento medicamento = new OMedicamento("Dolor", 10, 10.20);
+            //double Cantidad = Double.parseDouble("10.20");
+            //int Precio = Integer.parseInt("10");
+            listaOMedicamento.add(medicamento);
+            
+            OMedicamento medicamento1 = new OMedicamento("gripe", 11, 13.50);
+           // double Cantidad1 = Double.parseDouble("13.50");
+            //int Precio1 = Integer.parseInt("11");
+            listaOMedicamento.add(medicamento1);
+            
+            OMedicamento medicamento2 = new OMedicamento("fiebre", 5, 56.00);
+            //double Cantidad2 = Double.parseDouble("56.00");
+            //int Precio2 = Integer.parseInt("5");
+            listaOMedicamento.add(medicamento2);
+            
+            System.out.println("lista tiene"+listaOMedicamento.size()+"agregado");
+            
+            
+        
+        }
     
-        public void generatePdf(Cliente cliente,List medicina) throws IOException, PdfException{
+    
+    
+        public void generatePdf(Cliente cliente, List<OMedicamento>lista) throws IOException, PdfException{
     
         try {
             // metodos de escritura del documento
@@ -67,21 +105,19 @@ public class GeneradorPDF {
             datosCliente.setFont(FontFactory.getFont("Times New Roman", 12, Font.NORMAL,BaseColor.BLACK));
 
             //creacion de la tabla
-            PdfPTable tabla = new PdfPTable(3);
-            
-            //tabla.setPaddingTop(20);
-            tabla.setSpacingBefore(20);
-            tabla.setSpacingAfter(20);
+            PdfPTable tabla = new PdfPTable(4);
             tabla.addCell("Codigo");
             tabla.addCell("Producto");
+            tabla.addCell("Cantidad");
             tabla.addCell("Precio");
-            tabla.setKeepTogether(false);
-            for (int i = 0; i < medicina.size(); i++) {
-                 tabla.addCell("122");tabla.addCell("Acetaminofen");tabla.addCell("54.24");
-            }
-           
-          
             
+            for (int i = 0; i < lista.size(); i++) {
+                tabla.addCell(""+ i);
+                tabla.addCell(lista.get(i).getMedicamento());
+                tabla.addCell(Double.toString(lista.get(i).getCantidad()));
+                tabla.addCell(Double.toString(lista.get(i).getPrecio()));
+           }
+           
             //se crea el pie
             Image pie = Image.getInstance(".\\src\\pdftest\\pie.png");
             pie.scaleToFit(560, 300);

@@ -15,14 +15,20 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
+
+/**
+ *
+ * @author Marvin Alonso Lemen Sanchez 090-17-99
+ * @author GIOVANI DAVID MEZA POGGIO 5990-18-14676
+ * @author Wendy Pricila Cifuentes Lutin 5990-18-4413
+ * @author Byron Rosbin Antonio Orozco 9941-19-23685
+ * @author Karina Aracely Sanchez Ixcot 9941-19-264
+ */
+
 package ModeloCliente;
 
 import com.itextpdf.text.pdf.PdfPCell;
 
-/**
- *
- * @author giova
- */
 public class OMedicamento {
     
     

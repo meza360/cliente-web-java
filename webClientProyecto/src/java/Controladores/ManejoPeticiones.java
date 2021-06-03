@@ -82,8 +82,30 @@ public class ManejoPeticiones extends HttpServlet {
                 cl.insertarArchivo(enlaceInsertar.getRutaArchivo());
             }
             else if(accion.equals("venta")){
+                acceso = venta;
+                int codigo =  Integer.parseInt(request.getParameter("Codigo"));
+                request.setAttribute("Codigo", codigo);
+                String producto = request.getParameter("Medicamento");
+                request.setAttribute("Medicamento", producto);
+                int cantidad = Integer.parseInt(request.getParameter("Cantidad"));
+                request.setAttribute("Cantidad", cantidad);
+                double precio = Double.parseDouble(request.getParameter("Precio_unitario"));
+                request.setAttribute("Precio_unitario", precio);
+                
+                
+            }
+            else if(accion.equals("facturar")){
                 GeneradorPDF pdf = new GeneradorPDF();
                 OMedicamento med = new OMedicamento();
+                
+                Cliente cl = new Cliente();
+                String nombre = request.getParameter("txtNombre");
+                System.out.println("El nombre para el cliente es: " + nombre);
+                cl.setNombre(nombre);
+                String nit = request.getParameter("txtNit");
+                System.out.println("El nit para el cliente es: " + nit);
+                cl.setNit(nit);
+                
                 acceso = venta2;
                 int codigo =  Integer.parseInt(request.getParameter("Codigo"));
                 request.setAttribute("Codigo", codigo);
@@ -95,15 +117,16 @@ public class ManejoPeticiones extends HttpServlet {
                 request.setAttribute("Precio_unitario", precio);
                 
                 System.out.println("Los atributos en orden son: " + codigo + producto + cantidad + precio);
-                MedicamentoCliente cl = new MedicamentoCliente();
-                cl.ventaActualizar(codigo, cantidad);
+                
+                MedicamentoCliente md = new MedicamentoCliente();
+                md.ventaActualizar(codigo, cantidad);
                 
                 med.setCodigo(codigo);
                 med.setCantidad(cantidad);
                 med.setMedicamento(producto);
                 med.setPrecio(precio);
                 
-                pdf.generatePdf(med);
+                pdf.generatePdf(cl,med);
                 
                 System.out.println("La venta se realizo correctamente desde el cliente!");
    

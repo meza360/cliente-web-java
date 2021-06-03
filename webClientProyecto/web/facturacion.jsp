@@ -1,3 +1,15 @@
+<%-- 
+    Document   : productos
+    Created on : May 27, 2021, 11:48:20 PM
+    Author     : giova
+--%>
+
+<%@page import="java.util.List"%>
+<%@page import="ModeloCliente.MedicamentoCliente" %>
+<%@page import="modeloservicio.ListarMedicamentos" %>
+<%@page import="modeloservicio.Medicamento" %>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,7 +55,7 @@
     <nav class=" container nav">
         <ul class="nav list-inline">
             <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
-            <li class="list-inline-item nav-item"> <a href="sesiones.jsp" class="nav-link">Administracion</a> </li>
+            <li class="list-inline-item nav-item"> <a href="sesiones.html" class="nav-link">Administracion</a> </li>
             <li class="list-inline-item nav-item"> <a href="productos.jsp" class="nav-link">Productos</a></li>
             <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
         </ul>
@@ -51,17 +63,40 @@
 
 
 
-<section class="busqueda">
+<section class="facturacion">
 
-<form action="ManejoBusqueda.do" method="">
-    <label for="buscador">Buscar medicamento</label>
-    <select name="selMed" id="selMed">
-        <option value="1">Codigo</option>
-        <option value="2">Medicamento</option>
-        <option value="3">Laboratorio</option>
-    </select>
-    <input type="text" name="buscador" placeholder="Criterios de busqueda" class="">
-    <button class="btn btn-light btn-outline-dark">Buscar</button>
+<form action="" method="">
+      
+    <div class="carta informacion">
+        <h2>Informacion</h2>
+        
+            <% 
+                int codigo = (Integer)request.getAttribute("Codigo");
+                out.print("El codigo en detalle.jsp es: " + codigo);
+                System.out.println("El codigo en detalle.jsp es: " + codigo);
+                
+                Medicamento med = new MedicamentoCliente().listarcodigo(codigo);
+            %>
+        
+       <ul>
+               <li>Codigo: <%= med.getCodigo()%></li>
+               <li>Medicamento: <%= med.getMedicamento()%></li>
+               <li>Dosis: <%= med.getDosis()%></li>
+               <li>Precio unitario: <%= med.getPrecioUnitario()%></li>
+               <li>Cantidad Existencia: <%= med.getCantidadExistencia()%></li>
+               <li>Laboratorio: <%= med.getLaboratorioFarmaceutico()%></li>
+               <li>Vencimiento: <%= med.getVencimiento()%></li>
+               <li>Presentacion: <%= med.getPresentacion()%></li>
+           </ul>
+    </div>
+    <div class="carta informacion contact-form">
+        <label for="">Nombre</label>
+        <input type="text" name="txtNombre" class="form-control">
+        <label for="">NIT</label>
+        <input type="text" name="txtNit" class="form-control" >
+        <button class="btn btn-light btn-outline-dark"><a href="ManejoPeticiones.do?accion=facturar&Codigo=<%= med.getCodigo()%>&Medicamento=<%= med.getMedicamento()%>&Cantidad=1&Precio_unitario=<%= med.getPrecioUnitario()%>">Facturar producto</a></button>
+    </div>
+
 </form>
 
 </section>

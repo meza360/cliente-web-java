@@ -54,14 +54,28 @@
 <section class="facturacion">
 
 <form action="ManejoPeticiones.html" method="POST">
-    <label for="buscador">Buscar medicamento</label>
-    <select name="selMed" id="selMed">
-        <option value="1">Codigo</option>
-        <option value="2">Medicamento</option>
-        <option value="3">Laboratorio</option>
-    </select>
-    <input type="text" name="buscador" placeholder="Criterios de busqueda" class="">
-    <button class="btn btn-light btn-outline-dark">Buscar</button>
+      
+    <div class="carta informacion">
+        <h2>Informacion</h2>
+       <ul>
+           <li>Codigo</li>
+           <li>Medicamento</li>
+           <li>Dosis</li>
+           <li>Precio unitario</li>
+           <li>Cantidad Existencia</li>
+           <li>Laboratorio</li>
+           <li>Vencimiento</li>
+           <li>Presentacion</li>
+       </ul>
+    </div>
+    <div class="carta informacion contact-form">
+        <label for="txtNombre">Nombre</label>
+        <input type="text" name="txtNombre" id="txtNombre" class="form-control">
+        <label for="txtNit">NIT</label>
+        <input type="text" name="txtNit" id="txtNit" class="form-control">
+        <button><a href="ManejoPeticiones.do"></a> </button>
+    </div>
+
 </form>
 
 </section>

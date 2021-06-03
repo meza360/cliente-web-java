@@ -58,41 +58,30 @@ public class GeneradorPDF {
     
     public GeneradorPDF(){}
         
-        public static void main(String[] args)  {
-            //datos pára prueba
-            List<OMedicamento> listaOMedicamento = new ArrayList<OMedicamento>();
-            
-            OMedicamento medicamento = new OMedicamento("Dolor", 10, 10.20);
-            //double Cantidad = Double.parseDouble("10.20");
-            //int Precio = Integer.parseInt("10");
-            listaOMedicamento.add(medicamento);
-            
-            OMedicamento medicamento1 = new OMedicamento("gripe", 11, 13.50);
-           // double Cantidad1 = Double.parseDouble("13.50");
-            //int Precio1 = Integer.parseInt("11");
-            listaOMedicamento.add(medicamento1);
-            
-            OMedicamento medicamento2 = new OMedicamento("fiebre", 5, 56.00);
-            //double Cantidad2 = Double.parseDouble("56.00");
-            //int Precio2 = Integer.parseInt("5");
-            listaOMedicamento.add(medicamento2);
-            
-            System.out.println("lista tiene"+listaOMedicamento.size()+"agregado");
-            
-            
-        
-        }
-    
-    
     
         public void generatePdf(Cliente cliente, List<OMedicamento>lista) throws IOException, PdfException{
-    
+  
+//            OMedicamento medicamento = new OMedicamento(20,"Dolor", 10, 10.20);
+//
+//            listaOMedicamento.add(medicamento);
+//            
+//            OMedicamento medicamento1 = new OMedicamento("gripe", 11, 13.50);
+//
+//            listaOMedicamento.add(medicamento1);
+//            
+//            OMedicamento medicamento2 = new OMedicamento("fiebre", 5, 56.00);
+//
+//            listaOMedicamento.add(medicamento2);
+ 
+            List<OMedicamento> listaOMedicamento = new ArrayList<OMedicamento>();
+            System.out.println("lista tiene"+listaOMedicamento.size()+"agregado");
+            
         try {
             // metodos de escritura del documento
             Document documento = new Document(PageSize.A4);
             PdfWriter.getInstance(documento, new FileOutputStream("Factura.pdf"));
             //imagen del encabezado
-            Image encabezado = Image.getInstance(".\\src\\pdftest\\encabezado.png");
+            Image encabezado = Image.getInstance(".\\src\\GeneradorFactura\\encabezado.png");
             encabezado.scaleToFit(595, 350);
             encabezado.setAlignment(Chunk.ALIGN_CENTER);
             
@@ -112,14 +101,166 @@ public class GeneradorPDF {
             tabla.addCell("Precio");
             
             for (int i = 0; i < lista.size(); i++) {
-                tabla.addCell(""+ i);
+                tabla.addCell(Integer.toString(lista.get(i).getCodigo()));
                 tabla.addCell(lista.get(i).getMedicamento());
                 tabla.addCell(Double.toString(lista.get(i).getCantidad()));
                 tabla.addCell(Double.toString(lista.get(i).getPrecio()));
            }
            
             //se crea el pie
-            Image pie = Image.getInstance(".\\src\\pdftest\\pie.png");
+            Image pie = Image.getInstance(".\\src\\GeneradorFactura\\pie.png");
+            pie.scaleToFit(560, 300);
+            pie.setAlignment(Chunk.ALIGN_BASELINE);
+            
+            //se escriben los cambios en el documento
+            documento.open();
+            
+            documento.add(encabezado);
+            documento.add(datosCliente);
+            documento.add(tabla);
+            documento.add(pie);
+            
+            documento.close();
+            
+            //BackgroundImage imagen = new BackgroundImage("");
+            System.out.println("El documento ha sido creado exitosamente");   
+            
+        } catch (Exception error) {
+            System.out.println("El error es el siguiente: " + error);
+            error.printStackTrace();
+        }
+        
+    }
+        
+        public void generatePdf(List<OMedicamento>lista) throws IOException, PdfException{
+
+//            OMedicamento medicamento = new OMedicamento(20,"Dolor", 10, 10.20);
+//
+//            listaOMedicamento.add(medicamento);
+//            
+//            OMedicamento medicamento1 = new OMedicamento("gripe", 11, 13.50);
+//
+//            listaOMedicamento.add(medicamento1);
+//            
+//            OMedicamento medicamento2 = new OMedicamento("fiebre", 5, 56.00);
+//
+//            listaOMedicamento.add(medicamento2);
+ 
+            List<OMedicamento> listaOMedicamento = new ArrayList<OMedicamento>();
+            System.out.println("lista tiene"+listaOMedicamento.size()+"agregado");
+            
+        try {
+            // metodos de escritura del documento
+            Document documento = new Document(PageSize.A4);
+            PdfWriter.getInstance(documento, new FileOutputStream("Factura.pdf"));
+            //imagen del encabezado
+            Image encabezado = Image.getInstance(".\\src\\GeneradorFactura\\encabezado.png");
+            encabezado.scaleToFit(595, 350);
+            encabezado.setAlignment(Chunk.ALIGN_CENTER);
+            
+            //datos del cliente
+            Paragraph datosCliente = new Paragraph();
+            datosCliente.add("\nDatos del cliente");
+            datosCliente.add("\nNombre: " + "Estuardo");
+            datosCliente.add("\nNIT: " + "65555555");
+            datosCliente.setAlignment(Paragraph.ALIGN_LEFT);
+            datosCliente.setFont(FontFactory.getFont("Times New Roman", 12, Font.NORMAL,BaseColor.BLACK));
+
+            //creacion de la tabla
+            PdfPTable tabla = new PdfPTable(4);
+            tabla.addCell("Codigo");
+            tabla.addCell("Producto");
+            tabla.addCell("Cantidad");
+            tabla.addCell("Precio");
+            
+            for (int i = 0; i < lista.size(); i++) {
+                tabla.addCell(Integer.toString(lista.get(i).getCodigo()));
+                tabla.addCell(lista.get(i).getMedicamento());
+                tabla.addCell(Double.toString(lista.get(i).getCantidad()));
+                tabla.addCell(Double.toString(lista.get(i).getPrecio()));
+           }
+           
+            //se crea el pie
+            Image pie = Image.getInstance(".\\src\\GeneradorFactura\\pie.png");
+            pie.scaleToFit(560, 300);
+            pie.setAlignment(Chunk.ALIGN_BASELINE);
+            
+            //se escriben los cambios en el documento
+            documento.open();
+            
+            documento.add(encabezado);
+            documento.add(datosCliente);
+            documento.add(tabla);
+            documento.add(pie);
+            
+            documento.close();
+            
+            //BackgroundImage imagen = new BackgroundImage("");
+            System.out.println("El documento ha sido creado exitosamente");   
+            
+        } catch (Exception error) {
+            System.out.println("El error es el siguiente: " + error);
+            error.printStackTrace();
+        }
+        
+    }
+        
+        public void generatePdf(OMedicamento medicina) throws IOException, PdfException{
+
+//            OMedicamento medicamento = new OMedicamento(20,"Dolor", 10, 10.20);
+//
+//            listaOMedicamento.add(medicamento);
+//            
+//            OMedicamento medicamento1 = new OMedicamento("gripe", 11, 13.50);
+//
+//            listaOMedicamento.add(medicamento1);
+//            
+//            OMedicamento medicamento2 = new OMedicamento("fiebre", 5, 56.00);
+//
+//            listaOMedicamento.add(medicamento2);
+ 
+            List<OMedicamento> listaOMedicamento = new ArrayList<OMedicamento>();
+            System.out.println("lista tiene"+listaOMedicamento.size()+"agregado");
+            
+        try {
+            // metodos de escritura del documento
+            Document documento = new Document(PageSize.A4);
+            PdfWriter.getInstance(documento, new FileOutputStream(System.getProperty("user.home") + "\\Desktop\\Factura_" + medicina.getMedicamento() + ".pdf"));            
+            //PdfWriter.getInstance(documento, new FileOutputStream("D:\\Factura.pdf"));
+            //imagen del encabezado
+            Image encabezado = Image.getInstance("\\encabezado.png");
+            encabezado.scaleToFit(595, 350);
+            encabezado.setAlignment(Chunk.ALIGN_CENTER);
+            
+            //datos del cliente
+            Paragraph datosCliente = new Paragraph();
+            datosCliente.add("\nDatos del cliente");
+            datosCliente.add("\nNombre: " + "Estuardo");
+            datosCliente.add("\nNIT: " + "65555555");
+            datosCliente.setAlignment(Paragraph.ALIGN_LEFT);
+            datosCliente.setFont(FontFactory.getFont("Times New Roman", 12, Font.NORMAL,BaseColor.BLACK));
+
+            //creacion de la tabla
+            PdfPTable tabla = new PdfPTable(4);
+            tabla.addCell("Codigo");
+            tabla.addCell("Producto");
+            tabla.addCell("Cantidad");
+            tabla.addCell("Precio");
+//            
+//            for (int i = 0; i < lista.size(); i++) {
+//                tabla.addCell(Integer.toString(lista.get(i).getCodigo()));
+//                tabla.addCell(lista.get(i).getMedicamento());
+//                tabla.addCell(Double.toString(lista.get(i).getCantidad()));
+//                tabla.addCell(Double.toString(lista.get(i).getPrecio()));
+//           }
+
+                tabla.addCell(Integer.toString(medicina.getCodigo()));
+                tabla.addCell(medicina.getMedicamento());
+                tabla.addCell(Double.toString(medicina.getCantidad()));
+                tabla.addCell(Double.toString(medicina.getPrecio()));
+           
+            //se crea el pie
+            Image pie = Image.getInstance("\\pie.png");
             pie.scaleToFit(560, 300);
             pie.setAlignment(Chunk.ALIGN_BASELINE);
             

@@ -32,6 +32,23 @@
 
 <xs:element name="listarcodigoResponse" type="tns:listarcodigoResponse"/>
 
+<xs:element name="ventaActualizar" type="tns:ventaActualizar"/>
+
+<xs:element name="ventaActualizarResponse" type="tns:ventaActualizarResponse"/>
+
+<xs:complexType name="ventaActualizar">
+<xs:sequence>
+<xs:element name="Codigo" type="xs:int"/>
+<xs:element name="Cantidad" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ventaActualizarResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
 <xs:complexType name="insertarArchivo">
 <xs:sequence>
 <xs:element name="rutaArchivo" type="xs:string" minOccurs="0"/>
@@ -69,16 +86,6 @@
 </xs:sequence>
 </xs:complexType>
 
-<xs:complexType name="listarMedicamentos">
-<xs:sequence/>
-</xs:complexType>
-
-<xs:complexType name="listarMedicamentosResponse">
-<xs:sequence>
-<xs:element name="return" type="tns:medicamento" minOccurs="0" maxOccurs="unbounded"/>
-</xs:sequence>
-</xs:complexType>
-
 <xs:complexType name="Actualizar">
 <xs:sequence>
 <xs:element name="Codigo" type="xs:int"/>
@@ -95,6 +102,16 @@
 <xs:complexType name="ActualizarResponse">
 <xs:sequence>
 <xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="listarMedicamentos">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="listarMedicamentosResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:medicamento" minOccurs="0" maxOccurs="unbounded"/>
 </xs:sequence>
 </xs:complexType>
 

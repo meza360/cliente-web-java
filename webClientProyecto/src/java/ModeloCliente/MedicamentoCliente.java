@@ -84,6 +84,14 @@ public class MedicamentoCliente {
         modeloservicio.Servicios port = service.getServiciosPort();
         return port.insertarArchivo(rutaArchivo);
     }
+
+    public Integer ventaActualizar(int codigo, int cantidad) {
+        modeloservicio.Servicios_Service service = new modeloservicio.Servicios_Service();
+        modeloservicio.Servicios port = service.getServiciosPort();
+        return port.ventaActualizar(codigo, cantidad);
+    }
+    
+    
     
     
 

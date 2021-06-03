@@ -87,10 +87,10 @@
     
         <div class="carta checkout">
             <div>
-                <form action="" method="GET">
+                <form action="" method="">
                         <label for="cantidad">Cantidad</label>
                         <input type="number" name="cantidad" value="3">
-                        <button class="btn btn-light btn-outline-dark"><a href="ManejoPeticiones?accion=venta&cantidad=1">Comprar ahora</a></button>
+                        <button class="btn btn-light btn-outline-dark"><a href="ManejoPeticiones.do?accion=venta&Codigo=<%= med.getCodigo()%>&Medicamento=<%= med.getMedicamento()%>&Cantidad=1&Precio_unitario=<%= med.getPrecioUnitario()%>">Comprar ahora</a></button>
                 </form>
             </div>
             

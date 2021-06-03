@@ -43,6 +43,7 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.annotation.WebServlet;
 import modeloservicio.InsertarArchivo;
 import ModeloCliente.MedicamentoCliente;
+import GeneradorFactura.GeneradorPDF;
 
 
 
@@ -52,6 +53,7 @@ public class ManejoPeticiones extends HttpServlet {
    String listarCodigo1 = "detalleMedicamentos.jsp";
    String insertarArchivo = "insercion.html";
    String venta = "facturacion.jsp";
+   String venta2 = "index.html";
    
     
     
@@ -80,10 +82,34 @@ public class ManejoPeticiones extends HttpServlet {
                 cl.insertarArchivo(enlaceInsertar.getRutaArchivo());
             }
             else if(accion.equals("venta")){
-            acceso = "";
+                GeneradorPDF pdf = new GeneradorPDF();
+                OMedicamento med = new OMedicamento();
+                acceso = venta2;
+                int codigo =  Integer.parseInt(request.getParameter("Codigo"));
+                request.setAttribute("Codigo", codigo);
+                String producto = request.getParameter("Medicamento");
+                request.setAttribute("Medicamento", producto);
+                int cantidad = Integer.parseInt(request.getParameter("Cantidad"));
+                request.setAttribute("Cantidad", cantidad);
+                double precio = Double.parseDouble(request.getParameter("Precio_unitario"));
+                request.setAttribute("Precio_unitario", precio);
+                
+                System.out.println("Los atributos en orden son: " + codigo + producto + cantidad + precio);
+                MedicamentoCliente cl = new MedicamentoCliente();
+                cl.ventaActualizar(codigo, cantidad);
+                
+                med.setCodigo(codigo);
+                med.setCantidad(cantidad);
+                med.setMedicamento(producto);
+                med.setPrecio(precio);
+                
+                pdf.generatePdf(med);
+                
+                System.out.println("La venta se realizo correctamente desde el cliente!");
+   
             }
             else{
-            accion = "index.jsp";
+            accion = "index.html";
             }
             
             
@@ -93,7 +119,7 @@ public class ManejoPeticiones extends HttpServlet {
         }catch(Exception error){
             System.out.println("Error en la peticion" + error);
             error.printStackTrace();
-            RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("index.html");
             dispatcher.forward(request, response);
         }
     }
@@ -110,7 +136,7 @@ public class ManejoPeticiones extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+        RequestDispatcher dispatcher = request.getRequestDispatcher("index.html");
         processRequest(request, response);
     }
 
@@ -140,7 +166,7 @@ public class ManejoPeticiones extends HttpServlet {
         } catch (Exception error) {
             System.out.println("Error en la ruta o archivo: " + error);
             error.printStackTrace();
-            RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("index.html");
             dispatcher.forward(request, response);
         }
         RequestDispatcher dispatcher = request.getRequestDispatcher(insertarArchivo);

@@ -1,0 +1,1007 @@
+Codigo,Medicamento ,Dosis,Precio_unitario,Cantidad_existencia,Laboratorio_farmaceutico,Vencimiento,Presentacion
+1,Abacavir,100mg,470.34,764,ALFA FARMACEUTICA,12/22/2023,Tabletas
+1,Aceclofenaco,200mg,575.1,1247,ALTIAN PHARMA,4/17/2024,Capsulas
+1,Aceite de ricino,300mg,476.82,312,AMERICAN VITALAB,3/25/2022,Inhalador
+1,Aceite Insaponificables de Aguacate,400mg,630.18,1044,BAYER,11/28/2022,Ampoyas
+1,acelular),500mb,77.76,436,BONIN,8/31/2023,Ampoyetas
+1,Acetato Calcico,600mg,318.06,549,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),1/16/2024,Polvo
+1,Acetato de Abiraterona,700mg,180.36,1547,DONOVAN WERKE,8/6/2024,Tabletas
+1,Acetato de calcio y sulfato de,800mg,556.74,1024,Eurofarma Guatemala,4/3/2022,Capsulas
+1,Acetato de Leuprolida,900mg,72.36,301,FARGEL,10/14/2023,Inhalador
+1,Acetato de Vitamina E Isoflavonas,1000mg,156.06,190,FARKOT  S.A.,4/25/2021,Ampoyas
+1,Acetato de Vitamina E Beta,1mg,332.64,63,FARMACAPS   S.A. ,5/21/2021,Ampoyetas
+1,Acetazolamida,5mg,93.42,354,FARMAMEDICA,2/14/2021,Polvo
+1,Acetilcisteina,10mg,355.32,1841,GLOBAL FARMA  S.A.,1/27/2022,Tabletas
+1,Aciclovir,15mg,500.04,1610,INDUSTRIA FARMACEUTICA  S.A. INFASA,2/19/2025,Capsulas
+1,Aciclovir,20mg,331.56,1782,INTECFA,4/23/2021,Inhalador
+1,Aciclovir,25mg,78.84,1223,INNOVA,7/23/2021,Ampoyas
+1,Aciclovir oftalmico,30mg,557.82,1211,LABALFER,8/7/2023,Ampoyetas
+1,acido acetilsalicilico,50mg,118.8,192,LAFCO ,8/4/2023,Polvo
+1,acido acetilsalicilico,100mg,297.54,880,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",4/23/2023,Tabletas
+1,acido azelaico,200mg,237.6,1257,LANCASCO  S.A.,6/20/2024,Capsulas
+1,acido folico,300mg,235.98,812,LAMFER,6/4/2022,Inhalador
+1,acido Ibandronico  (Ibandronato),400mg,78.84,271,LABORATORIO PHARA,1/3/2021,Ampoyas
+1,Acido Ibandronico (Ibandronato),500mb,146.88,395,LAPROMED,2/3/2022,Ampoyetas
+1,acido poliacrilico,600mg,25.92,374,MEDIPRODUCTS  S.A.,3/7/2024,Polvo
+1,acido salicilico  colodion y acido,700mg,335.34,1993,PHARMACROSS,10/1/2021,Tabletas
+1,acido Ursodesoxicolico,800mg,349.92,1721,PHARMADEL ,8/3/2023,Capsulas
+1,acido valproico,900mg,68.04,1574,PHARMALAT,10/12/2025,Inhalador
+1,acido valproico (Valproato),1000mg,86.4,1493,PHARLAND,12/6/2021,Ampoyas
+1,Acido Zoledronico,1mg,266.22,1708,PIERSAN CENTROAMERICANA,12/30/2021,Ampoyetas
+1,Acitretino,5mg,638.82,1222,QUALIPHARM,6/12/2021,Polvo
+1,Adalimumab,10mg,150.66,883,QUIFARMA  S.A.,9/10/2021,Tabletas
+1,Adenosina,15mg,19.44,599,RICHAM INTERNACIONAL  S.A,3/5/2025,Capsulas
+1,Adolescente/Adulto,20mg,183.6,1914,RUIPHARMA,7/1/2021,Inhalador
+1,adultos,25mg,537.84,1235,SAN CRISTOBAL,10/8/2023,Ampoyas
+1,Aflibercept,30mg,344.52,354,SANTA FE,11/19/2023,Ampoyetas
+1,Agomelatina,50mg,382.86,796,SANTE  S.A.,9/23/2023,Polvo
+1,Agua esteril para inyeccion,100mg,34.56,538,THERFAM,4/28/2024,Tabletas
+1,Agua esteril para inyeccion,200mg,167.4,1527,TRINOMED,3/18/2024,Capsulas
+1,Albendazol,300mg,102.06,333,UNIDOS  S.A.,1/22/2023,Inhalador
+1,Albendazol,400mg,82.62,1895,UNIPHARM  S.A.  MA,4/6/2025,Ampoyas
+1,Albumina Humana,500mb,486.54,837,UNIPHARM  S.A.,10/16/2024,Ampoyetas
+1,Albumina Humana,600mg,304.56,1115,VIZCAINO  S.A.,11/21/2025,Polvo
+1,Alemtuzumab,700mg,160.92,958,WELLCO  S.A.,10/20/2021,Tabletas
+1,Alfa-Metildopa,800mg,332.64,1854,ALFA FARMACEUTICA,8/13/2022,Capsulas
+1,Alfuzosina,900mg,93.96,143,ALTIAN PHARMA,6/20/2022,Inhalador
+1,Alimento a base de proteina de,1000mg,625.86,211,AMERICAN VITALAB,12/5/2022,Ampoyas
+1,Alimento a base de proteina de soya,1mg,39.96,999,BAYER,10/5/2022,Ampoyetas
+1,Alimento a base de proteina de soya,5mg,246.78,860,BONIN,11/6/2023,Polvo
+1,Alimento a base de Proteinas de,10mg,87.48,542,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),3/15/2022,Tabletas
+1,Aliskiren Hemifumarato,15mg,239.22,1504,DONOVAN WERKE,11/30/2022,Capsulas
+1,Alopurinol,20mg,225.72,1023,Eurofarma Guatemala,8/10/2021,Inhalador
+1,Alprazolam,25mg,484.92,265,FARGEL,3/31/2023,Ampoyas
+1,Alquitran de hulla + acido salicilico,30mg,256.5,1469,FARKOT  S.A.,11/16/2025,Ampoyetas
+1,aluminio,50mg,9.72,1716,FARMACAPS   S.A. ,9/30/2025,Polvo
+1,Ambroxol,100mg,508.68,11,FARMAMEDICA,4/13/2021,Tabletas
+1,Amfotericina B,200mg,136.08,187,GLOBAL FARMA  S.A.,9/22/2024,Capsulas
+1,Amfotericina B complejo lipidico,300mg,387.18,1310,INDUSTRIA FARMACEUTICA  S.A. INFASA,3/11/2025,Inhalador
+1,Amifostina,400mg,91.8,1075,INTECFA,4/28/2022,Ampoyas
+1,Amikacina,500mb,351.54,431,INNOVA,2/15/2024,Ampoyetas
+1,Amikacina,600mg,216.54,952,LABALFER,1/25/2024,Polvo
+1,amilorida,700mg,308.34,1831,LAFCO ,6/29/2021,Tabletas
+1,Aminoacidos con electrolitos 6-10,800mg,587.52,1512,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",8/16/2025,Capsulas
+1,Aminoacidos con electrolitos y,900mg,85.32,1380,LANCASCO  S.A.,4/1/2021,Inhalador
+1,Aminoacidos con electrolitos y,1000mg,185.76,1075,LAMFER,5/14/2025,Ampoyas
+1,Aminoacidos especializados 5-8%.,1mg,402.3,144,LABORATORIO PHARA,8/11/2023,Ampoyetas
+1,Aminoacidos especializados 7-10%,5mg,262.98,462,LAPROMED,3/30/2021,Polvo
+1,Aminoacidos sin electrolitos 8-10%,10mg,416.88,1773,MEDIPRODUCTS  S.A.,3/23/2021,Tabletas
+1,Aminofilina (teofilina etilendiamina),15mg,501.12,558,PHARMACROSS,4/21/2024,Capsulas
+1,Amiodarona clorhidrato,20mg,519.48,442,PHARMADEL ,11/27/2021,Inhalador
+1,Amiodarona clorhidrato,25mg,245.16,1631,PHARMALAT,8/6/2023,Ampoyas
+1,Amlodipina,30mg,414.18,1941,PHARLAND,1/30/2021,Ampoyetas
+1,Amlodipina Besilato ,50mg,96.66,1014,PIERSAN CENTROAMERICANA,4/11/2025,Polvo
+1,Amlodipina Besilato  Bisoprolol,100mg,98.82,1790,QUALIPHARM,5/28/2022,Tabletas
+1,Amoxicilina,200mg,412.02,1077,QUIFARMA  S.A.,1/9/2023,Capsulas
+1,Amoxicilina,300mg,99.36,1497,RICHAM INTERNACIONAL  S.A,5/20/2023,Inhalador
+1,Amoxicilina + acido clavulanico,400mg,81,1846,RUIPHARMA,6/19/2022,Ampoyas
+1,Amoxicilina + acido clavulanico,500mb,367.74,144,SAN CRISTOBAL,1/9/2021,Ampoyetas
+1,Amoxicilina + acido Clavulanico,600mg,56.16,176,SANTA FE,10/16/2023,Polvo
+1,Amoxicilina  Sulbactam Pivoxil,700mg,301.86,621,SANTE  S.A.,6/29/2022,Tabletas
+1,Ampicilina + Sulbactam,800mg,508.14,1201,THERFAM,7/27/2023,Capsulas
+1,Anastrozol,900mg,95.04,522,TRINOMED,12/1/2025,Inhalador
+1,Anidulafungina,1000mg,53.46,631,UNIDOS  S.A.,12/10/2025,Ampoyas
+1,antidiuretica),1mg,535.68,1928,UNIPHARM  S.A.  MA,4/3/2025,Ampoyetas
+1,antidiuretica),5mg,401.22,1189,UNIPHARM  S.A.,4/29/2025,Polvo
+1,Antiofidico polivalente (de especies,10mg,52.38,933,VIZCAINO  S.A.,9/2/2025,Tabletas
+1,antitetanica,15mg,475.74,1277,WELLCO  S.A.,10/15/2023,Capsulas
+1,antitetanica),20mg,210.6,320,ALFA FARMACEUTICA,1/1/2021,Inhalador
+1,Antitoxina tetanica,25mg,266.22,1545,ALTIAN PHARMA,9/20/2021,Ampoyas
+1,año de edad,30mg,461.16,787,AMERICAN VITALAB,9/21/2023,Ampoyetas
+1,Aprepitant,50mg,146.34,1817,BAYER,9/15/2024,Polvo
+1,arginina y glutamina) (para,100mg,373.14,1215,BONIN,1/7/2023,Tabletas
+1,Atenolol,200mg,256.5,940,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),12/14/2024,Capsulas
+1,Atorvastatina,300mg,469.26,322,DONOVAN WERKE,6/10/2021,Inhalador
+1,Atorvastatina calcica  Ezetimiba,400mg,617.76,408,Eurofarma Guatemala,10/13/2023,Ampoyas
+1,Atosiban,500mb,102.6,1773,FARGEL,6/28/2022,Ampoyetas
+1,Atosiban,600mg,288.9,74,FARKOT  S.A.,8/4/2022,Polvo
+1,Atracurio besilato,700mg,594,1197,FARMACAPS   S.A. ,4/1/2024,Tabletas
+1,Atropina sulfato,800mg,635.58,1567,FARMAMEDICA,7/23/2025,Capsulas
+1,Atropina sulfato,900mg,334.8,1713,GLOBAL FARMA  S.A.,4/21/2024,Inhalador
+1,Aurotiomalato sodico,1000mg,73.98,1918,INDUSTRIA FARMACEUTICA  S.A. INFASA,7/19/2025,Ampoyas
+1,Azatioprina,1mg,383.94,1047,INTECFA,8/2/2021,Ampoyetas
+1,Azitromicina,5mg,45.9,421,INNOVA,8/12/2023,Polvo
+1,Aztreonam,10mg,466.56,1676,LABALFER,8/1/2024,Tabletas
+1,Azufre y petrolato blanco,15mg,29.7,1408,LAFCO ,8/6/2022,Capsulas
+1,Bacillus clausii,20mg,338.58,1094,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",1/15/2023,Inhalador
+1,Basiliximab,25mg,95.04,160,LANCASCO  S.A.,12/31/2021,Ampoyas
+1,BCG Inmunoterapeutico,30mg,616.14,86,LAMFER,11/4/2022,Ampoyetas
+1,Bendamustina,50mg,176.04,482,LABORATORIO PHARA,7/28/2023,Polvo
+1,Benzbromarona,100mg,278.1,54,LAPROMED,12/10/2025,Tabletas
+1,Benzofenona y sus derivados,200mg,212.22,60,MEDIPRODUCTS  S.A.,7/16/2021,Capsulas
+1,Benzoilo peroxido,300mg,56.16,722,PHARMACROSS,9/18/2025,Inhalador
+1,Besilato de Amlodipino  Valsartan,400mg,40.5,1989,PHARMADEL ,10/1/2025,Ampoyas
+1,Betahistina,500mb,225.72,572,PHARMALAT,1/11/2023,Ampoyetas
+1,Betametasona,600mg,465.48,202,PHARLAND,7/20/2025,Polvo
+1,Betametasona  fosfato +,700mg,611.82,253,PIERSAN CENTROAMERICANA,2/15/2021,Tabletas
+1,Betametasona + acido salicilico,800mg,561.06,692,QUALIPHARM,2/1/2023,Capsulas
+1,Betametasona acetato,900mg,257.04,44,QUIFARMA  S.A.,3/21/2021,Inhalador
+1,Betametasona valerato,1000mg,599.4,1668,RICHAM INTERNACIONAL  S.A,8/20/2025,Ampoyas
+1,Bevacizumab,1mg,11.34,748,RUIPHARMA,8/13/2021,Ampoyetas
+1,Bicalutamida,5mg,149.04,641,SAN CRISTOBAL,10/27/2025,Polvo
+1,Bicarbonato de sodio,10mg,255.96,767,SANTA FE,1/31/2024,Tabletas
+1,Bifonazol,15mg,196.02,592,SANTE  S.A.,12/11/2021,Capsulas
+1,biloba  Ginseng Coreano rojo ,20mg,133.38,806,THERFAM,12/23/2022,Inhalador
+1,Biperideno clorhidrato,25mg,440.1,1519,TRINOMED,10/19/2025,Ampoyas
+1,Biperideno lactato,30mg,456.84,683,UNIDOS  S.A.,6/3/2022,Ampoyetas
+1,Bisacodilo,50mg,485.46,559,UNIPHARM  S.A.  MA,5/13/2023,Polvo
+1,Bleomicina  sulfato o clorhidrato,100mg,394.74,1845,UNIPHARM  S.A.,12/22/2025,Tabletas
+1,Boceprevir,200mg,395.28,1536,VIZCAINO  S.A.,7/23/2023,Capsulas
+1,Bortezomib,300mg,480.06,1502,WELLCO  S.A.,7/11/2025,Inhalador
+1,Bosentan,400mg,146.88,1919,ALFA FARMACEUTICA,6/2/2023,Ampoyas
+1,Bromocriptina mesilato,500mb,280.26,1729,ALTIAN PHARMA,5/15/2024,Ampoyetas
+1,Bromoprida,600mg,491.94,583,AMERICAN VITALAB,5/23/2021,Polvo
+1,Bromuro de Ipratropio  Bromhidrato,700mg,378,736,BAYER,4/9/2025,Tabletas
+1,Bromuro de Otilonio,800mg,462.24,907,BONIN,4/1/2023,Capsulas
+1,Budesonida,900mg,151.2,1939,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),3/23/2021,Inhalador
+1,Budesonida,1000mg,464.4,955,DONOVAN WERKE,7/25/2021,Ampoyas
+1,Budesonida,1mg,217.62,1379,Eurofarma Guatemala,7/14/2021,Ampoyetas
+1,Budesonida,5mg,173.34,1422,FARGEL,12/29/2023,Polvo
+1,Bupivacaina clorhidrato con,10mg,487.62,365,FARKOT  S.A.,12/27/2025,Tabletas
+1,Bupivacaina clorhidrato sin,15mg,647.46,211,FARMACAPS   S.A. ,3/8/2023,Capsulas
+1,Cabergolina,20mg,444.96,1145,FARMAMEDICA,8/27/2023,Inhalador
+1,Calcio carbonato o citrato,25mg,425.52,1730,GLOBAL FARMA  S.A.,2/14/2024,Ampoyas
+1,Calcipotriol / Dipropionato de,30mg,562.68,1759,INDUSTRIA FARMACEUTICA  S.A. INFASA,2/18/2024,Ampoyetas
+1,Canagliflozina Hemihidrato,50mg,32.4,1154,INTECFA,1/23/2023,Polvo
+1,Candesartan,100mg,353.16,858,INNOVA,4/3/2024,Tabletas
+1,Candesartan,200mg,76.68,675,LABALFER,2/24/2025,Capsulas
+1,Capecitabina,300mg,632.88,256,LAFCO ,8/23/2021,Inhalador
+1,Carbamazepina,400mg,460.62,1943,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",9/16/2024,Ampoyas
+1,Carbamazepina,500mb,320.22,1161,LANCASCO  S.A.,4/7/2023,Ampoyetas
+1,Carbetocina,600mg,614.52,131,LAMFER,1/19/2024,Polvo
+1,Carbonato de calcio  colecalciferol ,700mg,369.36,1902,LABORATORIO PHARA,10/16/2023,Tabletas
+1,Carbonato de Sevelamer,800mg,523.26,810,LAPROMED,9/9/2022,Capsulas
+1,Carboximetilcelulosa,900mg,367.74,1661,MEDIPRODUCTS  S.A.,4/8/2024,Inhalador
+1,Caroteno  Cobre  Coenzima Q-10 ,1000mg,301.32,983,PHARMACROSS,8/30/2025,Ampoyas
+1,Carvedilol,1mg,202.5,1198,PHARMADEL ,1/22/2023,Ampoyetas
+1,Caspofungina,5mg,448.2,1513,PHARMALAT,3/31/2021,Polvo
+1,Caspofungina,10mg,86.94,427,PHARLAND,4/12/2023,Tabletas
+1,Cefadroxilo,15mg,125.28,1570,PIERSAN CENTROAMERICANA,8/22/2024,Capsulas
+1,Cefadroxilo,20mg,110.16,1580,QUALIPHARM,5/4/2025,Inhalador
+1,Cefalotina,25mg,69.66,547,QUIFARMA  S.A.,11/1/2024,Ampoyas
+1,Cefepima,30mg,407.7,996,RICHAM INTERNACIONAL  S.A,7/14/2022,Ampoyetas
+1,Cefixima,50mg,407.7,1791,RUIPHARMA,3/18/2025,Polvo
+1,Cefixima,100mg,164.7,1700,SAN CRISTOBAL,8/15/2022,Tabletas
+1,Cefotaxima,200mg,554.04,394,SANTA FE,12/10/2024,Capsulas
+1,Ceftazidima,300mg,631.8,467,SANTE  S.A.,6/11/2025,Inhalador
+1,Ceftriaxona,400mg,491.94,410,THERFAM,11/5/2021,Ampoyas
+1,Ceftriaxona sodica  Sulbactam,500mb,288.9,745,TRINOMED,4/16/2021,Ampoyetas
+1,centroamericanas y/o,600mg,461.16,717,UNIDOS  S.A.,6/5/2025,Polvo
+1,Cetuximab,700mg,586.98,1150,UNIPHARM  S.A.  MA,3/26/2022,Tabletas
+1,Cianocobalamina  Clorhidrato De,800mg,182.52,956,UNIPHARM  S.A.,3/14/2021,Capsulas
+1,Cianocobalamina  Clorhidrato de,900mg,110.16,205,VIZCAINO  S.A.,6/24/2024,Inhalador
+1,Ciclofosfamida,1000mg,555.66,847,WELLCO  S.A.,6/15/2022,Ampoyas
+1,Ciclofosfamida,1mg,331.56,1631,ALFA FARMACEUTICA,9/4/2022,Ampoyetas
+1,"Ciclosporina ""A""",5mg,590.76,1117,ALTIAN PHARMA,11/4/2025,Polvo
+1,Ciclosporina microemulsion,10mg,232.2,275,AMERICAN VITALAB,10/12/2021,Tabletas
+1,Ciclosporina microemulsion,15mg,161.46,746,BAYER,9/7/2024,Capsulas
+1,Ciclosporina microemulsion,20mg,335.88,673,BONIN,4/18/2021,Inhalador
+1,Cilazapril,25mg,513,1315,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),1/12/2023,Ampoyas
+1,Cilostazol,30mg,174.96,1131,DONOVAN WERKE,9/15/2024,Ampoyetas
+1,Cinacalcet clorhidrato,50mg,304.02,886,Eurofarma Guatemala,9/3/2025,Polvo
+1,Ciprofibrato,100mg,525.96,1288,FARGEL,9/23/2025,Tabletas
+1,Ciprofloxacina,200mg,231.12,1848,FARKOT  S.A.,12/27/2023,Capsulas
+1,Ciprofloxacina,300mg,475.2,575,FARMACAPS   S.A. ,8/14/2022,Inhalador
+1,Ciprofloxacina / Dexametasona,400mg,227.34,493,FARMAMEDICA,5/5/2023,Ampoyas
+1,Ciprofloxacina mas fluocinolona,500mb,17.28,1804,GLOBAL FARMA  S.A.,4/13/2021,Ampoyetas
+1,Cisplatino,600mg,606.42,1212,INDUSTRIA FARMACEUTICA  S.A. INFASA,7/28/2025,Polvo
+1,Citarabina (citosina arabinosido),700mg,366.66,437,INTECFA,1/19/2023,Tabletas
+1,Citrato de Orfenadrina  Paracetamol,800mg,201.42,1584,INNOVA,8/29/2025,Capsulas
+1,Citrato Potasico,900mg,538.92,1780,LABALFER,9/13/2024,Inhalador
+1,Claritromicina,1000mg,158.22,1618,LAFCO ,12/11/2025,Ampoyas
+1,Claritromicina,1mg,143.1,974,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",6/7/2024,Ampoyetas
+1,Clindamicina clorhidrato,5mg,374.76,1150,LANCASCO  S.A.,11/21/2024,Polvo
+1,Clindamicina fosfato,10mg,42.12,0,LAMFER,6/11/2023,Tabletas
+1,Clobazam,15mg,569.16,1640,LABORATORIO PHARA,6/11/2025,Capsulas
+1,Clobetasol propionato,20mg,345.6,781,LAPROMED,1/23/2023,Inhalador
+1,Clomifeno citrato,25mg,411.48,1482,MEDIPRODUCTS  S.A.,12/11/2021,Ampoyas
+1,Clomipramina,30mg,557.28,34,PHARMACROSS,8/4/2023,Ampoyetas
+1,Clonazepam,50mg,498.96,707,PHARMADEL ,2/15/2025,Polvo
+1,Clonazepam,100mg,542.16,745,PHARMALAT,4/4/2023,Tabletas
+1,Clopidogrel,200mg,477.36,1207,PHARLAND,9/27/2023,Capsulas
+1,Clorambucil,300mg,43.2,547,PIERSAN CENTROAMERICANA,6/24/2022,Inhalador
+1,Cloranfenicol,400mg,86.4,542,QUALIPHARM,5/21/2021,Ampoyas
+1,Cloranfenicol,500mb,384.48,1357,QUIFARMA  S.A.,12/28/2023,Ampoyetas
+1,Cloranfenicol/ Dexametasona/,600mg,45.36,736,RICHAM INTERNACIONAL  S.A,6/12/2025,Polvo
+1,Clorfeniramina maleato,700mg,615.6,56,RUIPHARMA,9/1/2021,Tabletas
+1,Clorfeniramina maleato,800mg,381.24,1293,SAN CRISTOBAL,11/9/2022,Capsulas
+1,Clorfeniramina maleato,900mg,231.66,469,SANTA FE,6/7/2023,Inhalador
+1,Clorhidrato de Epinastina,1000mg,307.8,718,SANTE  S.A.,10/29/2022,Ampoyas
+1,Clorhidrato de Fingolimod,1mg,106.38,734,THERFAM,11/18/2024,Ampoyetas
+1,Clorhidrato de Piridoxina ,5mg,428.76,1044,TRINOMED,6/16/2024,Polvo
+1,Clorhidrato de Piridoxina  Succinato,10mg,534.6,1841,UNIDOS  S.A.,12/15/2021,Tabletas
+1,Clorhidrato de Prasugrel,15mg,51.3,1130,UNIPHARM  S.A.  MA,2/3/2021,Capsulas
+1,Cloroquina fosfato,20mg,578.34,464,UNIPHARM  S.A.,5/15/2021,Inhalador
+1,Cloruro de sodio,25mg,162,921,VIZCAINO  S.A.,8/12/2022,Ampoyas
+1,Cloruro de sodio,30mg,256.5,1010,WELLCO  S.A.,2/14/2023,Ampoyetas
+1,Cloruro de sodio,50mg,546.48,969,ALFA FARMACEUTICA,6/8/2025,Polvo
+1,Cloruro de sodio,100mg,155.52,1864,ALTIAN PHARMA,6/24/2022,Tabletas
+1,Cloruro de sodio,200mg,379.08,1889,AMERICAN VITALAB,4/27/2023,Capsulas
+1,Cloruro de Sodio,300mg,397.44,446,BAYER,5/21/2022,Inhalador
+1,Cloruro potasico,400mg,522.72,258,BONIN,4/16/2023,Ampoyas
+1,Clostridio peptidasa A +,500mb,171.72,777,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),1/17/2021,Ampoyetas
+1,Clozapina,600mg,105.84,1090,DONOVAN WERKE,10/17/2025,Polvo
+1,Clozapina,700mg,246.24,624,Eurofarma Guatemala,6/19/2024,Tabletas
+1,Colageno Hidrolizado,800mg,162.54,1015,FARGEL,5/30/2024,Capsulas
+1,Colageno Sulfato de Condroitina ,900mg,473.04,1830,FARKOT  S.A.,2/26/2021,Inhalador
+1,Colchicina,1000mg,201.42,1098,FARMACAPS   S.A. ,10/23/2024,Ampoyas
+1,Colestiramina,1mg,229.5,1133,FARMAMEDICA,5/8/2023,Ampoyetas
+1,Colistimetato (Polimixina E),5mg,341.28,37,GLOBAL FARMA  S.A.,7/7/2025,Polvo
+1,Compuesto proteinico de origen,10mg,575.64,1462,INDUSTRIA FARMACEUTICA  S.A. INFASA,7/9/2024,Tabletas
+1,con glutamina y arginina para,15mg,160.38,982,INTECFA,2/16/2024,Capsulas
+1,con probioticos,20mg,100.98,214,INNOVA,10/5/2025,Inhalador
+1,Concentrado Factor IX humano,25mg,275.4,234,LABALFER,11/23/2022,Ampoyas
+1,conjugada 13 Valente,30mg,375.84,1910,LAFCO ,10/20/2024,Ampoyetas
+1,contenido de sodio,50mg,420.12,1385,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",7/20/2023,Polvo
+1,Dabigatran etexilato mesilato,100mg,428.22,632,LANCASCO  S.A.,5/2/2022,Tabletas
+1,Dacarbazina,200mg,199.26,1342,LAMFER,6/28/2024,Capsulas
+1,Dactinomicina (actinomicina D),300mg,279.72,230,LABORATORIO PHARA,7/4/2023,Inhalador
+1,Danazol,400mg,530.82,1442,LAPROMED,10/24/2024,Ampoyas
+1,Darunavir Etanolato,500mb,610.2,105,MEDIPRODUCTS  S.A.,1/10/2025,Ampoyetas
+1,Dasatinib,600mg,101.52,744,PHARMACROSS,8/16/2021,Polvo
+1,de caseinato de calcio. Bajo,700mg,617.22,1540,PHARMADEL ,5/4/2025,Tabletas
+1,de Doxilamina,800mg,57.78,892,PHARMALAT,5/21/2024,Capsulas
+1,de Fenoterol,900mg,225.72,14,PHARLAND,3/7/2022,Inhalador
+1,de L-glutamina sin probioticos,1000mg,77.22,987,PIERSAN CENTROAMERICANA,8/5/2021,Ampoyas
+1,de Metformina,1mg,625.86,608,QUALIPHARM,9/2/2021,Ampoyetas
+1,de piridoxina  lecitina de soja ,5mg,270,409,QUIFARMA  S.A.,2/3/2025,Polvo
+1,Deferasirox,10mg,110.16,1000,RICHAM INTERNACIONAL  S.A,1/24/2021,Tabletas
+1,Degarelix,15mg,93.42,731,RUIPHARMA,6/15/2022,Capsulas
+1,del 50% de lactosa,20mg,480.06,387,SAN CRISTOBAL,11/21/2021,Inhalador
+1,Desflurano,25mg,468.72,696,SANTA FE,7/17/2021,Ampoyas
+1,Desloratadina,30mg,18.36,818,SANTE  S.A.,3/10/2021,Ampoyetas
+1,Desloratadina,50mg,510.84,1356,THERFAM,1/15/2021,Polvo
+1,Desmopresina (Hormona,100mg,9.18,1218,TRINOMED,12/30/2025,Tabletas
+1,Desmopresina (Hormona,200mg,16.74,41,UNIDOS  S.A.,2/12/2021,Capsulas
+1,Desvenlafaxina,300mg,469.8,1866,UNIPHARM  S.A.  MA,8/5/2023,Inhalador
+1,Dexametasona,400mg,538.38,175,UNIPHARM  S.A.,6/21/2022,Ampoyas
+1,Dexametasona fosfato o difosfato con,500mb,216.54,179,VIZCAINO  S.A.,4/23/2021,Ampoyetas
+1,Dexametasona fosfato sodico,600mg,181.44,1443,WELLCO  S.A.,5/31/2021,Polvo
+1,Dexketoprofeno Trometamol,700mg,375.3,882,ALFA FARMACEUTICA,8/31/2022,Tabletas
+1,Dexrazoxane,800mg,497.34,616,ALTIAN PHARMA,3/31/2024,Capsulas
+1,Dextrosa hipertonica,900mg,165.24,1073,AMERICAN VITALAB,3/24/2024,Inhalador
+1,Dextrosa hipertonica,1000mg,443.88,1423,BAYER,11/17/2021,Ampoyas
+1,Dextrosa isotonica,1mg,347.22,1336,BONIN,1/18/2021,Ampoyetas
+1,Dextrosa isotonica,5mg,376.38,740,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),12/8/2022,Polvo
+1,Dextrosa isotonica,10mg,581.04,1873,DONOVAN WERKE,10/15/2024,Tabletas
+1,Dextrosa y cloruro de sodio,15mg,69.12,1699,Eurofarma Guatemala,1/24/2022,Capsulas
+1,Dextrosa y cloruro de sodio,20mg,449.28,491,FARGEL,8/23/2023,Inhalador
+1,Diazepam,25mg,506.52,272,FARKOT  S.A.,11/25/2025,Ampoyas
+1,Diazepam,30mg,418.5,847,FARMACAPS   S.A. ,5/24/2022,Ampoyetas
+1,Diclofenaco resinato,50mg,426.06,868,FARMAMEDICA,4/30/2021,Polvo
+1,Diclofenaco sodico,100mg,177.66,1780,GLOBAL FARMA  S.A.,1/6/2021,Tabletas
+1,Diclofenaco sodico,200mg,361.26,1783,INDUSTRIA FARMACEUTICA  S.A. INFASA,6/20/2022,Capsulas
+1,Diclofenaco sodico,300mg,165.24,1288,INTECFA,7/3/2023,Inhalador
+1,Dicloxacilina,400mg,574.02,618,INNOVA,7/3/2023,Ampoyas
+1,Dicloxacilina sodica,500mb,308.34,650,LABALFER,6/7/2023,Ampoyetas
+1,Dicloxacilina sodica,600mg,250.56,503,LAFCO ,3/30/2022,Polvo
+1,Didanosina,700mg,576.72,1174,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",2/28/2023,Tabletas
+1,Difenidol,800mg,478.98,872,LANCASCO  S.A.,3/6/2023,Capsulas
+1,Digluconato de Clorhexidina +,900mg,86.94,1041,LAMFER,1/5/2022,Inhalador
+1,Digoxina,1000mg,482.22,582,LABORATORIO PHARA,10/14/2025,Ampoyas
+1,Digoxina,1mg,534.6,699,LAPROMED,10/14/2025,Ampoyetas
+1,Digoxina,5mg,453.6,782,MEDIPRODUCTS  S.A.,10/16/2022,Polvo
+1,Dimenhidrinato,10mg,493.56,1742,PHARMACROSS,10/21/2023,Tabletas
+1,Dimenhidrinato,15mg,55.62,1911,PHARMADEL ,7/17/2025,Capsulas
+1,Dinoprostona,20mg,476.82,1212,PHARMALAT,4/25/2024,Inhalador
+1,Diosmina - Hesperidina,25mg,643.68,482,PHARLAND,8/13/2024,Ampoyas
+1,Dipropionato de Beclometasona,30mg,54,1615,PIERSAN CENTROAMERICANA,4/2/2021,Ampoyetas
+1,Dipropionato de Beclometasona,50mg,451.98,673,QUALIPHARM,11/12/2021,Polvo
+1,Dobutamina,100mg,255.96,141,QUIFARMA  S.A.,1/9/2022,Tabletas
+1,Docetaxel trihidrato,200mg,517.86,92,RICHAM INTERNACIONAL  S.A,1/3/2024,Capsulas
+1,Donepecilo Clorhidrato,300mg,15.12,1263,RUIPHARMA,8/8/2021,Inhalador
+1,Dopamina clorhidrato,400mg,561.06,544,SAN CRISTOBAL,3/30/2021,Ampoyas
+1,Doripenem,500mb,450.9,608,SANTA FE,2/10/2023,Ampoyetas
+1,Dornasa alfa,600mg,186.3,1082,SANTE  S.A.,9/12/2025,Polvo
+1,Dorzolamida clorhidrato,700mg,320.22,454,THERFAM,7/17/2022,Tabletas
+1,Doxiciclina,800mg,131.22,1759,TRINOMED,2/16/2025,Capsulas
+1,Doxorrubicina,900mg,397.98,1381,UNIDOS  S.A.,3/24/2023,Inhalador
+1,Doxorrubicina liposomal,1000mg,251.64,628,UNIPHARM  S.A.  MA,1/22/2023,Ampoyas
+1,DTaP Triple acelular,1mg,369.9,1336,UNIPHARM  S.A.,10/27/2024,Ampoyetas
+1,DTaP-Polio inactivada (Tetravalente,5mg,89.1,387,VIZCAINO  S.A.,12/28/2023,Polvo
+1,Dutasterida Tamsulosina,10mg,632.88,790,WELLCO  S.A.,3/20/2022,Tabletas
+1,Dutasteride,15mg,109.62,1326,ALFA FARMACEUTICA,6/5/2022,Capsulas
+1,Ebastina,20mg,284.58,832,ALTIAN PHARMA,8/13/2025,Inhalador
+1,Efavirenz,25mg,255.96,296,AMERICAN VITALAB,4/17/2024,Ampoyas
+1,Efavirenz,30mg,187.38,1856,BAYER,9/1/2022,Ampoyetas
+1,Efedrina,50mg,342.36,529,BONIN,3/18/2021,Polvo
+1,Elementos traza pediatrico,100mg,622.62,1086,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),6/1/2024,Tabletas
+1,Enfuvirtide,200mg,496.8,30,DONOVAN WERKE,3/27/2023,Capsulas
+1,Enoxaparina,300mg,71.28,1544,Eurofarma Guatemala,1/1/2021,Inhalador
+1,Entacapona,400mg,426.06,1504,FARGEL,2/21/2022,Ampoyas
+1,Enzalutamida,500mb,285.66,1626,FARKOT  S.A.,1/30/2024,Ampoyetas
+1,Epinefrina,600mg,599.4,1573,FARMACAPS   S.A. ,8/22/2025,Polvo
+1,epinefrina bitartrato,700mg,549.18,1256,FARMAMEDICA,3/17/2025,Tabletas
+1,epinefrina  sin preservante,800mg,387.72,1923,GLOBAL FARMA  S.A.,8/22/2025,Capsulas
+1,Epoetina Beta,900mg,392.04,267,INDUSTRIA FARMACEUTICA  S.A. INFASA,7/1/2025,Inhalador
+1,Epoetina Beta Metoxi-,1000mg,167.94,1409,INTECFA,11/4/2023,Ampoyas
+1,Ergotamina en asociacion,1mg,536.22,973,INNOVA,4/13/2024,Ampoyetas
+1,Eritromicina,5mg,264.6,1574,LABALFER,3/19/2024,Polvo
+1,Eritromicina,10mg,494.64,1027,LAFCO ,5/14/2021,Tabletas
+1,Eritropoyetina humana,15mg,182.52,335,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",4/23/2024,Capsulas
+1,Erlotinib,20mg,584.28,1492,LANCASCO  S.A.,5/27/2022,Inhalador
+1,Ertapenem,25mg,562.14,1981,LAMFER,3/9/2021,Ampoyas
+1,Escitalopram oxalato,30mg,302.4,1206,LABORATORIO PHARA,5/20/2023,Ampoyetas
+1,Esomeprazol,50mg,109.62,1133,LAPROMED,9/26/2022,Polvo
+1,Esomeprazol,100mg,515.16,60,MEDIPRODUCTS  S.A.,12/16/2025,Tabletas
+1,Esomeprazol,200mg,80.46,1701,PHARMACROSS,10/20/2025,Capsulas
+1,Esomeprazol magnesico,300mg,432.54,156,PHARMADEL ,5/9/2023,Inhalador
+1,Espiramicina,400mg,563.76,1028,PHARMALAT,11/7/2023,Ampoyas
+1,Espironolactona,500mb,141.48,243,PHARLAND,12/16/2022,Ampoyetas
+1,Estavudina,600mg,193.86,46,PIERSAN CENTROAMERICANA,3/8/2024,Polvo
+1,Estavudina,700mg,604.8,768,QUALIPHARM,9/15/2025,Tabletas
+1,Estradiol,800mg,472.5,972,QUIFARMA  S.A.,9/10/2023,Capsulas
+1,Estradiol + Noretisterona acetato,900mg,305.1,1074,RICHAM INTERNACIONAL  S.A,5/5/2024,Inhalador
+1,Estradiol + Noretisterona acetato,1000mg,332.1,855,RUIPHARMA,3/24/2021,Ampoyas
+1,Estradiol Valerato y Norgestrel,1mg,469.8,598,SAN CRISTOBAL,6/24/2025,Ampoyetas
+1,Estreptomicina sulfato,5mg,522.18,1471,SANTA FE,10/31/2024,Polvo
+1,Estreptoquinasa,10mg,123.12,324,SANTE  S.A.,6/28/2021,Tabletas
+1,Estrogenos conjugados,15mg,198.72,1499,THERFAM,12/26/2022,Capsulas
+1,Etambutol clorhidrato,20mg,568.62,1755,TRINOMED,7/31/2025,Inhalador
+1,Etanercept,25mg,179.82,6,UNIDOS  S.A.,7/7/2021,Ampoyas
+1,Etinilestradiol + Norgestrel,30mg,629.64,1019,UNIPHARM  S.A.  MA,2/8/2021,Ampoyetas
+1,Etoposido,50mg,566.46,369,UNIPHARM  S.A.,5/17/2022,Polvo
+1,Etoricoxib,100mg,182.52,1315,VIZCAINO  S.A.,7/14/2025,Tabletas
+1,Everolimus,200mg,194.94,860,WELLCO  S.A.,2/22/2024,Capsulas
+1,Everolimus,300mg,210.06,487,ALFA FARMACEUTICA,3/4/2023,Inhalador
+1,Exemestano polisorbato 80,400mg,625.86,322,ALTIAN PHARMA,10/6/2023,Ampoyas
+1,Exenatida,500mb,597.24,1433,AMERICAN VITALAB,5/28/2024,Ampoyetas
+1,extensamente hidrolizada  para,600mg,139.32,502,BAYER,11/27/2025,Polvo
+1,Factor  de crecimiento epidermico,700mg,633.42,96,BONIN,6/8/2023,Tabletas
+1,Factor Antihemofilico,800mg,144.72,1001,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),11/14/2023,Capsulas
+1,Factor antihemofilico (Factor VIII),900mg,247.86,1254,DONOVAN WERKE,10/27/2021,Inhalador
+1,Factor II  Factor IX  Factor VII ,1000mg,236.52,222,Eurofarma Guatemala,5/27/2023,Ampoyas
+1,Factor VII recombinante,1mg,77.22,1771,FARGEL,5/26/2024,Ampoyetas
+1,Factor X.,5mg,615.06,63,FARKOT  S.A.,7/17/2021,Polvo
+1,Famciclovir,10mg,452.52,142,FARMACAPS   S.A. ,1/10/2024,Tabletas
+1,Felodipina,15mg,129.06,1895,FARMAMEDICA,9/28/2021,Capsulas
+1,fenilefrina,20mg,362.34,803,GLOBAL FARMA  S.A.,1/10/2025,Inhalador
+1,Fenilefrina clorhidrato,25mg,462.24,556,INDUSTRIA FARMACEUTICA  S.A. INFASA,5/11/2025,Ampoyas
+1,Fenitoina sodica,30mg,305.64,663,INTECFA,11/6/2022,Ampoyetas
+1,Fenitoina sodica,50mg,248.94,450,INNOVA,2/28/2025,Polvo
+1,Fenitoina sodica,100mg,641.52,541,LABALFER,11/13/2022,Tabletas
+1,Fenobarbital,200mg,462.24,1130,LAFCO ,1/22/2022,Capsulas
+1,Fenobarbital sodico,300mg,446.58,440,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",4/4/2021,Inhalador
+1,Fenofibrato,400mg,310.5,493,LANCASCO  S.A.,10/24/2021,Ampoyas
+1,Fentanil citrato,500mb,431.46,1805,LAMFER,2/6/2024,Ampoyetas
+1,Filgrastim,600mg,233.28,655,LABORATORIO PHARA,9/20/2025,Polvo
+1,Floruro sodico,700mg,137.7,360,LAPROMED,5/30/2022,Tabletas
+1,Fluconazol,800mg,378.54,1084,MEDIPRODUCTS  S.A.,10/30/2023,Capsulas
+1,Fluconazol,900mg,29.16,316,PHARMACROSS,12/15/2024,Inhalador
+1,Flufenazina,1000mg,603.72,700,PHARMADEL ,6/10/2021,Ampoyas
+1,Flumazenil,1mg,244.08,122,PHARMALAT,11/6/2021,Ampoyetas
+1,Fluorometolona,5mg,557.28,1811,PHARLAND,9/25/2022,Polvo
+1,Fluorouracilo,10mg,375.84,482,PIERSAN CENTROAMERICANA,3/24/2021,Tabletas
+1,Formoterol fumarato,15mg,300.78,438,QUALIPHARM,3/15/2024,Capsulas
+1,formula  sucedanea de la leche,20mg,170.1,621,QUIFARMA  S.A.,10/23/2025,Inhalador
+1,Formula a base de aminacidos,25mg,127.98,679,RICHAM INTERNACIONAL  S.A,4/28/2023,Ampoyas
+1,Formula con hierro con proteina,30mg,624.78,1846,RUIPHARMA,4/8/2023,Ampoyetas
+1,Formula de seguimiento (6-12,50mg,541.62,1442,SAN CRISTOBAL,10/20/2023,Polvo
+1,Formula elemental o monomerica,100mg,81.54,1029,SANTA FE,10/19/2025,Tabletas
+1,Formula Especializada Alta en Fibra,200mg,412.56,184,SANTE  S.A.,6/12/2023,Capsulas
+1,Formula Especializada para,300mg,524.88,1685,THERFAM,12/12/2023,Inhalador
+1,Formula Especializada para,400mg,619.38,1786,TRINOMED,6/5/2025,Ampoyas
+1,Formula infantil antirreflujo de 0 a 1,500mb,114.48,1431,UNIDOS  S.A.,10/20/2025,Ampoyetas
+1,Formula infantil liquida de 24,600mg,181.44,408,UNIPHARM  S.A.  MA,12/16/2025,Polvo
+1,Formula infantil liquida de 30,700mg,113.4,1642,UNIPHARM  S.A.,8/5/2024,Tabletas
+1,Formula infantil liquida de inicio de,800mg,281.34,1419,VIZCAINO  S.A.,4/1/2021,Capsulas
+1,Formula modular a base de,900mg,645.3,674,WELLCO  S.A.,6/25/2023,Inhalador
+1,Formula modular de L-glutamina,1000mg,509.22,1982,ALFA FARMACEUTICA,10/4/2024,Ampoyas
+1,Formula modular de proteina a base,1mg,392.58,14,ALTIAN PHARMA,10/11/2024,Ampoyetas
+1,Formula modular de proteina a base,5mg,284.04,465,AMERICAN VITALAB,11/22/2024,Polvo
+1,Formula monomerica con,10mg,119.34,405,BAYER,7/15/2023,Tabletas
+1,Formula para lactante con lactosa,15mg,133.38,1360,BONIN,1/13/2022,Capsulas
+1,Formula para paciente hepatico,20mg,18.36,214,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),4/27/2024,Inhalador
+1,Formula para paciente renal en,25mg,329.94,186,DONOVAN WERKE,9/2/2024,Ampoyas
+1,Formula para prematuros o de bajo,30mg,283.5,736,Eurofarma Guatemala,12/19/2023,Ampoyetas
+1,Formula parcialmente hidrolizada ,50mg,138.78,669,FARGEL,8/29/2023,Polvo
+1,Formula polimerica sin lactosa con,100mg,237.06,620,FARKOT  S.A.,2/6/2022,Tabletas
+1,Formula polimerica sin lactosa para,200mg,428.76,942,FARMACAPS   S.A. ,9/4/2025,Capsulas
+1,Formula sin lactosa (0-12) meses,300mg,180.9,1986,FARMAMEDICA,4/12/2021,Inhalador
+1,Fosfato de Sitagliptina  Clorhidrato,400mg,416.88,1115,GLOBAL FARMA  S.A.,10/25/2021,Ampoyas
+1,Fosfato de sodio de 12 mmol,500mb,586.44,994,INDUSTRIA FARMACEUTICA  S.A. INFASA,9/10/2024,Ampoyetas
+1,Fosfato disodico,600mg,195.48,1925,INTECFA,8/24/2023,Polvo
+1,Fosfato disodico  acido fosforico,700mg,100.44,125,INNOVA,5/30/2022,Tabletas
+1,fosfato y 20 mmol Na,800mg,497.88,362,LABALFER,5/26/2022,Capsulas
+1,Fosfomicina,900mg,243.54,926,LAFCO ,1/19/2021,Inhalador
+1,Fosfomicina Trometamol,1000mg,42.12,1991,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",8/5/2021,Ampoyas
+1,Fumarato,1mg,410.4,1314,LANCASCO  S.A.,7/29/2022,Ampoyetas
+1,Furosemida,5mg,470.88,606,LAMFER,6/24/2023,Polvo
+1,Furosemida,10mg,486,1348,LABORATORIO PHARA,9/15/2023,Tabletas
+1,G sodica,15mg,86.4,560,LAPROMED,2/20/2024,Capsulas
+1,Ganciclovir,20mg,410.4,1055,MEDIPRODUCTS  S.A.,12/30/2023,Inhalador
+1,Ganciclovir,25mg,583.2,1023,PHARMACROSS,8/25/2023,Ampoyas
+1,gastro intestinal alterada,30mg,264.6,797,PHARMADEL ,4/4/2024,Ampoyetas
+1,Gemcitabina,50mg,44.82,1139,PHARMALAT,2/20/2021,Polvo
+1,Gentamicina sulfato,100mg,392.58,1029,PHARLAND,7/14/2021,Tabletas
+1,Glatiramer,200mg,379.08,1082,PIERSAN CENTROAMERICANA,8/1/2022,Capsulas
+1,glicerilo),300mg,521.1,905,QUALIPHARM,3/26/2022,Inhalador
+1,glicerina 3%,400mg,412.02,642,QUIFARMA  S.A.,6/19/2025,Ampoyas
+1,Gliclazida,500mb,495.18,8,RICHAM INTERNACIONAL  S.A,3/7/2023,Ampoyetas
+1,Glimepirida  Clorhidrato de,600mg,212.76,1531,RUIPHARMA,11/10/2021,Polvo
+1,Gluconato calcico,700mg,90.72,1781,SAN CRISTOBAL,7/29/2023,Tabletas
+1,glucosa 50%,800mg,301.32,1707,SANTA FE,3/11/2023,Capsulas
+1,Golimumab,900mg,291.6,609,SANTE  S.A.,4/6/2023,Inhalador
+1,Gonadotropina Corionica,1000mg,615.06,63,THERFAM,7/15/2025,Ampoyas
+1,Goserelina  acetato,1mg,515.7,1338,TRINOMED,8/31/2023,Ampoyetas
+1,Granisetron,5mg,520.56,963,UNIDOS  S.A.,10/18/2023,Polvo
+1,Guaifenesina (guayacolato de,10mg,631.8,251,UNIPHARM  S.A.  MA,10/6/2024,Tabletas
+1,Haloperidol,15mg,587.52,28,UNIPHARM  S.A.,9/11/2023,Capsulas
+1,Haloperidol,20mg,557.28,606,VIZCAINO  S.A.,4/29/2021,Inhalador
+1,hemodialisis,25mg,95.04,33,WELLCO  S.A.,7/21/2023,Ampoyas
+1,Heparina sodica,30mg,292.68,1539,ALFA FARMACEUTICA,1/29/2024,Ampoyetas
+1,Hidralazina clorhidrato,50mg,276.48,687,ALTIAN PHARMA,12/24/2023,Polvo
+1,Hidralazina clorhidrato,100mg,340.74,867,AMERICAN VITALAB,10/27/2022,Tabletas
+1,Hidroclorotiazida,200mg,613.44,646,BAYER,8/28/2021,Capsulas
+1,Hidroclorotiazida clorhidrato,300mg,135,701,BONIN,9/9/2025,Inhalador
+1,Hidroclorotiazida clorhidrato con,400mg,186.84,329,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),5/22/2023,Ampoyas
+1,Hidrocortisona,500mb,396.9,463,DONOVAN WERKE,9/22/2025,Ampoyetas
+1,Hidrocortisona succinato,600mg,162.54,924,Eurofarma Guatemala,6/5/2024,Polvo
+1,Hidrocortisona y cloranfenicol,700mg,173.88,394,FARGEL,2/4/2021,Tabletas
+1,Hidroxicloroquina  sulfato,800mg,340.74,323,FARKOT  S.A.,3/14/2024,Capsulas
+1,Hidroxicobalamina,900mg,433.08,996,FARMACAPS   S.A. ,11/6/2024,Inhalador
+1,Hidroxido de aluminio y magnesio,1000mg,534.06,1518,FARMAMEDICA,12/9/2024,Ampoyas
+1,Hidroxido de magnesio,1mg,92.34,715,GLOBAL FARMA  S.A.,12/13/2024,Ampoyetas
+1,Hidroxiprogesterona caproato,5mg,240.84,1180,INDUSTRIA FARMACEUTICA  S.A. INFASA,7/21/2025,Polvo
+1,Hidroxipropilmetilcelulosa,10mg,56.7,104,INTECFA,2/1/2022,Tabletas
+1,Hidroxizina,15mg,285.66,1193,INNOVA,3/15/2024,Capsulas
+1,Hidroxizina,20mg,461.7,622,LABALFER,8/28/2022,Inhalador
+1,Hierro aminoquelado + acido folico,25mg,243,1066,LAFCO ,7/1/2024,Ampoyas
+1,Hierro aminoquelado + acido folico,30mg,587.52,1037,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",10/27/2021,Ampoyetas
+1,Hierro Isomaltoside,50mg,491.94,263,LANCASCO  S.A.,7/27/2022,Polvo
+1,Hierro sacarato o citrato,100mg,51.84,823,LAMFER,7/26/2023,Tabletas
+1,Hioscina,200mg,269.46,1486,LABORATORIO PHARA,8/1/2022,Capsulas
+1,hiper proteica,300mg,183.6,389,LAPROMED,9/17/2021,Inhalador
+1,hipoalergenica  reducida a menos,400mg,490.32,1184,MEDIPRODUCTS  S.A.,5/14/2025,Ampoyas
+1,Humano,500mb,401.22,1170,PHARMACROSS,2/8/2021,Ampoyetas
+1,humano recombinante,600mg,284.58,1235,PHARMADEL ,12/9/2023,Polvo
+1,Ibuprofeno,700mg,125.28,1428,PHARMALAT,4/12/2022,Tabletas
+1,Idarubicina,800mg,44.82,856,PHARLAND,7/25/2022,Capsulas
+1,Ifosfamida,900mg,328.86,1328,PIERSAN CENTROAMERICANA,4/22/2021,Inhalador
+1,Iloprost,1000mg,145.8,1626,QUALIPHARM,6/23/2024,Ampoyas
+1,Imatinib,1mg,291.6,704,QUIFARMA  S.A.,9/8/2025,Ampoyetas
+1,Imatinib,5mg,83.7,1420,RICHAM INTERNACIONAL  S.A,5/30/2025,Polvo
+1,Imidapril,10mg,512.46,1723,RUIPHARMA,5/30/2021,Tabletas
+1,Imipenem - Cilastatina,15mg,403.92,1165,SAN CRISTOBAL,9/8/2023,Capsulas
+1,Imipramina clorhidrato,20mg,388.26,1393,SANTA FE,4/18/2022,Inhalador
+1,Imiquimod,25mg,619.92,1735,SANTE  S.A.,8/15/2025,Ampoyas
+1,Indapamida,30mg,317.52,1279,THERFAM,1/11/2021,Ampoyetas
+1,Infliximab,50mg,138.78,1912,TRINOMED,6/6/2025,Polvo
+1,Inmunoglobulina humana,100mg,625.86,1275,UNIDOS  S.A.,3/24/2022,Tabletas
+1,Inmunoglobulina humana,200mg,261.9,1996,UNIPHARM  S.A.  MA,10/7/2023,Capsulas
+1,Inmunoglobulina humana,300mg,602.64,1643,UNIPHARM  S.A.,8/21/2024,Inhalador
+1,Inmunoglobulina humana anti  RH-,400mg,402.84,1289,VIZCAINO  S.A.,6/7/2021,Ampoyas
+1,insaponificable de  soya,500mb,534.06,765,WELLCO  S.A.,5/3/2023,Ampoyetas
+1,Insulina Glargina,600mg,11.34,924,ALFA FARMACEUTICA,5/17/2025,Polvo
+1,Insulina Humana de accion rapida,700mg,242.46,607,ALTIAN PHARMA,12/21/2024,Tabletas
+1,Insulina Lispro,800mg,594.54,1516,AMERICAN VITALAB,10/31/2025,Capsulas
+1,Insulina NPH humana,900mg,165.78,1086,BAYER,8/23/2023,Inhalador
+1,Interferon alfa 2-a,1000mg,393.66,713,BONIN,1/3/2023,Ampoyas
+1,Interferon beta 1-a,1mg,645.3,1724,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),2/17/2023,Ampoyetas
+1,Interferon beta 1-a,5mg,350.46,1839,DONOVAN WERKE,2/22/2025,Polvo
+1,Interferon beta 1-b,10mg,427.68,459,Eurofarma Guatemala,10/5/2021,Tabletas
+1,Interferon Pegilado alfa  2-b,15mg,40.5,1655,FARGEL,7/26/2024,Capsulas
+1,Interferon Pegilado alfa 2-a,20mg,197.1,761,FARKOT  S.A.,10/30/2022,Inhalador
+1,Inulina  oligofructosa,25mg,258.66,432,FARMACAPS   S.A. ,11/28/2023,Ampoyas
+1,Ipratropio  bromuro,30mg,447.66,1550,FARMAMEDICA,11/9/2025,Ampoyetas
+1,Irbesartan,50mg,594,1122,GLOBAL FARMA  S.A.,6/10/2023,Polvo
+1,Irbesartan  Amlodipina,100mg,500.58,1793,INDUSTRIA FARMACEUTICA  S.A. INFASA,10/14/2025,Tabletas
+1,Irinotecan,200mg,176.58,1394,INTECFA,10/20/2025,Capsulas
+1,Isoflurano,300mg,267.3,361,INNOVA,6/2/2022,Inhalador
+1,Isoniazida,400mg,291.06,88,LABALFER,2/7/2023,Ampoyas
+1,Isotretinoina,500mb,115.02,1338,LAFCO ,11/25/2023,Ampoyetas
+1,Isradipina,600mg,499.5,885,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",5/27/2025,Polvo
+1,Itraconazol,700mg,513.54,868,LANCASCO  S.A.,8/31/2023,Tabletas
+1,Ivabradina clorhidrato,800mg,387.72,864,LAMFER,4/8/2022,Capsulas
+1,kcal/onza para prematuro y/o bajo,900mg,231.12,858,LABORATORIO PHARA,3/8/2022,Inhalador
+1,kcal/onza para prematuro y/o bajo,1000mg,409.86,454,LAPROMED,8/29/2022,Ampoyas
+1,Ketanserina,1mg,449.28,442,MEDIPRODUCTS  S.A.,7/3/2021,Ampoyetas
+1,Ketoconazol,5mg,548.1,690,PHARMACROSS,4/18/2023,Polvo
+1,Ketoprofeno,10mg,608.58,1740,PHARMADEL ,2/21/2021,Tabletas
+1,Ketotifeno fumarato,15mg,585.9,1415,PHARMALAT,9/19/2025,Capsulas
+1,lactantes de 0-12 meses,20mg,525.42,1388,PHARLAND,8/3/2022,Inhalador
+1,lactico,25mg,199.26,1050,PIERSAN CENTROAMERICANA,2/20/2024,Ampoyas
+1,Lactobacillus acidophilus ,30mg,343.44,336,QUALIPHARM,12/19/2024,Ampoyetas
+1,Lactobacillus Reuteri Protectis,50mg,569.7,751,QUIFARMA  S.A.,8/16/2023,Polvo
+1,Lactobacillus Reuteri Protectis,100mg,45.9,742,RICHAM INTERNACIONAL  S.A,2/23/2021,Tabletas
+1,Lactulosa,200mg,79.38,1472,RUIPHARMA,10/13/2025,Capsulas
+1,Lamivudina,300mg,168.48,1170,SAN CRISTOBAL,5/13/2025,Inhalador
+1,Lamivudina,400mg,173.34,1706,SANTA FE,6/9/2021,Ampoyas
+1,Lamotrigina,500mb,9.72,1791,SANTE  S.A.,5/15/2023,Ampoyetas
+1,Lamotrigina,600mg,493.02,695,THERFAM,3/11/2025,Polvo
+1,Lansoprazol,700mg,295.38,410,TRINOMED,8/12/2022,Tabletas
+1,L-Asparaginasa,800mg,167.94,159,UNIDOS  S.A.,8/17/2025,Capsulas
+1,Latanoprost,900mg,164.7,1632,UNIPHARM  S.A.  MA,6/29/2021,Inhalador
+1,Leche a base de soya sin lactosa,1000mg,306.18,1932,UNIPHARM  S.A.,6/23/2023,Ampoyas
+1,Leflunomida,1mg,363.96,1689,VIZCAINO  S.A.,2/18/2022,Ampoyetas
+1,Leflunomida,5mg,169.02,683,WELLCO  S.A.,3/17/2021,Polvo
+1,Lenalidomida,10mg,473.58,1053,ALFA FARMACEUTICA,9/16/2023,Tabletas
+1,Lenalidomida,15mg,67.5,584,ALTIAN PHARMA,5/20/2025,Capsulas
+1,Letrozol,20mg,119.88,1551,AMERICAN VITALAB,4/9/2024,Inhalador
+1,Leucovorina (Acido Folinico),25mg,610.74,874,BAYER,4/12/2024,Ampoyas
+1,Leuprolida acetato,30mg,446.58,440,BONIN,4/7/2025,Ampoyetas
+1,Levetiracetam,50mg,495.18,1795,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),5/13/2021,Polvo
+1,Levocarnitina,100mg,612.36,738,DONOVAN WERKE,11/30/2023,Tabletas
+1,Levodopa + Carbidopa,200mg,477.36,1706,Eurofarma Guatemala,11/1/2025,Capsulas
+1,Levofloxacina Hemihidrato,300mg,480.6,1245,FARGEL,3/10/2025,Inhalador
+1,Levotiroxina sodica,400mg,253.26,1121,FARKOT  S.A.,5/2/2022,Ampoyas
+1,Levotiroxina sodica,500mb,381.78,1244,FARMACAPS   S.A. ,8/9/2021,Ampoyetas
+1,libres con MCT,600mg,631.8,82,FARMAMEDICA,7/4/2022,Polvo
+1,Lidamidina,700mg,281.88,1478,GLOBAL FARMA  S.A.,8/15/2022,Tabletas
+1,Lidocaina,800mg,318.6,1642,INDUSTRIA FARMACEUTICA  S.A. INFASA,12/4/2022,Capsulas
+1,Lidocaina  clorhidrato,900mg,383.4,1257,INTECFA,8/7/2025,Inhalador
+1,Lidocaina clorhidrato,1000mg,360.18,1021,INNOVA,3/13/2024,Ampoyas
+1,Lidocaina clorhidrato sin epinefrina ,1mg,420.66,1956,LABALFER,6/16/2024,Ampoyetas
+1,Lidocaina con epinefrina,5mg,410.94,1297,LAFCO ,7/17/2024,Polvo
+1,Lidocaina  clorhidrato sin,10mg,199.26,710,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",2/9/2023,Tabletas
+1,Linagliptina,15mg,525.96,1643,LANCASCO  S.A.,11/15/2023,Capsulas
+1,Linagliptina  Clorhidrato de,20mg,67.5,124,LAMFER,1/17/2023,Inhalador
+1,Linezolid,25mg,112.86,38,LABORATORIO PHARA,6/25/2022,Ampoyas
+1,Linezolid,30mg,553.5,1970,LAPROMED,2/18/2023,Ampoyetas
+1,Liraglutide,50mg,486,1267,MEDIPRODUCTS  S.A.,7/5/2024,Polvo
+1,Litio carbonato,100mg,561.6,1639,PHARMACROSS,5/24/2023,Tabletas
+1,Loperamida clorhidrato,200mg,317.52,674,PHARMADEL ,4/2/2025,Capsulas
+1,Lopinavir/Ritonavir,300mg,401.76,1381,PHARMALAT,6/30/2023,Inhalador
+1,Lopinavir/Ritonavir,400mg,92.34,1028,PHARLAND,7/24/2021,Ampoyas
+1,Loxoprofeno sodico anhidro,500mb,616.14,1400,PIERSAN CENTROAMERICANA,3/7/2024,Ampoyetas
+1,Magnesio sulfato  (sal de epson),600mg,118.26,860,QUALIPHARM,9/22/2022,Polvo
+1,maltodextrina,700mg,641.52,1305,QUIFARMA  S.A.,12/11/2025,Tabletas
+1,Manitol,800mg,128.52,984,RICHAM INTERNACIONAL  S.A,8/24/2023,Capsulas
+1,Maraviroc,900mg,628.56,1824,RUIPHARMA,6/13/2025,Inhalador
+1,Mecobalamina,1000mg,220.86,485,SAN CRISTOBAL,12/2/2021,Ampoyas
+1,Medroxiprogesterona,1mg,501.12,528,SANTA FE,4/20/2025,Ampoyetas
+1,Medroxiprogesterona acetato,5mg,284.58,1406,SANTE  S.A.,11/9/2022,Polvo
+1,Melatonina,10mg,559.98,760,THERFAM,1/9/2022,Tabletas
+1,Melfalan,15mg,358.56,754,TRINOMED,1/18/2021,Capsulas
+1,Meloxicam   Sulfato de glucosamina,20mg,190.62,1980,UNIDOS  S.A.,5/26/2023,Inhalador
+1,Meperidina clorhidrato  (petidina),25mg,541.62,1808,UNIPHARM  S.A.  MA,3/4/2025,Ampoyas
+1,Mercaptopurina,30mg,27,616,UNIPHARM  S.A.,11/15/2025,Ampoyetas
+1,Meropenem,50mg,75.6,526,VIZCAINO  S.A.,10/31/2025,Polvo
+1,Mesalazina,100mg,233.28,1949,WELLCO  S.A.,11/13/2023,Tabletas
+1,Mesalazina o Mesalamina,200mg,186.3,1496,ALFA FARMACEUTICA,6/25/2025,Capsulas
+1,meses de edad),300mg,16.74,170,ALTIAN PHARMA,9/22/2024,Inhalador
+1,Mesna,400mg,284.04,85,AMERICAN VITALAB,2/15/2023,Ampoyas
+1,metabolico,500mb,538.92,540,BAYER,1/6/2022,Ampoyetas
+1,Metamizol Sodico,600mg,129.06,1089,BONIN,11/19/2023,Polvo
+1,Metformina,700mg,315.36,465,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),6/16/2025,Tabletas
+1,Metformina,800mg,385.02,1222,DONOVAN WERKE,6/14/2022,Capsulas
+1,Metformina,900mg,134.46,1807,Eurofarma Guatemala,12/28/2024,Inhalador
+1,Metformina,1000mg,329.94,54,FARGEL,1/1/2025,Ampoyas
+1,Metformina,1mg,346.14,1268,FARKOT  S.A.,7/5/2022,Ampoyetas
+1,Metilergonovina (Metilergometrina),5mg,269.46,1581,FARMACAPS   S.A. ,7/23/2023,Polvo
+1,Metilergonovina (Metilergometrina),10mg,105.3,833,FARMAMEDICA,7/6/2024,Tabletas
+1,Metilfenidato,15mg,637.74,1896,GLOBAL FARMA  S.A.,8/17/2024,Capsulas
+1,Metilprednisolona,20mg,141.48,700,INDUSTRIA FARMACEUTICA  S.A. INFASA,10/19/2023,Inhalador
+1,Metilprednisolona  succinato sodico,25mg,605.34,589,INTECFA,9/16/2021,Ampoyas
+1,Metimazol,30mg,331.56,1668,INNOVA,9/4/2023,Ampoyetas
+1,Metoclopramida,50mg,424.98,1614,LABALFER,2/27/2021,Polvo
+1,Metoclopramida,100mg,626.4,840,LAFCO ,5/12/2021,Tabletas
+1,Metoprolol,200mg,467.64,1025,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",2/18/2025,Capsulas
+1,Metotrexato sodico,300mg,73.98,391,LANCASCO  S.A.,3/25/2025,Inhalador
+1,Metotrexato sodico,400mg,397.44,1210,LAMFER,4/23/2023,Ampoyas
+1,Metoxiflurano,500mb,550.26,349,LABORATORIO PHARA,2/25/2024,Ampoyetas
+1,Metronidazol,600mg,558.9,49,LAPROMED,10/23/2025,Polvo
+1,Metronidazol,700mg,630.18,172,MEDIPRODUCTS  S.A.,1/17/2023,Tabletas
+1,Metronidazol,800mg,463.32,523,PHARMACROSS,3/7/2025,Capsulas
+1,Metronidazol + Nistatina,900mg,530.82,302,PHARMADEL ,4/24/2023,Inhalador
+1,Micofenolato de mofetilo,1000mg,172.26,914,PHARMALAT,9/1/2023,Ampoyas
+1,Miconazol nitrato,1mg,510.3,568,PHARLAND,1/2/2021,Ampoyetas
+1,microesferas,5mg,33.48,440,PIERSAN CENTROAMERICANA,9/26/2023,Polvo
+1,Midazolam,10mg,645.84,972,QUALIPHARM,12/8/2021,Tabletas
+1,Midazolam,15mg,333.18,402,QUIFARMA  S.A.,4/4/2021,Capsulas
+1,Misoprostol,20mg,160.92,1465,RICHAM INTERNACIONAL  S.A,10/13/2021,Inhalador
+1,Molgramostim,25mg,385.02,1408,RUIPHARMA,2/15/2024,Ampoyas
+1,Mononitrato de Isosorbida,30mg,557.82,35,SAN CRISTOBAL,7/7/2024,Ampoyetas
+1,Morfina sulfato,50mg,503.28,1730,SANTA FE,7/29/2021,Polvo
+1,Morfina sulfato,100mg,132.3,1754,SANTE  S.A.,11/20/2021,Tabletas
+1,Moxifloxacino,200mg,632.34,1791,THERFAM,4/11/2021,Capsulas
+1,Moxifloxacino,300mg,556.74,1404,TRINOMED,7/5/2023,Inhalador
+1,Moxifloxacino Clorhidrato,400mg,267.84,933,UNIDOS  S.A.,11/6/2023,Ampoyas
+1,Multivitaminas con fluor,500mb,316.44,716,UNIPHARM  S.A.  MA,8/16/2021,Ampoyetas
+1,Multivitaminas sin fluor,600mg,579.42,598,UNIPHARM  S.A.,7/9/2024,Polvo
+1,Multivitaminico para infusion ,700mg,284.04,394,VIZCAINO  S.A.,2/11/2024,Tabletas
+1,Multivitaminico para infusion  niños,800mg,134.46,499,WELLCO  S.A.,11/13/2025,Capsulas
+1,Multivitaminico prenatal con fluor,900mg,574.56,1423,ALFA FARMACEUTICA,9/1/2024,Inhalador
+1,Mupirocina,1000mg,48.6,250,ALTIAN PHARMA,5/23/2021,Ampoyas
+1,Nafazolina + Feniramina maleato,1mg,122.04,1009,AMERICAN VITALAB,6/16/2025,Ampoyetas
+1,Naloxona clorhidrato,5mg,514.08,876,BAYER,5/13/2023,Polvo
+1,Natalizumab,10mg,485.46,1260,BONIN,9/28/2023,Tabletas
+1,Nateglinida,15mg,564.84,525,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),5/5/2024,Capsulas
+1,Neomicina sulfato,20mg,149.58,1359,DONOVAN WERKE,12/8/2022,Inhalador
+1,Neostigmina metilsulfato,25mg,145.8,1789,Eurofarma Guatemala,6/1/2022,Ampoyas
+1,Nesiritide,30mg,169.02,71,FARGEL,5/10/2024,Ampoyetas
+1,Niclosamida,50mg,286.74,209,FARKOT  S.A.,11/2/2021,Polvo
+1,nicotinamida  piridoxina ,100mg,292.14,1627,FARMACAPS   S.A. ,5/31/2022,Tabletas
+1,Nifedipino,200mg,395.28,838,FARMAMEDICA,8/28/2025,Capsulas
+1,Nifedipino,300mg,380.16,1377,GLOBAL FARMA  S.A.,6/17/2022,Inhalador
+1,Nilotinib,400mg,625.86,324,INDUSTRIA FARMACEUTICA  S.A. INFASA,12/15/2024,Ampoyas
+1,Nimodipina,500mb,171.18,380,INTECFA,2/13/2021,Ampoyetas
+1,niños mayores de 1 año,600mg,643.68,399,INNOVA,4/29/2021,Polvo
+1,Nistatina,700mg,485.46,47,LABALFER,8/23/2022,Tabletas
+1,Nitrato de plata,800mg,19.44,430,LAFCO ,7/8/2023,Capsulas
+1,Nitrofurantoina,900mg,461.16,763,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",3/31/2022,Inhalador
+1,Nitroglicerina,1000mg,610.74,994,LANCASCO  S.A.,1/15/2022,Ampoyas
+1,Nitroglicerina,1mg,139.86,1077,LAMFER,1/17/2024,Ampoyetas
+1,Nitroprusiato de sodio,5mg,493.02,862,LABORATORIO PHARA,10/16/2024,Polvo
+1,Norepinefrina,10mg,196.02,636,LAPROMED,11/30/2022,Tabletas
+1,nutricionales especiales,15mg,254.34,1807,MEDIPRODUCTS  S.A.,6/29/2023,Capsulas
+1,nutrientes inmunomoduladores,20mg,387.72,602,PHARMACROSS,4/20/2025,Inhalador
+1,Nutrimentos lipidos  TCL/TCM,25mg,217.62,862,PHARMADEL ,11/28/2021,Ampoyas
+1,o anhidra  Histidina  Isoleucina  Leucina  Lisina ,30mg,98.28,727,PHARMALAT,5/6/2024,Ampoyetas
+1,o sin sabor para adultos,50mg,489.78,1081,PHARLAND,3/19/2025,Polvo
+1,Octreotida,100mg,488.7,1416,PIERSAN CENTROAMERICANA,4/6/2024,Tabletas
+1,Octreotida  acetato como,200mg,275.4,1875,QUALIPHARM,4/27/2024,Capsulas
+1,Ofloxacina,300mg,54,423,QUIFARMA  S.A.,12/26/2021,Inhalador
+1,Ofloxacina,400mg,342.36,419,RICHAM INTERNACIONAL  S.A,6/11/2024,Ampoyas
+1,Olanzapina,500mb,93.96,1138,RUIPHARMA,5/5/2025,Ampoyetas
+1,Olmesartan,600mg,335.88,1218,SAN CRISTOBAL,1/25/2022,Polvo
+1,Omalizumab,700mg,163.62,1750,SANTA FE,10/30/2024,Tabletas
+1,Ondansetron,800mg,172.26,538,SANTE  S.A.,8/24/2021,Capsulas
+1,Orfenadrina,900mg,641.52,531,THERFAM,2/12/2022,Inhalador
+1,Otros productos para el tracto alimentario y metabolismo,1000mg,513.54,860,TRINOMED,2/28/2021,Ampoyas
+1,Oxaliplatino,1mg,309.42,951,UNIDOS  S.A.,9/16/2021,Ampoyetas
+1,Oxcarbazepina,5mg,563.22,1549,UNIPHARM  S.A.  MA,5/28/2024,Polvo
+1,Oxcarbazepina,10mg,619.92,393,UNIPHARM  S.A.,7/29/2021,Tabletas
+1,Oxibutinina clorhidrato,15mg,132.3,385,VIZCAINO  S.A.,1/23/2023,Capsulas
+1,Oxicodona,20mg,541.08,141,WELLCO  S.A.,3/9/2024,Inhalador
+1,oxido de zinc (pasta lassar),25mg,190.08,370,ALFA FARMACEUTICA,6/22/2025,Ampoyas
+1,oxido de zinc y calamina,30mg,528.66,261,ALTIAN PHARMA,6/18/2025,Ampoyetas
+1,Oximetazolina clorhidrato,50mg,632.34,123,AMERICAN VITALAB,7/26/2021,Polvo
+1,Oxitocina sintetica,100mg,119.88,319,BAYER,10/19/2024,Tabletas
+1,paciente pediatrico,200mg,104.22,1331,BONIN,3/19/2025,Capsulas
+1,pacientes adultos con estres,300mg,244.08,1027,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),9/21/2024,Inhalador
+1,pacientes adultos con funcion,400mg,626.94,916,DONOVAN WERKE,8/17/2022,Ampoyas
+1,pacientes diabeticos,500mb,458.46,1939,Eurofarma Guatemala,9/3/2025,Ampoyetas
+1,pacientes diabeticos adultos,600mg,492.48,682,FARGEL,6/10/2022,Polvo
+1,pacientes hepaticos adultos,700mg,549.18,824,FARKOT  S.A.,8/31/2021,Tabletas
+1,pacientes septicos adultos,800mg,637.2,571,FARMACAPS   S.A. ,4/27/2022,Capsulas
+1,Paclitaxel,900mg,436.86,1732,FARMAMEDICA,11/11/2022,Inhalador
+1,Palivizumab,1000mg,478.44,718,GLOBAL FARMA  S.A.,11/27/2022,Ampoyas
+1,Palonosetron,1mg,197.64,720,INDUSTRIA FARMACEUTICA  S.A. INFASA,12/25/2022,Ampoyetas
+1,Pamoato de Pirantel,5mg,326.16,274,INTECFA,7/6/2022,Polvo
+1,Pancrealipasa,10mg,261.36,576,INNOVA,12/30/2021,Tabletas
+1,Pancreatina 10000 U,15mg,359.1,588,LABALFER,2/5/2022,Capsulas
+1,Pancuronio bromuro,20mg,105.84,84,LAFCO ,3/7/2023,Inhalador
+1,Paperas y Rubeola,25mg,348.3,841,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",1/30/2021,Ampoyas
+1,Paracetamol (acetaminofen),30mg,181.44,929,LANCASCO  S.A.,8/24/2024,Ampoyetas
+1,Parecoxib Sodico,50mg,70.74,1497,LAMFER,7/12/2021,Polvo
+1,Paricalcitol,100mg,631.26,461,LABORATORIO PHARA,11/17/2021,Tabletas
+1,Paricalcitol,200mg,646.92,455,LAPROMED,8/27/2021,Capsulas
+1,Paroxetina,300mg,599.4,1777,MEDIPRODUCTS  S.A.,4/6/2024,Inhalador
+1,Pediatrica,400mg,135.54,51,PHARMACROSS,12/31/2023,Ampoyas
+1,Pediatrica,500mb,162,1356,PHARMADEL ,1/4/2022,Ampoyetas
+1,Pegfilgrastim,600mg,566.46,1192,PHARMALAT,1/15/2024,Polvo
+1,Penicilamina,700mg,231.66,1909,PHARLAND,11/30/2023,Tabletas
+1,Penicilina G benzatinica,800mg,278.64,144,PIERSAN CENTROAMERICANA,4/3/2023,Capsulas
+1,Penicilina G procaina con penicilina,900mg,324,186,QUALIPHARM,7/19/2025,Inhalador
+1,Penicilina G sodica cristalina,1000mg,98.82,1565,QUIFARMA  S.A.,7/17/2025,Ampoyas
+1,Pentoxifilina,1mg,227.88,400,RICHAM INTERNACIONAL  S.A,3/1/2025,Ampoyetas
+1,Permetrina,5mg,504.9,850,RUIPHARMA,4/1/2023,Polvo
+1,Pertuzumab,10mg,294.84,618,SAN CRISTOBAL,9/20/2022,Tabletas
+1,peso al nacer,15mg,465.48,932,SANTA FE,8/16/2024,Capsulas
+1,peso al nacer,20mg,634.5,401,SANTE  S.A.,9/13/2023,Inhalador
+1,peso al nacer con requerimiento,25mg,572.4,1468,THERFAM,2/28/2025,Ampoyas
+1,Pilocarpina clorhidrato,30mg,488.7,56,TRINOMED,1/18/2022,Ampoyetas
+1,Pimecrolimus,50mg,284.04,494,UNIDOS  S.A.,12/24/2021,Polvo
+1,Pioglitazona,100mg,541.08,104,UNIPHARM  S.A.  MA,12/7/2025,Tabletas
+1,Piperacilina/Tazobactam,200mg,586.44,540,UNIPHARM  S.A.,6/26/2024,Capsulas
+1,Pirazinamida,300mg,501.12,847,VIZCAINO  S.A.,11/5/2023,Inhalador
+1,Piridostigmina bromuro,400mg,574.56,1190,WELLCO  S.A.,6/21/2021,Ampoyas
+1,Piridoxina  Clohidrato de Tiamina ,500mb,308.34,565,ALFA FARMACEUTICA,2/17/2025,Ampoyetas
+1,Piridoxina  Diclofenaco Sodico ,600mg,503.28,351,ALTIAN PHARMA,3/13/2022,Polvo
+1,Pirimetamina/Sulfadoxina,700mg,480.6,1301,AMERICAN VITALAB,1/28/2024,Tabletas
+1,Piritionato de zinc,800mg,70.2,711,BAYER,1/4/2025,Capsulas
+1,Podofilina en resina de benjui,900mg,500.58,482,BONIN,2/2/2021,Inhalador
+1,Policresuleno,1000mg,43.2,1513,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),7/4/2022,Ampoyas
+1,Polidocanol,1mg,151.2,1788,DONOVAN WERKE,5/15/2024,Ampoyetas
+1,polietilenglicol,5mg,210.06,146,Eurofarma Guatemala,11/30/2023,Polvo
+1,Poligelina,10mg,590.22,1500,FARGEL,10/11/2021,Tabletas
+1,Polimixina B,15mg,160.92,325,FARKOT  S.A.,8/26/2024,Capsulas
+1,Potasio gluconato,20mg,171.72,1598,FARMACAPS   S.A. ,2/6/2022,Inhalador
+1,Prednicarbato,25mg,79.38,621,FARMAMEDICA,2/10/2025,Ampoyas
+1,Prednisolona,30mg,147.96,981,GLOBAL FARMA  S.A.,6/24/2023,Ampoyetas
+1,Prednisona,50mg,27,1839,INDUSTRIA FARMACEUTICA  S.A. INFASA,1/8/2024,Polvo
+1,Prednisona,100mg,48.6,924,INTECFA,6/9/2023,Tabletas
+1,Pregabalina,200mg,248.4,701,INNOVA,11/20/2025,Capsulas
+1,Pregabalina,300mg,645.3,203,LABALFER,12/28/2022,Inhalador
+1,preservante,400mg,581.04,130,LAFCO ,8/12/2024,Ampoyas
+1,Primaquina fosfato o difosfato,500mb,638.28,839,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",7/2/2021,Ampoyetas
+1,Progesterona Micronizada,600mg,556.74,190,LANCASCO  S.A.,11/3/2024,Polvo
+1,Proglumetacina  dimaleato,700mg,571.32,263,LAMFER,12/16/2025,Tabletas
+1,Propafenona,800mg,341.28,574,LABORATORIO PHARA,8/21/2022,Capsulas
+1,Propanolol clorhidrato,900mg,496.26,956,LAPROMED,7/21/2023,Inhalador
+1,Propiltiouracilo,1000mg,9.18,685,MEDIPRODUCTS  S.A.,8/29/2021,Ampoyas
+1,Propinoxato,1mg,57.78,1164,PHARMACROSS,5/22/2025,Ampoyetas
+1,Propofol,5mg,82.08,942,PHARMADEL ,8/15/2025,Polvo
+1,Propofol,10mg,368.28,372,PHARMALAT,1/28/2021,Tabletas
+1,Protamina clorhidrato,15mg,230.04,1676,PHARLAND,10/3/2022,Capsulas
+1,Psyllium plantago,20mg,351,117,PIERSAN CENTROAMERICANA,2/21/2021,Inhalador
+1,Quetiapina fumarato,25mg,401.22,41,QUALIPHARM,2/9/2023,Ampoyas
+1,Quinagolida,30mg,333.18,1585,QUIFARMA  S.A.,12/31/2022,Ampoyetas
+1,Rabeprazol sodico,50mg,641.52,699,RICHAM INTERNACIONAL  S.A,11/8/2021,Polvo
+1,Raltegravir,100mg,422.28,1134,RUIPHARMA,12/3/2021,Tabletas
+1,Ramipril,200mg,508.68,1032,SAN CRISTOBAL,3/29/2024,Capsulas
+1,Ranibizumab,300mg,125.82,1930,SANTA FE,10/25/2023,Inhalador
+1,Ranitidina clorhidrato,400mg,130.14,1848,SANTE  S.A.,10/6/2023,Ampoyas
+1,Ranitidina clorhidrato,500mb,605.88,921,THERFAM,8/6/2022,Ampoyetas
+1,Ranitidina clorhidrato,600mg,416.34,590,TRINOMED,9/24/2024,Polvo
+1,Ranolazina,700mg,187.38,307,UNIDOS  S.A.,7/8/2025,Tabletas
+1,Reboxetina,800mg,536.76,17,UNIPHARM  S.A.  MA,8/25/2023,Capsulas
+1,recombinante,900mg,463.32,1969,UNIPHARM  S.A.,8/18/2024,Inhalador
+1,Recombinante,1000mg,223.02,1731,VIZCAINO  S.A.,9/3/2021,Ampoyas
+1,Recombinante Adulto,1mg,537.3,1385,WELLCO  S.A.,5/21/2021,Ampoyetas
+1,Recombinante Pediatrica,5mg,548.1,1292,ALFA FARMACEUTICA,1/26/2022,Polvo
+1,retinol),10mg,608.04,771,ALTIAN PHARMA,4/5/2022,Tabletas
+1,Ribavirina,15mg,292.68,1744,AMERICAN VITALAB,6/13/2025,Capsulas
+1,Ribavirina,20mg,563.22,1564,BAYER,1/30/2025,Inhalador
+1,riboflavina  tiamina mononitrato,25mg,73.98,590,BONIN,6/15/2025,Ampoyas
+1,Rifampicina,30mg,153.9,1557,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),5/10/2023,Ampoyetas
+1,Rifampicina,50mg,44.82,535,DONOVAN WERKE,3/30/2023,Polvo
+1,Riluzol,100mg,130.68,708,Eurofarma Guatemala,6/9/2024,Tabletas
+1,Riociguat,200mg,492.48,528,FARGEL,3/27/2021,Capsulas
+1,Riociguat,300mg,83.16,729,FARKOT  S.A.,5/9/2023,Inhalador
+1,Risedronato Sodico,400mg,318.6,1866,FARMACAPS   S.A. ,11/10/2023,Ampoyas
+1,Ritodrina clorhidrato,500mb,252.72,617,FARMAMEDICA,8/14/2024,Ampoyetas
+1,Ritodrina clorhidrato,600mg,388.26,587,GLOBAL FARMA  S.A.,6/28/2025,Polvo
+1,Ritonavir,700mg,450.9,1990,INDUSTRIA FARMACEUTICA  S.A. INFASA,3/12/2025,Tabletas
+1,Rituximab,800mg,294.84,987,INTECFA,6/6/2023,Capsulas
+1,Rivaroxaban,900mg,341.28,1153,INNOVA,7/21/2023,Inhalador
+1,Rivastigmina,1000mg,182.52,471,LABALFER,6/1/2024,Ampoyas
+1,Rivastigmina,1mg,84.78,989,LAFCO ,2/8/2023,Ampoyetas
+1,Rivastigmina,5mg,481.68,1105,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",4/30/2021,Polvo
+1,Rociverina,10mg,460.62,125,LANCASCO  S.A.,4/1/2025,Tabletas
+1,Romiplostim,15mg,430.92,1038,LAMFER,9/22/2024,Capsulas
+1,ROSCA,20mg,287.82,1526,LABORATORIO PHARA,2/19/2021,Inhalador
+1,ROSCA,25mg,11.34,505,LAPROMED,10/9/2021,Ampoyas
+1,ROSCA,30mg,107.46,1779,MEDIPRODUCTS  S.A.,10/2/2021,Ampoyetas
+1,Rosuvastatina,50mg,244.08,1233,PHARMACROSS,3/28/2023,Polvo
+1,Rosuvastatina,100mg,381.24,425,PHARMADEL ,7/3/2022,Tabletas
+1,Rupatadina fumarato,200mg,18.36,1261,PHARMALAT,6/20/2022,Capsulas
+1,Rupatadina Fumarato,300mg,72.9,1425,PHARLAND,7/9/2022,Inhalador
+1,Salbutamol,400mg,629.64,1565,PIERSAN CENTROAMERICANA,6/8/2022,Ampoyas
+1,Salbutamol,500mb,312.66,322,QUALIPHARM,1/30/2021,Ampoyetas
+1,Salbutamol,600mg,178.74,1600,QUIFARMA  S.A.,6/12/2021,Polvo
+1,Sales de rehidratacion oral,700mg,612.36,798,RICHAM INTERNACIONAL  S.A,9/1/2022,Tabletas
+1,Sales minerales en traza,800mg,624.24,197,RUIPHARMA,5/14/2022,Capsulas
+1,Saquinavir,900mg,626.94,1095,SAN CRISTOBAL,4/7/2025,Inhalador
+1,Saxagliptina  Clorhidrato de,1000mg,314.28,1520,SANTA FE,9/18/2023,Ampoyas
+1,Secnidazol,1mg,143.64,1732,SANTE  S.A.,7/4/2025,Ampoyetas
+1,Selegilina,5mg,335.88,1590,THERFAM,9/21/2021,Polvo
+1,Sevoflurano,10mg,171.72,117,TRINOMED,1/7/2023,Tabletas
+1,Sildenafil,15mg,99.9,190,UNIDOS  S.A.,4/22/2022,Capsulas
+1,Simeticona,20mg,31.86,13,UNIPHARM  S.A.  MA,12/13/2025,Inhalador
+1,Simeticona (Dimeticona),25mg,182.52,1522,UNIPHARM  S.A.,11/14/2021,Ampoyas
+1,Simvastatina,30mg,170.64,1272,VIZCAINO  S.A.,1/15/2025,Ampoyetas
+1,sin preservante,50mg,525.42,1041,WELLCO  S.A.,9/6/2023,Polvo
+1,Sirolimus,100mg,484.92,1951,ALFA FARMACEUTICA,10/30/2021,Tabletas
+1,Sitagliptina Fosfato,200mg,252.18,631,ALTIAN PHARMA,12/30/2025,Capsulas
+1,sodico,300mg,530.28,516,AMERICAN VITALAB,5/15/2025,Inhalador
+1,Solucion estandar de dextrosa TIPO,400mg,475.2,423,BAYER,7/1/2024,Ampoyas
+1,Solucion estandar de dextrosa TIPO,500mb,291.06,780,BONIN,9/13/2024,Ampoyetas
+1,Solucion estandar de dextrosa TIPO,600mg,365.04,142,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),1/30/2025,Polvo
+1,Solucion Hartman,700mg,185.22,1522,DONOVAN WERKE,8/17/2021,Tabletas
+1,Solucion Hartman,800mg,400.14,1140,Eurofarma Guatemala,5/31/2023,Capsulas
+1,Solucion pediatrica No. 1,900mg,64.8,81,FARGEL,12/28/2025,Inhalador
+1,Solucion pediatrica No. 2,1000mg,613.98,1024,FARKOT  S.A.,8/22/2024,Ampoyas
+1,Solucion Salina Balanceada,1mg,536.76,1367,FARMACAPS   S.A. ,1/2/2021,Ampoyetas
+1,Solucion salina oftalmica,5mg,325.62,1135,FARMAMEDICA,11/12/2024,Polvo
+1,Somatropina,10mg,450.36,401,GLOBAL FARMA  S.A.,9/29/2021,Tabletas
+1,Somatropina,15mg,645.3,395,INDUSTRIA FARMACEUTICA  S.A. INFASA,11/24/2021,Capsulas
+1,soya Vitaminas y Minerales para,20mg,247.32,678,INTECFA,5/24/2024,Inhalador
+1,soya  vitaminas y minerales para,25mg,158.22,524,INNOVA,12/31/2021,Ampoyas
+1,Subsalicilato de bismuto,30mg,441.72,113,LABALFER,8/31/2023,Ampoyetas
+1,Succinilcolina cloruro,50mg,495.72,1733,LAFCO ,7/21/2023,Polvo
+1,Sucralfato,100mg,476.82,333,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",4/17/2024,Tabletas
+1,Sulfadiacina argentica,200mg,106.92,1124,LANCASCO  S.A.,6/14/2025,Capsulas
+1,Sulfato de Glucosamina,300mg,343.44,288,LAMFER,3/11/2022,Inhalador
+1,Sulfato de Zinc  1-2 mg/ml,400mg,461.16,1431,LABORATORIO PHARA,4/20/2023,Ampoyas
+1,Sumatriptan,500mb,217.62,1444,LAPROMED,12/8/2025,Ampoyetas
+1,Sunitinib Maleato,600mg,528.66,569,MEDIPRODUCTS  S.A.,8/26/2024,Polvo
+1,Suplemento de Micronutrientes,700mg,252.72,1974,PHARMACROSS,10/15/2023,Tabletas
+1,Surfactante natural o artificial,800mg,573.48,16,PHARMADEL ,6/8/2023,Capsulas
+1,Surfactante Pulmonar Porcino,900mg,83.16,602,PHARMALAT,4/5/2025,Inhalador
+1,Tableta 70 mg,1000mg,240.84,169,PHARLAND,2/11/2021,Ampoyas
+1,Tacrolimus,1mg,287.28,337,PIERSAN CENTROAMERICANA,8/4/2023,Ampoyetas
+1,Tacrolimus,5mg,398.52,1680,QUALIPHARM,11/14/2024,Polvo
+1,Tacrolimus,10mg,461.7,11,QUIFARMA  S.A.,3/21/2022,Tabletas
+1,Talidomida,15mg,461.16,203,RICHAM INTERNACIONAL  S.A,8/11/2021,Capsulas
+1,Tamoxifeno citrato,20mg,95.04,1944,RUIPHARMA,6/4/2021,Inhalador
+1,Teclozan,25mg,630.72,587,SAN CRISTOBAL,12/10/2021,Ampoyas
+1,Teicoplanina,30mg,384.48,555,SANTA FE,4/10/2025,Ampoyetas
+1,Telaprevir,50mg,187.38,541,SANTE  S.A.,10/17/2025,Polvo
+1,Telmisartan,100mg,358.56,1955,THERFAM,1/30/2022,Tabletas
+1,Temozolamida,200mg,14.04,1508,TRINOMED,4/5/2024,Capsulas
+1,Tenecteplasa,300mg,197.64,1358,UNIDOS  S.A.,8/14/2024,Inhalador
+1,Tenofovir,400mg,548.64,257,UNIPHARM  S.A.  MA,12/17/2022,Ampoyas
+1,Tenofovir / Emtricitabina,500mb,511.92,1114,UNIPHARM  S.A.,6/12/2022,Ampoyetas
+1,Terbinafina,600mg,377.46,1112,VIZCAINO  S.A.,12/19/2025,Polvo
+1,Teriflunomida,700mg,490.32,714,WELLCO  S.A.,1/1/2023,Tabletas
+1,Teriparatida,800mg,218.16,41,ALFA FARMACEUTICA,2/13/2021,Capsulas
+1,Terlipresina,900mg,124.74,1865,ALTIAN PHARMA,7/23/2022,Inhalador
+1,Testosterona de accion prolongada,1000mg,529.2,1793,AMERICAN VITALAB,10/10/2025,Ampoyas
+1,Tetracaina,1mg,258.12,841,BAYER,4/26/2024,Ampoyetas
+1,Tetrazepam,5mg,70.2,725,BONIN,2/15/2021,Polvo
+1,Tetrizolina,10mg,558.9,9,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),3/19/2022,Tabletas
+1,Tiamina Mononitrato,15mg,293.22,632,DONOVAN WERKE,2/6/2023,Capsulas
+1,Tianeptina,20mg,398.52,1750,Eurofarma Guatemala,3/20/2025,Inhalador
+1,Ticagrelor,25mg,175.5,132,FARGEL,10/3/2025,Ampoyas
+1,Tierra de Fuller,30mg,15.12,275,FARKOT  S.A.,12/11/2023,Ampoyetas
+1,Tigeciclina,50mg,540.54,1842,FARMACAPS   S.A. ,2/16/2022,Polvo
+1,Timolol maleato,100mg,453.6,162,FARMAMEDICA,2/28/2022,Tabletas
+1,Tinzaparina,200mg,176.04,1063,GLOBAL FARMA  S.A.,11/5/2023,Capsulas
+1,Tioconazol,300mg,524.34,1563,INDUSTRIA FARMACEUTICA  S.A. INFASA,11/12/2022,Inhalador
+1,Tiopental sodico,400mg,33.48,81,INTECFA,11/17/2025,Ampoyas
+1,Tiotropio bromuro,500mb,183.6,988,INNOVA,1/31/2025,Ampoyetas
+1,Tirofiban base,600mg,520.56,1237,LABALFER,2/5/2024,Polvo
+1,Tizanidina,700mg,172.26,915,LAFCO ,3/4/2023,Tabletas
+1,Tobramicina,800mg,537.3,1404,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",4/20/2021,Capsulas
+1,Tobramicina,900mg,388.8,1483,LANCASCO  S.A.,12/14/2025,Inhalador
+1,Tobramicina,1000mg,305.64,636,LAMFER,1/3/2024,Ampoyas
+1,Tobramicina / Dexametasona,1mg,370.44,1181,LABORATORIO PHARA,12/21/2025,Ampoyetas
+1,Tocilizumab,5mg,219.24,1347,LAPROMED,11/24/2022,Polvo
+1,Tofacitinib Citrato,10mg,376.92,1400,MEDIPRODUCTS  S.A.,8/6/2021,Tabletas
+1,Topiramato,15mg,318.6,672,PHARMACROSS,6/19/2023,Capsulas
+1,Tosilato de Sorafenib,20mg,119.34,835,PHARMADEL ,9/11/2022,Inhalador
+1,Toxina Botulinica,25mg,141.48,1859,PHARMALAT,5/30/2021,Ampoyas
+1,Toxoide tetanico (vacuna,30mg,14.04,1432,PHARLAND,3/14/2024,Ampoyetas
+1,Tramadol clorhidrato,50mg,365.04,1815,PIERSAN CENTROAMERICANA,10/30/2024,Polvo
+1,Tramadol clorhidrato,100mg,174.42,1282,QUALIPHARM,4/7/2022,Tabletas
+1,Trastuzumab,200mg,640.44,1,QUIFARMA  S.A.,9/4/2024,Capsulas
+1,Trastuzumab Emtansina,300mg,277.56,1790,RICHAM INTERNACIONAL  S.A,4/21/2021,Inhalador
+1,tratamiento sustitutivo  dialisis  y,400mg,530.82,989,RUIPHARMA,7/3/2024,Ampoyas
+1,Triamcinolona Acetonido,500mb,339.12,318,SAN CRISTOBAL,6/27/2025,Ampoyetas
+1,trihidratado / Naproxeno,600mg,528.12,537,SANTA FE,7/6/2024,Polvo
+1,Trimetazidina,700mg,328.86,338,SANTE  S.A.,12/12/2021,Tabletas
+1,Trimetoprim con Sulfametoxazol,800mg,258.12,0,THERFAM,11/3/2021,Capsulas
+1,Trimetoprim con Sulfametoxazol,900mg,529.2,1510,TRINOMED,9/4/2023,Inhalador
+1,Trimetoprim con Sulfametoxazol,1000mg,506.52,1639,UNIDOS  S.A.,6/11/2022,Ampoyas
+1,Tropicamida,1mg,366.66,1751,UNIPHARM  S.A.  MA,2/13/2021,Ampoyetas
+1,Tropicamida +Clorhidrato de,5mg,34.56,668,UNIPHARM  S.A.,2/19/2025,Polvo
+1,tubo de 20 g,10mg,474.12,1850,VIZCAINO  S.A.,12/8/2024,Tabletas
+1,Ustekinumab,15mg,290.52,39,WELLCO  S.A.,4/16/2025,Capsulas
+1,vacuna (1.5 ml),20mg,258.66,1775,ALFA FARMACEUTICA,7/18/2021,Inhalador
+1,Vacuna antipoliomielitica inactivada,25mg,390.42,955,ALTIAN PHARMA,10/30/2022,Ampoyas
+1,Vacuna antipoliomielitica tipo Sabin,30mg,54,624,AMERICAN VITALAB,8/24/2021,Ampoyetas
+1,Vacuna antirrabica Celulas Vero,50mg,71.28,1006,BAYER,11/24/2024,Polvo
+1,Vacuna Antituberculosa (BCG),100mg,316.98,1661,BONIN,10/22/2025,Tabletas
+1,Vacuna contra el Sarampion ,200mg,359.64,1387,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),5/8/2023,Capsulas
+1,Vacuna contra Hepatitis A,300mg,218.16,1996,DONOVAN WERKE,2/12/2021,Inhalador
+1,Vacuna contra Hepatitis A Adultos,400mg,48.06,1112,Eurofarma Guatemala,8/30/2025,Ampoyas
+1,Vacuna contra la Hepatitis B,500mb,623.16,916,FARGEL,1/7/2023,Ampoyetas
+1,Vacuna contra la Hepatitis B,600mg,550.8,588,FARKOT  S.A.,7/26/2022,Polvo
+1,Vacuna contra la Influenza,700mg,12.96,1303,FARMACAPS   S.A. ,6/7/2023,Tabletas
+1,Vacuna contra la Influenza Adultos,800mg,450.9,27,FARMAMEDICA,1/13/2021,Capsulas
+1,Vacuna contra Neumococo,900mg,611.82,936,GLOBAL FARMA  S.A.,7/1/2024,Inhalador
+1,Vacuna contra Neumococo,1000mg,470.34,852,INDUSTRIA FARMACEUTICA  S.A. INFASA,2/12/2025,Ampoyas
+1,Vacuna contra Rotavirus Humano,1mg,292.68,1468,INTECFA,8/17/2021,Ampoyetas
+1,Vacuna contra Varicela Pediatrica,5mg,120.42,717,INNOVA,5/11/2022,Polvo
+1,Vacuna contra Virus del Papiloma,10mg,513.54,1815,LABALFER,10/19/2025,Tabletas
+1,Vacuna Pentavalente,15mg,430.92,822,LAFCO ,11/12/2023,Capsulas
+1,Vacuna Triple (DPT),20mg,451.44,1931,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",11/17/2021,Inhalador
+1,vainilla.,25mg,599.4,678,LANCASCO  S.A.,11/1/2021,Ampoyas
+1,Valerato de Estradiol,30mg,73.44,81,LAMFER,3/9/2021,Ampoyetas
+1,Valproato sodico,50mg,558.9,380,LABORATORIO PHARA,3/16/2024,Polvo
+1,Vancomicina clorhidrato,100mg,556.74,130,LAPROMED,12/8/2024,Tabletas
+1,Vecuronio bromuro,200mg,158.76,282,MEDIPRODUCTS  S.A.,2/27/2024,Capsulas
+1,vegetal con vitaminas y minerales,300mg,252.18,1493,PHARMACROSS,11/27/2022,Inhalador
+1,Venlafaxina,400mg,108.54,1397,PHARMADEL ,10/15/2022,Ampoyas
+1,Verapamilo,500mb,571.86,287,PHARMALAT,6/14/2025,Ampoyetas
+1,Vinblastina,600mg,56.7,430,PHARLAND,12/8/2021,Polvo
+1,Vincristina sulfato,700mg,300.78,765,PIERSAN CENTROAMERICANA,12/11/2022,Tabletas
+1,Vinorelbina,800mg,412.02,696,QUALIPHARM,11/4/2021,Capsulas
+1,Vitamina A (acetato o palmitato de,900mg,305.64,1248,QUIFARMA  S.A.,10/31/2022,Inhalador
+1,Vitamina B1 (tiamina clorhidrato),1000mg,9.72,217,RICHAM INTERNACIONAL  S.A,10/6/2024,Ampoyas
+1,Vitamina B12,1mg,542.7,701,RUIPHARMA,12/17/2021,Ampoyetas
+1,Vitamina C (Acido Ascorbico),5mg,297.54,811,SAN CRISTOBAL,4/20/2025,Polvo
+1,Vitamina D (alfacalcidol),10mg,111.24,173,SANTA FE,4/15/2023,Tabletas
+1,Vitamina D (alfacalcidol),15mg,458.46,794,SANTE  S.A.,9/28/2023,Capsulas
+1,Vitamina K 1 (fitomenadiona),20mg,577.26,1354,THERFAM,11/4/2021,Inhalador
+1,vitaminas y Minerales sabor a,25mg,224.1,1269,TRINOMED,10/6/2023,Ampoyas
+1,Voriconazol,30mg,187.92,426,UNIDOS  S.A.,9/11/2024,Ampoyetas
+1,Voriconazol,50mg,473.04,754,UNIPHARM  S.A.  MA,8/19/2022,Polvo
+1,Warfarina sodica,100mg,289.44,1910,UNIPHARM  S.A.,9/6/2025,Tabletas
+1,y glucosa 50%,200mg,395.82,205,VIZCAINO  S.A.,7/26/2022,Capsulas
+1,Zidovudina,300mg,505.98,1141,WELLCO  S.A.,11/14/2021,Inhalador
+1,Zidovudina,400mg,507.06,842,UNIPHARM  S.A.,6/19/2023,Ampoyas
+1,Zidovudina,500mb,160.38,1390,VIZCAINO  S.A.,1/10/2024,Ampoyetas
+1,Zinc Elemental,600mg,76.14,293,WELLCO  S.A.,12/29/2022,Polvo
+1,antiinflamatorio NSAID,30mg,119.34,81,UNIPHARM  S.A.,9/11/2022,Tabletas
+1,Simvastatina,50mg,141.48,380,VIZCAINO  S.A.,5/30/2021,Capsulas
+1,Omeprazol,100mg,14.04,130,WELLCO  S.A.,3/14/2024,Inhalador
+1,Lexotiroxina sodica,200mg,365.04,282,ALFA FARMACEUTICA,10/30/2024,Ampoyas
+1,tiroxina,300mg,174.42,1493,ALTIAN PHARMA,4/7/2022,Ampoyetas
+1, Ramipril,400mg,640.44,1397,AMERICAN VITALAB,9/4/2024,Polvo
+1,Amlodipina ,500mb,277.56,287,BAYER,4/21/2021,Tabletas
+1,Paracetamol ,600mg,530.82,430,BONIN,7/3/2024,Capsulas
+1,Atorvastatina ,700mg,339.12,765,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),6/27/2025,Inhalador
+1, Salbutamol ,800mg,528.12,696,DONOVAN WERKE,7/6/2024,Ampoyas
+1,Lansoprazol,900mg,328.86,1248,Eurofarma Guatemala,12/12/2021,Ampoyetas
+1,Hidrocloruro de metformina,1000mg,258.12,217,FARGEL,11/3/2021,Polvo
+1,Colecalciferol ,1mg,529.2,701,FARKOT  S.A.,9/4/2023,Tabletas
+1,Bisoprolol fumarato ,5mg,506.52,811,FARMACAPS   S.A. ,6/11/2022,Capsulas
+1,Co-codamol ,10mg,366.66,173,FARMAMEDICA,2/13/2021,Inhalador
+1,Bendroflumetiazida,15mg,34.56,794,GLOBAL FARMA  S.A.,2/19/2025,Ampoyas
+1,Citalopram hidrobromuro,20mg,474.12,1354,INDUSTRIA FARMACEUTICA  S.A. INFASA,12/8/2024,Ampoyetas
+1,La furosemida ,25mg,290.52,1269,INTECFA,4/16/2025,Polvo
+1,La amitriptilina hidrocloruro,30mg,258.66,426,INNOVA,7/18/2021,Tabletas
+1,Warfarina sodica,50mg,390.42,754,LABALFER,10/30/2022,Capsulas
+1, ABACAT ,100mg,54,1910,LAFCO ,8/24/2021,Inhalador
+1, ABACAVIR TARBIS,200mg,71.28,205,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",11/24/2024,Ampoyas
+1, ABEZEN,300mg,316.98,1141,LANCASCO  S.A.,10/22/2025,Ampoyetas
+1, ABELCET COMPLEJO LIPIDICO,400mg,359.64,842,LAMFER,5/8/2023,Polvo
+1, ABASAGLAR ,500mb,218.16,1390,LABORATORIO PHARA,2/12/2021,Tabletas
+1, ABFENTIQ ,600mg,48.06,293,LAPROMED,8/30/2025,Capsulas
+1, ABICREM,700mg,623.16,81,MEDIPRODUCTS  S.A.,1/7/2023,Inhalador
+1, ABIK ,800mg,550.8,380,PHARMACROSS,7/26/2022,Ampoyas
+1, ABILIFY ,900mg,12.96,130,PHARMADEL ,6/7/2023,Ampoyetas
+1, ABIOX,1000mg,450.9,282,PHARMALAT,1/13/2021,Polvo
+1, ABIMOX,1mg,611.82,1493,PHARLAND,7/1/2024,Tabletas
+1, ABRADEL ,5mg,470.34,1397,PIERSAN CENTROAMERICANA,2/12/2025,Capsulas
+1, ABRASONE RECTAL,10mg,292.68,287,QUALIPHARM,8/17/2021,Inhalador
+1, ABRAXANE,15mg,120.42,430,QUIFARMA  S.A.,5/11/2022,Ampoyas
+1, ABRION ,20mg,513.54,765,RICHAM INTERNACIONAL  S.A,10/19/2025,Ampoyetas
+1, ABSORCOL,25mg,430.92,696,RUIPHARMA,11/12/2023,Polvo
+1, ACABEL,30mg,451.44,1248,SAN CRISTOBAL,11/17/2021,Tabletas
+1, ACALKA ,50mg,599.4,217,SANTA FE,11/1/2021,Capsulas
+1, ACECAT,100mg,73.44,701,SANTE  S.A.,3/9/2021,Inhalador
+1, ACCUSOL 35 POTASIO ,200mg,558.9,811,THERFAM,3/16/2024,Ampoyas
+1, ACEOTO,300mg,556.74,173,TRINOMED,12/8/2024,Ampoyetas
+1, BACLOFENO ,400mg,158.76,794,UNIDOS  S.A.,2/27/2024,Polvo
+1, BACTOPUMON ,500mb,252.18,1354,UNIPHARM  S.A.  MA,11/27/2022,Tabletas
+1, BACTROBAN,600mg,108.54,1269,UNIPHARM  S.A.,10/15/2022,Capsulas
+1, BALCOGA ,30mg,571.86,426,VIZCAINO  S.A.,6/14/2025,Inhalador
+1, BALIANCA,50mg,56.7,754,WELLCO  S.A.,12/8/2021,Ampoyas
+1, BALSOPRIM ,100mg,300.78,1910,UNIPHARM  S.A.,12/11/2022,Ampoyetas
+1, BALZAK,200mg,412.02,205,VIZCAINO  S.A.,11/4/2021,Polvo
+1, BAMBEC,300mg,305.64,1141,WELLCO  S.A.,10/31/2022,Tabletas
+1, BANDOL ,400mg,9.72,842,UNIPHARM  S.A.,10/6/2024,Capsulas
+1, BANEDIF ,500mb,542.7,1390,VIZCAINO  S.A.,12/17/2021,Inhalador
+1, BARACLUDE,600mg,297.54,293,WELLCO  S.A.,4/20/2025,Ampoyas
+1, BARILUX ,700mg,111.24,81,ALFA FARMACEUTICA,4/15/2023,Ampoyetas
+1, BARIPRIL,800mg,458.46,380,ALTIAN PHARMA,9/28/2023,Polvo
+1, BARNASCAN ,900mg,577.26,130,AMERICAN VITALAB,11/4/2021,Tabletas
+1, BATMEN ,1000mg,224.1,282,BAYER,10/6/2023,Capsulas
+1, BAVENCIO ,1mg,187.92,1493,BONIN,9/11/2024,Inhalador
+1, BAYCIP,5mg,473.04,1397,CHEMILCO INTERNACIONAL  S.A. (CHEMINTER),8/19/2022,Ampoyas
+1, BECLOENEMA,10mg,289.44,287,DONOVAN WERKE,9/6/2025,Ampoyetas
+1, BECLOFORTE,15mg,395.82,430,Eurofarma Guatemala,7/26/2022,Polvo
+1, BECOTIDE ,20mg,505.98,765,FARGEL,11/14/2021,Tabletas
+1, BEKUNIS ,25mg,507.06,696,FARKOT  S.A.,6/19/2023,Capsulas
+1, BEMFOLA,30mg,160.38,1248,FARMACAPS   S.A. ,1/10/2024,Inhalador
+1, BENADON ,50mg,76.14,217,FARMAMEDICA,12/29/2022,Ampoyas
+1, BENDAMUSTINA ,100mg,119.34,701,GLOBAL FARMA  S.A.,9/11/2022,Ampoyetas
+1, CABERGOLINA TEVA,200mg,141.48,811,INDUSTRIA FARMACEUTICA  S.A. INFASA,5/30/2021,Polvo
+1, CABOMETYX,300mg,14.04,173,INTECFA,3/14/2024,Tabletas
+1, CADUET ,400mg,365.04,794,INNOVA,10/30/2024,Capsulas
+1, CAFERGOT ,500mb,174.42,1354,LABALFER,4/7/2022,Inhalador
+1, CAFINITRINA ,600mg,640.44,1269,LAFCO ,9/4/2024,Ampoyas
+1, CAFIASPIRINA ,700mg,277.56,426,"LAFOFA  S.A. ""LABORATORIO FORMULAS FARMACEUTICAS  S.A.""",4/21/2021,Ampoyetas
+1, CALCIAL D ,800mg,530.82,754,LANCASCO  S.A.,7/3/2024,Polvo
+1, CALCIO 20 ,900mg,339.12,1910,LAMFER,6/27/2025,Tabletas
+1, CALCIO RECORDATI ,1000mg,528.12,205,LABORATORIO PHARA,7/6/2024,Capsulas
+1, CALCIO/VITAMINA D3 ARISTO ,1mg,328.86,1141,LAPROMED,12/12/2021,Inhalador
+1,CALENDEEL PLUS Gel,5mg,258.12,842,MEDIPRODUCTS  S.A.,11/3/2021,Ampoyas
+1, CALMAGRIP,10mg,529.2,1390,PHARMACROSS,9/4/2023,Ampoyetas
+1, CALMATEL,15mg,506.52,293,PHARMADEL ,6/11/2022,Polvo
+1, CAMPRAL,20mg,366.66,81,PHARMALAT,2/13/2021,Tabletas
+1, CALODIS ,25mg,34.56,380,PHARLAND,2/19/2025,Capsulas
+1, DABONAL,30mg,474.12,130,PIERSAN CENTROAMERICANA,12/8/2024,Inhalador
+1, DACARBAZINA MEDAC,50mg,290.52,282,QUALIPHARM,4/16/2025,Ampoyas
+1, DACEPTON ,100mg,258.66,1493,QUIFARMA  S.A.,7/18/2021,Ampoyetas
+1, DACOGEN ,200mg,390.42,1397,RICHAM INTERNACIONAL  S.A,10/30/2022,Polvo
+1, DACORTIN,300mg,54,287,RUIPHARMA,8/24/2021,Tabletas
+1, DAFIRO HCT,400mg,71.28,430,SAN CRISTOBAL,11/24/2024,Capsulas
+1, DAFLON ,500mb,316.98,765,SANTA FE,10/22/2025,Inhalador
+1, DAKLINZA ,600mg,359.64,696,SANTE  S.A.,5/8/2023,Ampoyas
+1, DALACIN,100mg,218.16,1248,THERFAM,2/12/2021,Ampoyetas
+1, DAPAROX ,200mg,48.06,217,TRINOMED,8/30/2025,Polvo
+1, DARUNAVIR,300mg,623.16,701,UNIDOS  S.A.,1/7/2023,Tabletas
+1, DATOLAN,400mg,550.8,811,UNIPHARM  S.A.  MA,7/26/2022,Capsulas
+1, DASSELTA ,500mb,12.96,173,UNIPHARM  S.A.,6/7/2023,Inhalador
+1, DAUNOBLASTINA ,600mg,450.9,794,VIZCAINO  S.A.,1/13/2021,Ampoyas
+1, DAXAS,300mg,611.82,1354,WELLCO  S.A.,7/1/2024,Ampoyetas
+1, DAYLETTE ,400mg,470.34,1269,UNIPHARM  S.A.,2/12/2025,Polvo
+1, EBASTEL ,500mb,292.68,426,VIZCAINO  S.A.,8/17/2021,Tabletas
+1, EBASTINA ARISTO,600mg,120.42,754,WELLCO  S.A.,5/11/2022,Capsulas
+1, ECTREN,600mg,513.54,1910,VIZCAINO  S.A.,10/19/2025,Inhalador
+1, EDARBI,600mg,430.92,205,WELLCO  S.A.,11/12/2023,Ampoyas

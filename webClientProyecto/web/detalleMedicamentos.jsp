@@ -68,7 +68,6 @@
            
             <% 
                 int codigo = Integer.parseInt((String)request.getAttribute("Codigo"));
-                out.print("El codigo en detalle.jsp es: " + codigo);
                 System.out.println("El codigo en detalle.jsp es: " + codigo);
                 
                 Medicamento med = new MedicamentoCliente().listarcodigo(codigo);

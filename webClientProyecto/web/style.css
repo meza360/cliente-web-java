@@ -395,14 +395,22 @@ elementos especificos de nosotros.html
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 }
+.nosotros3 h2 {
+	min-height: 50%;
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+
 .nosotros3 {
-	background-image: url("images/nosotros1.png");
+	background-image: url("images/umg4.jpg");
 	background-size: cover;
 	min-height: 600px;
 }
 
 .nosotros3-articulo1 {
-	background-color: rgb(41, 114, 182);
+	/*background-color: #fff;*/
 	background-size: 30%;
 	background-position-x: left;
 	background-position-y: center;
@@ -412,7 +420,7 @@ elementos especificos de nosotros.html
 .nosotros3-equipo {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: flex-start;
 }
 
 .nosotros3-equipo div {
@@ -420,12 +428,13 @@ elementos especificos de nosotros.html
 	height: 500px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: left;
 }
 
 .nosotros3-equipo img {
-	width: 80%;
-	height: 75%;
+	border: 1px solid #000;
+	width: 85%;
+	height: 100%;
 }
 
 .footer-1 {

@@ -42,6 +42,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 import ModeloCliente.OMedicamento;
+import GeneradorFactura.Cliente;
 
 
 
@@ -67,7 +68,8 @@ public class GeneradorPDF {
         try {
             // metodos de escritura del documento
             Document documento = new Document(PageSize.A4);
-            PdfWriter.getInstance(documento, new FileOutputStream(System.getProperty("user.home") + "\\Desktop\\Factura_" + lista.get(1).getMedicamento() + ".pdf"));            
+             PdfWriter.getInstance(documento, new FileOutputStream("M:\\Factura.pdf"));
+           // PdfWriter.getInstance(documento, new FileOutputStream (System.getProperty("user.home") + "\\Desktop\\Factura_" + lista.get(1).getMedicamento() + ".pdf"));
             //imagen del encabezado
             Image encabezado = Image.getInstance("\\encabezado.png");
             encabezado.scaleToFit(595, 350);
@@ -128,7 +130,8 @@ public class GeneradorPDF {
         try {
             // metodos de escritura del documento
             Document documento = new Document(PageSize.A4);
-            PdfWriter.getInstance(documento, new FileOutputStream(System.getProperty("user.home") + "\\Desktop\\Factura_" + lista.get(1).getMedicamento() + ".pdf"));            
+             PdfWriter.getInstance(documento, new FileOutputStream("M:\\Factura.pdf"));
+           // PdfWriter.getInstance(documento, new FileOutputStream(System.getProperty("user.home") + "\\Desktop\\Factura_" + lista.get(1).getMedicamento() + ".pdf"));            
             //imagen del encabezado
             Image encabezado = Image.getInstance("\\encabezado.png");
             encabezado.scaleToFit(595, 350);
@@ -189,8 +192,8 @@ public class GeneradorPDF {
         try {
             // metodos de escritura del documento
             Document documento = new Document(PageSize.A4);
-            PdfWriter.getInstance(documento, new FileOutputStream(System.getProperty("user.home") + "\\Desktop\\Factura_" + medicina.getMedicamento() + ".pdf"));            
-            //PdfWriter.getInstance(documento, new FileOutputStream("D:\\Factura.pdf"));
+            //PdfWriter.getInstance(documento, new FileOutputStream(System.getProperty("user.home") + "\\Desktop\\Factura_" + medicina.getMedicamento() + ".pdf"));            
+            PdfWriter.getInstance(documento, new FileOutputStream("M:\\Factura.pdf"));
             //imagen del encabezado
             Image encabezado = Image.getInstance("\\encabezado.png");
             encabezado.scaleToFit(595, 350);

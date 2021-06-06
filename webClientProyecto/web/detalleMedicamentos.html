@@ -16,6 +16,10 @@
 <link rel="stylesheet" href="css/bootstrap-utilities.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="lib/slick.css">
+<link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/bootstrap-utilities.rtl.css" type="text/css">
+
+
 
 
 <script src="js/bootstrap.js"></script>
@@ -45,7 +49,7 @@
             <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
             <li class="list-inline-item nav-item"> <a href="sesiones.html" class="nav-link">Administracion</a> </li>
             <li class="list-inline-item nav-item"> <a href="productos.jsp" class="nav-link">Productos</a></li>
-            <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
+            <li class="list-inline-item nav-item"> <a href="carrito.jsp" class="nav-link"><i class="fas fa-cart-plus">(<label style="color:orange ">${contador}</label>)</li>Carrito de compras</a> </li>
         </ul>
     </nav>
 
@@ -92,7 +96,7 @@
             </div>
             
         <div class="botones">
-            <button class="boton"> <a href="./carrito.html">Agregar al carrito</a> </button>
+            <button class="boton"> <a href="ManejoPeticiones?accion=AgregarCarrito&codigo=${p.getCodigo()}">Agregar al carrito</a> </button>
             <button class="boton"><a href="./productos.html" class="link">Regresar a navegacion</a> </button>
         </div>
         

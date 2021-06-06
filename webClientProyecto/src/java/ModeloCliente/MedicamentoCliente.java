@@ -71,7 +71,7 @@ public class MedicamentoCliente {
     public modeloservicio.Medicamento listarcodigo(int codigo) {
         // Note that the injected javax.xml.ws.Service reference as well as port objects are not thread safe.
         // If the calling of port operations may lead to race condition some synchronization is required.
-        
+        //modeloservicio.Medicamento p=new modeloservicio.Medicamento();
         System.out.println("El codigo recibido en la clase listarCodigo es: " + codigo);
         modeloservicio.Servicios_Service service = new modeloservicio.Servicios_Service();
         modeloservicio.Servicios port = service.getServiciosPort();
@@ -89,6 +89,14 @@ public class MedicamentoCliente {
         modeloservicio.Servicios_Service service = new modeloservicio.Servicios_Service();
         modeloservicio.Servicios port = service.getServiciosPort();
         return port.ventaActualizar(codigo, cantidad);
+    }
+
+    public List<OMedicamento> listar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public OMedicamento listarcodigo(String codigo) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     

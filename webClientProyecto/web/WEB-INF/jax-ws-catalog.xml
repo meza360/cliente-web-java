@@ -4,4 +4,7 @@
     <system systemId="http://localhost:8080/web-app-java/Servicios?xsd=1" uri="wsdl/localhost_8080/web-app-java/Servicios.xsd_1.xsd"/>
     <system systemId="http://localhost:8080/web-app-java/Servicios?wsdl" uri="wsdl/localhost_8080/web-app-java/Servicios.wsdl"/>
     <system systemId="http://localhost:8080/web-app-java/Servicios?WSDL" uri="wsdl/localhost_8080/web-app-java/Servicios.wsdl"/>
+    <system systemId="http://localhost:52012/WebService/Servicios?" uri="wsdl/localhost_52012/WebService/Servicios"/>
+    <system systemId="http://localhost:52012/WebService/Servicios?wsdl" uri="wsdl/localhost_52012/WebService/Servicios.wsdl"/>
+    <system systemId="http://localhost:52012/WebService/Servicios?xsd=1" uri="wsdl/localhost_52012/WebService/Servicios.xsd_1.xsd"/>
 </catalog>

@@ -1,0 +1,34 @@
+<html>
+<head><title>
+Servicios Web
+</title></head>
+<body>
+<h1>Servicios web</h1>
+<table width='100%' border='1'>
+<tr>
+<td>
+Punto Final
+</td>
+<td>
+Información
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://ModeloServicio/}Servicios</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://ModeloServicio/}ServiciosPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://localhost:52012/WebService/Servicios</td></tr><tr><td>WSDL\:</td><td><a href\="http://localhost:52012/WebService/Servicios?wsdl">http://localhost:52012/WebService/Servicios?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>ModeloServicio.Servicios</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://WS/}NewWebService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://WS/}NewWebServicePort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://localhost:52012/WebService/NewWebService</td></tr><tr><td>WSDL\:</td><td><a href\="http://localhost:52012/WebService/NewWebService?wsdl">http://localhost:52012/WebService/NewWebService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>WS.NewWebService</td></tr></table>
+</td>
+</tr>
+</table>
+</body>
+</html>

@@ -51,7 +51,7 @@
             <li class="list-inline-item nav-item"> <a href="index.html" class="nav-link">Inicio</a> </li>
             <li class="list-inline-item nav-item"> <a href="sesiones.html" class="nav-link">Administracion</a> </li>
             <li class="list-inline-item nav-item"> <a href="productos.jsp" class="nav-link">Productos</a></li>
-            <li class="list-inline-item nav-item"> <a href="carrito.html" class="nav-link">Carrito de compras</a> </li>
+            <li class="list-inline-item nav-item"> <a href="ManejoPeticiones.do?accion=Carrito"><i class="fas fa-cart-plus">(<label style="color:orange ">${contador}</label>)</li>Carrito de compras</a> </li>
         </ul>
     </nav>
 
@@ -88,14 +88,15 @@
             <div>
                 <form action="" method="">
                         <label for="cantidad">Cantidad</label>
-                        <input type="number" name="cantidad" value="3">
+                        <input type="number" name="cantidad" value="3">                       
                         <button class="btn btn-light btn-outline-dark"><a href="ManejoPeticiones.do?accion=venta&Codigo=<%= med.getCodigo()%>&Medicamento=<%= med.getMedicamento()%>&Cantidad=1&Precio_unitario=<%= med.getPrecioUnitario()%>">Comprar ahora</a></button>
+                        <button class="boton"> <a href="ManejoPeticiones.do?accion=AgregarCarrito&Codigo=<%=med.getCodigo()%>">Agregar al carrito</a> </button>
+                        <button class="boton"><a href="index.html" class="link">Regresar a navegacion</a> </button>
                 </form>
             </div>
             
         <div class="botones">
-            <button class="boton"> <a href="./carrito.html">Agregar al carrito</a> </button>
-            <button class="boton"><a href="./productos.jsp" class="link">Regresar a navegacion</a> </button>
+            
         </div>
         
         <div class="pagos">

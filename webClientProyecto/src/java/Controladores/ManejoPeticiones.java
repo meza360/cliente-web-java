@@ -42,8 +42,14 @@ import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.annotation.WebServlet;
 import modeloservicio.InsertarArchivo;
-import ModeloCliente.MedicamentoCliente;
 import GeneradorFactura.GeneradorPDF;
+import ModeloCarrito.Carrito;
+import javax.xml.ws.WebServiceRef;
+import modeloservicio.Medicamento;
+import ModeloCliente.MedicamentoCliente;
+import ModeloCliente.OMedicamento;
+
+
 
 
 
@@ -51,14 +57,25 @@ import GeneradorFactura.GeneradorPDF;
 public class ManejoPeticiones extends HttpServlet {
 
    String listarCodigo1 = "detalleMedicamentos.jsp";
+   //String listarCodigo2 = "carrito.html";
    String insertarArchivo = "insercion.html";
    String venta = "facturacion.jsp";
    String venta2 = "index.html";
+   Medicamento mec=new Medicamento();
+   MedicamentoCliente pdao =new MedicamentoCliente();
+   //OMedicamento p=new OMedicamento();
+   List<OMedicamento> medi= new ArrayList<>();
+   List<Carrito> listaCarrito= new ArrayList<>();
    
+   int item;
+   double totalPagar=0.0;
+   int Cantidad=1;
     
     
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+ 
+   
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
@@ -70,6 +87,40 @@ public class ManejoPeticiones extends HttpServlet {
                 request.setAttribute("Codigo", request.getParameter("Codigo"));
                 System.out.println("El metodo de la accion es: " + accion);
                 System.out.println("Reenviando a la pagina: " + acceso);
+            }
+            else if(accion.equals("Agregarcarrito"))
+                {
+                medi = pdao.listar();    
+                switch(accion){
+                    case "AgregarCarrito":
+                // acceso = listarCodigo2;
+                int cod=Integer.parseInt(request.getParameter("Codigo"));
+                //request.setAttribute("Codigo", request.getParameter("Codigo"));
+                //System.out.println("El metodo de la accion es: " + accion);
+                //System.out.println("Reenviando a la pagina: " + acceso);
+                mec= pdao.listarcodigo(cod);
+                item =item+1;
+                Carrito car=new Carrito();
+                car.setItem(item);
+                car.setCodigo(mec.getCodigo());
+                car.setMedicamento(mec.getMedicamento());
+                car.setPrecio(mec.getPrecioUnitario());
+                car.setCantidad(Cantidad);
+                car.setSubTotal(Cantidad*mec.getPrecioUnitario());
+                listaCarrito.add(car);
+                request.setAttribute("contador", listaCarrito.size());
+                request.getRequestDispatcher("ManejoPeticiones.do?accion=detalleMedicamentos.jsp").forward(request, response);
+                
+                break;
+                    case "Carrito":
+                        totalPagar=0.0;
+                        request.setAttribute("carrito", listaCarrito);
+                        request.getRequestDispatcher("carrito.jsp").forward(request, response);
+                        break;
+                    default:
+                        request.setAttribute("medi", medi);
+                        request.getRequestDispatcher("carrito.jsp").forward(request, response);
+                }      
             }
             else if(accion.equals("insertarArchivo"))
             {
@@ -244,5 +295,9 @@ public class ManejoPeticiones extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
+
+    private int Codigo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 }

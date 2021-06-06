@@ -34,6 +34,11 @@ public class Cliente {
 
     private String Nombre;
     private String Nit;
+    
+    public Cliente (String Nombre, String Nit){
+            this.Nombre = Nombre;
+            this.Nit = Nit;
+    }
 
     public String getNombre() {
         return Nombre;

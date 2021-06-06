@@ -468,3 +468,11 @@ elementos especificos de nosotros.html
 	width: 70px;
 	height: 70px;
 }
+
+.btn-block {
+        border-color: black;
+	color: black;
+	background-color: white;
+	-webkit-transition: 0.2s;
+	-webkit-transform: translatex(10px);
+}

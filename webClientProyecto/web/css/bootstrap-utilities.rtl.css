@@ -4740,4 +4740,6 @@
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap-utilities.rtl.css.map */
+/*# sourceMappingURL=bootstrap-utilities.rtl.css.map */.fa-cart-plus {
+display: none !important;
+}

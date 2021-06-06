@@ -2,9 +2,9 @@
 <jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
   <services/>
   <clients>
-    <client name="webServiceProyecto">
-      <wsdl-url>file:/D:/Users/giova/Documents/NetBeansProjects/cliente-web-java/webClientProyecto/src/java/WSDLFiles/webServiceProyecto.wsdl</wsdl-url>
-      <local-wsdl-file>webServiceProyecto.wsdl</local-wsdl-file>
+    <client name="Servicios">
+      <wsdl-url>http://localhost:52012/WebService/Servicios?wsdl</wsdl-url>
+      <local-wsdl-file>localhost_52012/WebService/Servicios.wsdl</local-wsdl-file>
       <package-name>modeloservicio</package-name>
       <catalog-file>catalog.xml</catalog-file>
       <wsimport-options>
@@ -22,7 +22,7 @@
         </wsimport-option>
         <wsimport-option>
           <wsimport-option-name>wsdlLocation</wsimport-option-name>
-          <wsimport-option-value>file:/D:/Users/giova/Documents/NetBeansProjects/cliente-web-java/webClientProyecto/src/java/WSDLFiles/webServiceProyecto.wsdl</wsimport-option-value>
+          <wsimport-option-value>http://localhost:52012/WebService/Servicios?wsdl</wsimport-option-value>
         </wsimport-option>
         <wsimport-option>
           <wsimport-option-name>xnocompile</wsimport-option-name>
